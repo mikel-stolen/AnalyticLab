@@ -1,0 +1,367 @@
+# PROJECT CHARTER
+## AnalyticLab
+
+**Versión:** 1.1.0  
+**Estado:** Activo  
+**Fecha de creación:** 29/07/2026
+
+---
+
+# Declaración Fundacional
+
+AnalyticLab existe para demostrar que la incertidumbre no es un obstáculo para el conocimiento, sino el punto de partida para comprender sistemas complejos mediante evidencia, razonamiento y tecnología.
+
+Cada decisión, cada línea de código y cada modelo desarrollado deberán perseguir un único propósito:
+
+> **Transformar datos en conocimiento útil para reducir la incertidumbre en la toma de decisiones.**
+
+---
+
+# Visión
+
+AnalyticLab nace con el objetivo de convertirse en una plataforma profesional para la adquisición, análisis, modelado y comprensión de sistemas complejos bajo incertidumbre.
+
+Su propósito es combinar automatización, ingeniería de software, ciencia de datos e inteligencia artificial para transformar datos en conocimiento verificable, explicable y útil.
+
+Instagram constituye el primer entorno de experimentación del proyecto, pero AnalyticLab está diseñado para evolucionar hacia cualquier sistema donde la incertidumbre pueda reducirse mediante datos y modelos.
+
+No es un simple script ni una colección de herramientas aisladas.
+
+Es una plataforma de ingeniería de software diseñada para evolucionar durante años mediante una arquitectura modular, escalable y mantenible.
+
+Cada decisión técnica deberá tomarse pensando tanto en el presente como en el crecimiento futuro del proyecto.
+
+---
+
+# Misión
+
+Desarrollar una plataforma capaz de:
+
+- Obtener datos automáticamente desde múltiples fuentes.
+- Almacenar información de forma segura y estructurada.
+- Analizar grandes volúmenes de información.
+- Automatizar procesos repetitivos.
+- Modelar el comportamiento de sistemas complejos.
+- Generar conocimiento útil para la toma de decisiones.
+- Integrar Inteligencia Artificial como herramienta de razonamiento.
+- Reducir la incertidumbre mediante evidencia obtenida a partir de datos.
+- Construir un ecosistema capaz de aprender continuamente a partir de nueva información.
+
+---
+
+# Filosofía
+
+AnalyticLab se desarrollará siguiendo un único principio:
+
+> **La calidad de la arquitectura es más importante que la velocidad de desarrollo.**
+
+La Inteligencia Artificial no será utilizada como sustituto del razonamiento humano.
+
+Será utilizada para ampliar la capacidad de comprensión, descubrir relaciones ocultas, generar hipótesis y asistir en la toma de decisiones basadas en evidencia.
+
+Se priorizará siempre:
+
+- Claridad
+- Simplicidad
+- Modularidad
+- Escalabilidad
+- Documentación
+- Reutilización
+- Mantenibilidad
+
+Por encima de cualquier solución rápida o improvisada.
+
+---
+
+# Roles
+
+## Product Owner
+
+**Responsable:** Mikel
+
+### Responsabilidades
+
+- Definir la visión del proyecto.
+- Establecer objetivos estratégicos.
+- Priorizar funcionalidades.
+- Validar el comportamiento del sistema.
+- Garantizar que AnalyticLab evolucione hacia su propósito.
+
+---
+
+## Arquitecto de Software
+
+**Responsable:** Alfredo
+
+### Responsabilidades
+
+- Diseñar la arquitectura.
+- Mantener la coherencia técnica.
+- Detectar deuda técnica.
+- Proponer mejoras.
+- Evaluar el impacto de cada decisión.
+- Defender la mantenibilidad del proyecto.
+- Pensar siempre varios pasos por delante.
+
+---
+
+# Principios de Desarrollo
+
+1. Un módulo tendrá una única responsabilidad.
+
+2. Ningún código será duplicado sin una justificación técnica.
+
+3. Toda funcionalidad deberá estar documentada.
+
+4. Todo cambio importante será versionado.
+
+5. Ninguna decisión técnica importante se tomará sin estudiar sus consecuencias.
+
+6. El proyecto evolucionará mediante Sprints.
+
+7. Cada Sprint finalizará con una versión completamente funcional.
+
+8. Si una funcionalidad no aporta valor al proyecto, no será implementada.
+
+9. La simplicidad tendrá prioridad sobre la complejidad innecesaria.
+
+10. La arquitectura siempre estará por delante del código.
+
+11. Toda decisión deberá facilitar el crecimiento futuro del sistema.
+
+---
+
+# Principios de Ingeniería
+
+Toda decisión técnica deberá respetar los siguientes principios.
+
+## Arquitectura antes que implementación
+
+Nunca comenzaremos una funcionalidad importante sin haber definido previamente su arquitectura.
+
+---
+
+## Modularidad
+
+Cada componente deberá evolucionar independientemente sin afectar al resto del sistema.
+
+---
+
+## Escalabilidad
+
+Toda solución deberá diseñarse pensando en el crecimiento futuro.
+
+---
+
+## Reutilización
+
+Siempre que exista una solución reutilizable, tendrá prioridad frente al desarrollo de una nueva.
+
+---
+
+## Trazabilidad
+
+Toda decisión importante deberá poder rastrearse mediante documentación y control de versiones.
+
+---
+
+## Observabilidad
+
+Todo proceso crítico deberá generar suficiente información para comprender qué ha ocurrido en caso de fallo.
+
+---
+
+# Ciclo de Vida del Desarrollo
+
+Toda funcionalidad seguirá el siguiente ciclo:
+
+Idea
+
+↓
+
+Análisis
+
+↓
+
+Diseño
+
+↓
+
+Arquitectura
+
+↓
+
+Implementación
+
+↓
+
+Pruebas
+
+↓
+
+Documentación
+
+↓
+
+Versión
+
+↓
+
+Producción
+
+Ninguna funcionalidad se considerará terminada hasta completar todas las fases anteriores.
+
+---
+
+# Principios Técnicos
+
+- Código limpio.
+- Programación Orientada a Objetos.
+- Arquitectura modular.
+- Bajo acoplamiento.
+- Alta cohesión.
+- Configuración centralizada.
+- Gestión centralizada de errores.
+- Logging desde el primer día.
+- Testing progresivo.
+- Versionado mediante Git.
+- Documentación continua.
+
+---
+
+# Valores Científicos
+
+AnalyticLab se fundamenta en cinco principios.
+
+## 1. Los datos tienen prioridad sobre las opiniones.
+
+Toda afirmación deberá sustentarse mediante evidencia.
+
+---
+
+## 2. Toda conclusión deberá poder justificarse.
+
+El sistema deberá explicar siempre cómo llega a sus conclusiones.
+
+---
+
+## 3. La incertidumbre nunca desaparece.
+
+Únicamente puede reducirse mediante mejores datos y mejores modelos.
+
+---
+
+## 4. La Inteligencia Artificial deberá explicar antes que responder.
+
+Su misión será asistir al razonamiento humano.
+
+Nunca sustituirlo.
+
+---
+
+## 5. El conocimiento deberá ser reproducible.
+
+Todo análisis deberá poder repetirse obteniendo el mismo resultado bajo las mismas condiciones.
+
+---
+
+# Motor Cognitivo
+
+La Inteligencia Artificial no constituye el núcleo del proyecto.
+
+Es la consecuencia natural de una arquitectura sólida y de una base de conocimiento bien construida.
+
+Su misión consistirá en:
+
+- Detectar patrones.
+- Comprender comportamientos.
+- Explicar relaciones.
+- Generar hipótesis.
+- Realizar predicciones.
+- Recomendar acciones.
+- Reducir la incertidumbre.
+- Asistir en la toma de decisiones.
+
+La calidad del Motor Cognitivo dependerá siempre de la calidad de los datos y del conocimiento previamente generado.
+
+---
+
+# Architecture Decision Records (ADR)
+
+Toda decisión arquitectónica importante quedará registrada mediante un **Architecture Decision Record (ADR)**.
+
+Cada ADR deberá responder como mínimo a las siguientes preguntas:
+
+- ¿Qué problema se intenta resolver?
+- ¿Qué alternativas fueron consideradas?
+- ¿Por qué se eligió la solución adoptada?
+- ¿Qué ventajas aporta?
+- ¿Qué limitaciones introduce?
+
+Los ADR constituirán la memoria técnica del proyecto y permitirán comprender la evolución de AnalyticLab con el paso del tiempo.
+
+---
+
+# Objetivo Científico
+
+Desarrollar una plataforma capaz de reducir la incertidumbre en la comprensión de sistemas complejos mediante la adquisición de datos, el modelado matemático, el análisis estadístico y una Inteligencia Artificial explicable.
+
+---
+
+# Regla de Oro
+
+Nunca sacrificaremos la arquitectura por terminar una funcionalidad antes.
+
+Si es necesario invertir más tiempo para mantener un diseño limpio y escalable, se hará.
+
+Toda decisión deberá responder siempre a una única pregunta:
+
+> **¿Hace AnalyticLab mejor dentro de un año?**
+
+Si la respuesta es "no", deberá replantearse.
+
+---
+
+# Cultura del Proyecto
+
+AnalyticLab no busca escribir más código.
+
+Busca generar más conocimiento.
+
+La programación es únicamente el medio.
+
+El verdadero producto es el conocimiento obtenido a partir de los datos.
+
+---
+
+# Compromiso
+
+Todo participante en AnalyticLab se compromete a:
+
+- Defender la calidad del proyecto por encima de la rapidez.
+- Argumentar técnicamente sus decisiones.
+- Aceptar críticas fundamentadas.
+- Favorecer la mejora continua.
+- Priorizar el beneficio del proyecto sobre preferencias personales.
+
+---
+
+# Manifiesto
+
+AnalyticLab no nace para demostrar que sabemos programar.
+
+Nace para demostrar que sabemos construir software.
+
+Cada línea de código representa una decisión.
+
+Cada decisión debe tener un propósito.
+
+El objetivo no es terminar un programa.
+
+El objetivo es construir una plataforma capaz de aprender, evolucionar y ayudar a comprender sistemas complejos mediante evidencia.
+
+---
+
+# Lema del Proyecto
+
+> **Transformando incertidumbre en conocimiento.**
