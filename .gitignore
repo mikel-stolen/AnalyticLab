@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+
+# Build
+dist/
+build/
+
+# Database
+*.db
+*.sqlite3
+
+# Excel temporales
+~$*.xlsx
