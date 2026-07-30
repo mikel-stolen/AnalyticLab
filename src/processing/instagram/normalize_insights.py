@@ -93,22 +93,50 @@ def load_latest_insights() -> dict:
 
 def extract_metric(insights_data: dict, metric_name: str):
     """
-    Extrae el valor de una métrica desde la respuesta de Meta.
+    Extrae una métrica desde una respuesta de Insights de Meta.
+
+    Soporta:
+    - values: [{"value": X}]
+    - value: X
     """
 
-    for metric in insights_data.get("../../acquisition/instagram/data", []):
+    if not isinstance(insights_data, dict):
+        return None
+
+    metrics = insights_data.get("data", [])
+
+    if not isinstance(metrics, list):
+        return None
+
+    for metric in metrics:
+
+        if not isinstance(metric, dict):
+            continue
+
         if metric.get("name") != metric_name:
             continue
 
-        values = metric.get("values", [])
+        values = metric.get("values")
 
-        if values:
-            return values[0].get("value")
+        if isinstance(values, list) and values:
+
+            first_value = values[0]
+
+            if isinstance(first_value, dict):
+                value = first_value.get("value")
+
+                if value is not None:
+                    return value
+
+            elif first_value is not None:
+                return first_value
 
         value = metric.get("value")
 
         if value is not None:
             return value
+
+        return None
 
     return None
 
