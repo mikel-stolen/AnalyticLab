@@ -1,10 +1,13 @@
 import json
+from datetime import datetime
 from pathlib import Path
 from statistics import median
-from datetime import datetime
+
 from analytics.instagram.load_dataset import load_latest_dataset
 from sequence_analysis import classify_format, get_interaction_rate
-
+from src.analytics.instagram.stats.normalization import (
+    log2_relative_ratio,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
@@ -25,10 +28,8 @@ def build_relative_records(dataset: list) -> list:
 
     Métricas:
     - Relative Reach
+    - Log2 Relative Reach
     - Relative Interaction Rate
-
-    La referencia utiliza únicamente publicaciones anteriores
-    al Reel analizado.
     """
 
     posts = sorted(
@@ -72,6 +73,10 @@ def build_relative_records(dataset: list) -> list:
         if not previous_reaches or current_reach is None:
             continue
 
+        # ======================================================
+        # BASELINES
+        # ======================================================
+
         baseline_reach = median(previous_reaches)
 
         baseline_rate = (
@@ -80,11 +85,35 @@ def build_relative_records(dataset: list) -> list:
             else None
         )
 
+        # ======================================================
+        # RELATIVE REACH
+        # ======================================================
+
         relative_reach = (
             current_reach / baseline_reach
             if baseline_reach > 0
             else None
         )
+
+        # ======================================================
+        # LOG2 RELATIVE REACH
+        # ======================================================
+
+        log2_relative_reach = (
+            log2_relative_ratio(
+                current_reach,
+                baseline_reach,
+            )
+            if (
+                current_reach is not None
+                and baseline_reach > 0
+            )
+            else None
+        )
+
+        # ======================================================
+        # RELATIVE INTERACTION RATE
+        # ======================================================
 
         relative_rate = (
             current_rate / baseline_rate
@@ -96,6 +125,10 @@ def build_relative_records(dataset: list) -> list:
             else None
         )
 
+        # ======================================================
+        # CONTEXTO TEMPORAL
+        # ======================================================
+
         previous_formats = [
             classify_format(post)
             for post in posts
@@ -104,6 +137,10 @@ def build_relative_records(dataset: list) -> list:
         ]
 
         previous_formats = previous_formats[-3:]
+
+        # ======================================================
+        # REGISTRO
+        # ======================================================
 
         record = {
             "reel": {
@@ -135,7 +172,9 @@ def build_relative_records(dataset: list) -> list:
                     }
                     for post in previous_reels
                 ],
+
                 "baseline_reach": baseline_reach,
+
                 "baseline_interaction_rate_by_reach": (
                     round(baseline_rate, 4)
                     if baseline_rate is not None
@@ -145,6 +184,7 @@ def build_relative_records(dataset: list) -> list:
 
             "sequence_context": {
                 "previous_3_formats": previous_formats,
+
                 "immediate_previous_format": (
                     previous_formats[-1]
                     if previous_formats
@@ -158,6 +198,13 @@ def build_relative_records(dataset: list) -> list:
                     if relative_reach is not None
                     else None
                 ),
+
+                "log2_relative_reach": (
+                    round(log2_relative_reach, 4)
+                    if log2_relative_reach is not None
+                    else None
+                ),
+
                 "relative_interaction_rate": (
                     round(relative_rate, 4)
                     if relative_rate is not None
@@ -212,6 +259,16 @@ def summarize_by_context(records: list) -> dict:
             ) is not None
         ]
 
+        log2_relative_reaches = [
+            item["relative_performance"][
+                "log2_relative_reach"
+            ]
+            for item in items
+            if item["relative_performance"].get(
+                "log2_relative_reach"
+            ) is not None
+        ]
+
         summary[context] = {
             "sample_size": len(items),
 
@@ -221,14 +278,25 @@ def summarize_by_context(records: list) -> dict:
                 else None
             ),
 
+            "median_log2_relative_reach": (
+                round(
+                    median(log2_relative_reaches),
+                    4
+                )
+                if log2_relative_reaches
+                else None
+            ),
+
             "median_relative_interaction_rate": (
                 round(median(relative_rates), 4)
                 if relative_rates
                 else None
             ),
 
-            "relative_reach_values": (
-                relative_reaches
+            "relative_reach_values": relative_reaches,
+
+            "log2_relative_reach_values": (
+                log2_relative_reaches
             ),
 
             "relative_interaction_rate_values": (
@@ -252,7 +320,9 @@ def save_analysis(
         exist_ok=True,
     )
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().strftime(
+        "%Y%m%d_%H%M%S"
+    )
 
     output_file = (
         ANALYTICS_DIR
@@ -263,22 +333,37 @@ def save_analysis(
         "snapshot": {
             "timestamp": timestamp,
         },
+
         "study": {
             "name": "Relative Instagram Reel performance",
+
             "baseline_definition": (
-                "Median performance of the three previous available Reels."
+                "Median performance of the three "
+                "previous available Reels."
             ),
+
             "relative_reach_definition": (
-                "Current Reel reach divided by baseline Reel reach."
+                "Current Reel reach divided by "
+                "baseline Reel reach."
             ),
+
+            "log2_relative_reach_definition": (
+                "log2(Current Reel reach / baseline Reel reach)."
+            ),
+
             "relative_interaction_rate_definition": (
-                "Current interaction rate divided by baseline interaction rate."
+                "Current interaction rate divided "
+                "by baseline interaction rate."
             ),
+
             "causality_warning": (
-                "This is an observational analysis and does not establish causality."
+                "This is an observational analysis "
+                "and does not establish causality."
             ),
         },
+
         "summary_by_previous_format": summary,
+
         "records": records,
     }
 
@@ -340,6 +425,11 @@ if __name__ == "__main__":
         print(
             "  Mediana Relative Reach = "
             f"{stats['median_relative_reach']}"
+        )
+
+        print(
+            "  Mediana Log2 Relative Reach = "
+            f"{stats['median_log2_relative_reach']}"
         )
 
         print(
