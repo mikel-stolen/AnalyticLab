@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from statistics import median
 from datetime import datetime
-from load_dataset import load_latest_dataset
+from analytics.instagram.load_dataset import load_latest_dataset
 from sequence_analysis import classify_format, get_interaction_rate
 
 

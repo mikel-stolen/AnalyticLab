@@ -96,7 +96,7 @@ def extract_metric(insights_data: dict, metric_name: str):
     Extrae el valor de una métrica desde la respuesta de Meta.
     """
 
-    for metric in insights_data.get("data", []):
+    for metric in insights_data.get("../../acquisition/instagram/data", []):
         if metric.get("name") != metric_name:
             continue
 

@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from statistics import mean, median
 from datetime import datetime
-from load_dataset import load_latest_dataset
+from analytics.instagram.load_dataset import load_latest_dataset
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
