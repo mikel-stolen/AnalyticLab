@@ -7,13 +7,12 @@ import matplotlib.pyplot as plt
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
-ANALYTICS_FILE = (
+ANALYTICS_DIR = (
     PROJECT_ROOT
     / "data"
     / "processed"
     / "instagram"
     / "analytics"
-    / "relative_performance.json"
 )
 
 OUTPUT_DIR = (
@@ -26,25 +25,37 @@ OUTPUT_DIR = (
 )
 
 
-def load_relative_performance() -> list:
+def load_relative_performance() -> tuple[list, str]:
     """
-    Carga los resultados del análisis de rendimiento relativo.
+    Carga el snapshot más reciente de Relative Performance.
     """
 
-    if not ANALYTICS_FILE.exists():
+    files = sorted(
+        ANALYTICS_DIR.glob(
+            "relative_performance_*.json"
+        ),
+        key=lambda path: path.stat().st_mtime,
+        reverse=True,
+    )
+
+    if not files:
         raise FileNotFoundError(
-            f"No se encontró el archivo:\n{ANALYTICS_FILE}"
+            "No se encontraron snapshots de "
+            "relative_performance."
         )
 
+    latest_file = files[0]
+
     with open(
-        ANALYTICS_FILE,
+        latest_file,
         "r",
         encoding="utf-8",
     ) as file:
         data = json.load(file)
 
-    return data.get("records", [])
+    records = data.get("records", [])
 
+    return records, latest_file.name
 
 def prepare_data(records: list) -> list:
     """
@@ -146,9 +157,10 @@ def create_plot(
     observation_numbers: list,
     carousel_medians: list,
     reels_medians: list,
+    snapshot_name: str,
 ):
-    """
-    Genera el gráfico del experimento.
+
+    """Genera el gráfico del experimento.
     """
 
     OUTPUT_DIR.mkdir(
@@ -245,7 +257,8 @@ def create_plot(
     plt.xlabel("Observación de Reel")
     plt.ylabel("Relative Reach")
     plt.title(
-        "Evolución del Relative Reach según contexto previo"
+        "Evolución del Relative Reach según contexto previo\n"
+        f"Snapshot: {snapshot_name}"
     )
 
     plt.grid(
@@ -281,7 +294,11 @@ if __name__ == "__main__":
 
     print("\nCargando análisis relativo...")
 
-    records = load_relative_performance()
+    records, snapshot_name = load_relative_performance()
+
+    print(
+        f"Snapshot utilizado: {snapshot_name}"
+    )
 
     records = prepare_data(records)
 
@@ -305,4 +322,5 @@ if __name__ == "__main__":
         observation_numbers=observation_numbers,
         carousel_medians=carousel_medians,
         reels_medians=reels_medians,
+        snapshot_name=snapshot_name,
     )
