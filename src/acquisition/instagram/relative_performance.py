@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from statistics import median
-
+from datetime import datetime
 from load_dataset import load_latest_dataset
 from sequence_analysis import classify_format, get_interaction_rate
 
@@ -244,7 +244,7 @@ def save_analysis(
     summary: dict,
 ) -> Path:
     """
-    Guarda el estudio de rendimiento relativo.
+    Guarda el estudio de rendimiento relativo como snapshot.
     """
 
     ANALYTICS_DIR.mkdir(
@@ -252,36 +252,33 @@ def save_analysis(
         exist_ok=True,
     )
 
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     output_file = (
         ANALYTICS_DIR
-        / "relative_performance.json"
+        / f"relative_performance_{timestamp}.json"
     )
 
     output = {
+        "snapshot": {
+            "timestamp": timestamp,
+        },
         "study": {
-            "name": (
-                "Relative Instagram Reel performance"
-            ),
+            "name": "Relative Instagram Reel performance",
             "baseline_definition": (
-                "Median performance of the "
-                "three previous available Reels."
+                "Median performance of the three previous available Reels."
             ),
             "relative_reach_definition": (
-                "Current Reel reach divided by "
-                "baseline Reel reach."
+                "Current Reel reach divided by baseline Reel reach."
             ),
             "relative_interaction_rate_definition": (
-                "Current interaction rate divided "
-                "by baseline interaction rate."
+                "Current interaction rate divided by baseline interaction rate."
             ),
             "causality_warning": (
-                "This is an observational analysis "
-                "and does not establish causality."
+                "This is an observational analysis and does not establish causality."
             ),
         },
-
         "summary_by_previous_format": summary,
-
         "records": records,
     }
 

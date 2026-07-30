@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from statistics import median
-
+from datetime import datetime
 import matplotlib.pyplot as plt
 
 
@@ -257,9 +257,11 @@ def create_plot(
 
     plt.tight_layout()
 
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     output_file = (
-        OUTPUT_DIR
-        / "relative_reach_evolution.png"
+            OUTPUT_DIR
+            / f"relative_reach_evolution_{timestamp}.png"
     )
 
     plt.savefig(

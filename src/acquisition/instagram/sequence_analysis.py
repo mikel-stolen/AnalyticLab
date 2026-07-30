@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from statistics import mean, median
-
+from datetime import datetime
 from load_dataset import load_latest_dataset
 
 
@@ -381,7 +381,7 @@ def save_analysis(
     previous_sequence_stats: dict,
 ) -> Path:
     """
-    Guarda todos los resultados del estudio.
+    Guarda los resultados del estudio como un snapshot independiente.
     """
 
     ANALYTICS_DIR.mkdir(
@@ -389,12 +389,18 @@ def save_analysis(
         exist_ok=True,
     )
 
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     output_file = (
         ANALYTICS_DIR
-        / "sequence_analysis.json"
+        / f"sequence_analysis_{timestamp}.json"
     )
 
     output = {
+        "snapshot": {
+            "timestamp": timestamp,
+        },
+
         "study": {
             "name": (
                 "Instagram Reel performance "

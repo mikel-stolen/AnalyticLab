@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-
+from datetime import datetime
 from load_dataset import load_latest_dataset
 
 
@@ -80,19 +80,47 @@ def calculate_summary(dataset: list) -> dict:
 
 def save_analysis(data: list, summary: dict) -> Path:
     """
-    Guarda los resultados del análisis.
+    Guarda los resultados del análisis de engagement
+    como un snapshot independiente.
     """
 
-    ANALYTICS_DIR.mkdir(parents=True, exist_ok=True)
+    ANALYTICS_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    output_file = ANALYTICS_DIR / "engagement_analysis.json"
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    output_file = (
+        ANALYTICS_DIR
+        / f"engagement_analysis_{timestamp}.json"
+    )
 
     output = {
+        "snapshot": {
+            "timestamp": timestamp,
+        },
+        "study": {
+            "name": "Instagram engagement analysis",
+            "metric": (
+                "Interaction Rate by Reach "
+                "(total_interactions / reach × 100)"
+            ),
+            "metric_type": "Derived descriptive metric",
+            "causality_warning": (
+                "This metric is descriptive and does not "
+                "establish causality."
+            ),
+        },
         "summary": summary,
         "posts": data,
     }
 
-    with open(output_file, "w", encoding="utf-8") as file:
+    with open(
+        output_file,
+        "w",
+        encoding="utf-8",
+    ) as file:
         json.dump(
             output,
             file,
