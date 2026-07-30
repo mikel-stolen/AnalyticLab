@@ -9,20 +9,31 @@ from dotenv import load_dotenv
 GRAPH_API_VERSION = "v23.0"
 GRAPH_API_URL = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 
-
 def save_raw_insights(data: dict, post_id: str) -> Path:
     """
-    Guarda la respuesta original de insights de una publicación.
+    Guarda la respuesta original de insights en
+    data/raw/instagram/insights/
     """
 
-    output_dir = Path("C:/AnalyticLab/data/raw/instagram/insights")
+    project_root = Path(__file__).resolve().parents[3]
+
+    output_dir = (
+        project_root
+        / "data"
+        / "raw"
+        / "instagram"
+        / "insights"
+    )
+
     output_dir.mkdir(parents=True, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = output_dir / f"insights_{post_id}_{timestamp}.json"
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    with open(output_file, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+
+    print(f"JSON guardado en: {output_file}")
 
     return output_file
 

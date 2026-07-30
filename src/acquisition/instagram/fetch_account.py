@@ -5,6 +5,7 @@ y la guarda en formato JSON.
 
 import json
 from datetime import datetime
+from pathlib import Path
 
 from src.acquisition.instagram.config import ACCOUNT_DIR, IG_USER_ID
 from src.acquisition.instagram.instagram_client import InstagramClient
@@ -16,7 +17,6 @@ class AccountFetcher:
         self.client = InstagramClient()
 
     def fetch(self):
-
         return self.client.get(
             endpoint=IG_USER_ID,
             params={
@@ -24,33 +24,33 @@ class AccountFetcher:
             }
         )
 
-    def save(self, data):
+    def save_raw_json(self, data: dict) -> Path:
+        """
+        Guarda la respuesta original de la cuenta
+        en data/raw/instagram/account/.
+        """
+
+        ACCOUNT_DIR.mkdir(parents=True, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_file = ACCOUNT_DIR / f"account_{timestamp}.json"
 
-        file_path = ACCOUNT_DIR / f"account_{timestamp}.json"
+        with open(output_file, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
 
-        with open(file_path, "w", encoding="utf-8") as file:
-            json.dump(
-                data,
-                file,
-                indent=4,
-                ensure_ascii=False
-            )
+        print(f"JSON guardado en: {output_file}")
 
-        print(f"✅ Archivo guardado en:\n{file_path}")
+        return output_file
 
     def run(self):
 
         data = self.fetch()
-
-        self.save(data)
+        self.save_raw_json(data)
 
 
 def main():
 
     fetcher = AccountFetcher()
-
     fetcher.run()
 
 
