@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from stats import median
+from statistics import median
 from datetime import datetime
 import matplotlib.pyplot as plt
 
