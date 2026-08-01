@@ -1,0 +1,163 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T00:46:00.782316",
+        "engine": "consensus_engine_v0.2",
+        "source": "model_ensemble_20260802_001242.json"
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "pair_name": "eg_3_vs_initial_ir",
+            "weights": {
+                "linear": 0.24659086124823792,
+                "quadratic": 0.22467769005601737,
+                "threshold": 0.23918196765738764,
+                "saturation": 0.28954948103835704
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.043,
+                "consensus_strength": 0.9967,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "pair_name": "eg_5_vs_initial_ir",
+            "weights": {
+                "linear": 0.2439512128738063,
+                "quadratic": 0.16227813606871566,
+                "threshold": 0.29022970970866274,
+                "saturation": 0.3035409413488153
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0133,
+                "consensus_strength": 0.9812,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "pair_name": "eg_7d_vs_initial_ir",
+            "weights": {
+                "linear": 0.27286739249570857,
+                "quadratic": 0.24489126996394456,
+                "threshold": 0.25160103574700426,
+                "saturation": 0.2306403017933427
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0213,
+                "consensus_strength": 0.9987,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "pair_name": "eg_5_vs_initial_reach",
+            "weights": {
+                "linear": 0.29377174051961974,
+                "quadratic": 0.18485083747350423,
+                "threshold": 0.2685039190564071,
+                "saturation": 0.2528735029504689
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0253,
+                "consensus_strength": 0.9902,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "pair_name": "eg_5_vs_initial_views",
+            "weights": {
+                "linear": 0.3005925588805637,
+                "quadratic": 0.18394650094373485,
+                "threshold": 0.2511232484551741,
+                "saturation": 0.2643376917205273
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0363,
+                "consensus_strength": 0.9893,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "pair_name": "temperature_vs_initial_ir",
+            "weights": {
+                "linear": 0.2500572271423353,
+                "quadratic": 0.17314197709349352,
+                "threshold": 0.2634655083459401,
+                "saturation": 0.3133352874182311
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0499,
+                "consensus_strength": 0.9848,
+                "evidence_state": "high_model_uncertainty"
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "pair_name": "temperature_vs_initial_reach",
+            "weights": {
+                "linear": 0.2940668663642007,
+                "quadratic": 0.19024697713313257,
+                "threshold": 0.266348176382912,
+                "saturation": 0.24933798011975467
+            },
+            "decision": {
+                "strategy": "ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente entre modelos",
+                "dominance": 0.0277,
+                "consensus_strength": 0.9914,
+                "evidence_state": "high_model_uncertainty"
+            }
+        }
+    }
+}

@@ -1,0 +1,3002 @@
+{
+    "analysis": {
+        "created_at": "2026-08-01T23:43:07.997314",
+        "source_snapshot": "account_engagement_state_20260801_233414.json",
+        "models": [
+            "linear",
+            "quadratic",
+            "threshold",
+            "saturation"
+        ],
+        "weighting": {
+            "loocv_mae_share": 0.75,
+            "bootstrap_winner_share": 0.25,
+            "complexity_penalty": {
+                "linear": 0.0,
+                "quadratic": 0.05,
+                "threshold": 0.05,
+                "saturation": 0.08
+            }
+        },
+        "ensemble_goal": "Mantener varias hipótesis de forma funcional y repartir la confianza en lugar de seleccionar obligatoriamente un único modelo.",
+        "uncertainty_definition": "El desacuerdo ponderado entre modelos se conserva como señal de incertidumbre estructural.",
+        "warning": "Con n pequeño, los pesos pueden ser inestables. El ensemble debe reevaluarse mediante validación walk-forward cuando la serie temporal tenga suficiente longitud."
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "pair_name": "eg_3_vs_initial_ir",
+            "predictor": "EG_3",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.2857,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 10.9804,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 19.403,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 19.403,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.1185803363032694,
+                "quadratic": 0.1782880938256662,
+                "threshold": 0.3406419052051244,
+                "saturation": 0.36248966466593996
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 25,
+                        "winner_share": 0.005,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.18066645633656334,
+                            "median": 0.12645335590588336,
+                            "p025": 0.0008185955950132606,
+                            "p975": 0.62175934661776
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 10.052367960275925,
+                            "median": 10.4756225913893,
+                            "p025": 2.673009494660692,
+                            "p975": 16.342977448544705
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 677,
+                        "winner_share": 0.1354,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.4392287872179521,
+                            "median": 0.4511699634398654,
+                            "p025": 0.012518781833150975,
+                            "p975": 0.9008306457639911
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 7.458360023091323,
+                            "median": 7.551723006212303,
+                            "p025": 2.141547663423046,
+                            "p975": 12.57725839462769
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 2123,
+                        "winner_share": 0.4246,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.3999421359189147,
+                            "median": 0.3371219728624058,
+                            "p025": 0.0019465018076256617,
+                            "p975": 0.9503377483424459
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.687821562001443,
+                            "median": 6.696094877344877,
+                            "p025": 2.03667284090909,
+                            "p975": 11.781665555555552
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 2175,
+                        "winner_share": 0.435,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5516398625655813,
+                            "median": 0.6202762382890776,
+                            "p025": 0.01914888279379399,
+                            "p975": 0.9530825069249628
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 5.79713539337756,
+                            "median": 5.677057575757575,
+                            "p025": 1.877108060367246,
+                            "p975": 10.252664329293147
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 14.673628024893633,
+                    "rmse": 18.757025326882594,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        15.568536605689637,
+                        20.017292136867216,
+                        24.579228668839185,
+                        24.71311664882307,
+                        26.45570687267571,
+                        31.032638240737036,
+                        25.847427256515168,
+                        15.244121847532686,
+                        22.246777992968532,
+                        14.57093830361542,
+                        14.024626800821153
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 15.29953171061631,
+                    "rmse": 20.62593796283272,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        36.221147035315084,
+                        10.490453825100701,
+                        15.963369317087427,
+                        16.75157397075384,
+                        19.865188172468805,
+                        41.720088166224656,
+                        20.343893083563756,
+                        13.363770561354523,
+                        15.526387520707118,
+                        18.08404103639407,
+                        17.507910043570064
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 14.37175,
+                    "rmse": 19.625941962035782,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        16.818649999999998,
+                        16.686366666666668,
+                        16.96415,
+                        16.63928333333333,
+                        19.10953333333333,
+                        38.92766666666667,
+                        37.698433333333334,
+                        16.9936,
+                        16.48765,
+                        15.42375,
+                        15.143166666666666
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 11.496867321513975,
+                    "rmse": 17.10417218950547,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        18.7915,
+                        18.703311111111105,
+                        18.888499999999993,
+                        18.671922222222214,
+                        20.318755555555555,
+                        20.387923366891116,
+                        18.875577777777785,
+                        15.383838385792922,
+                        15.925533333333334,
+                        17.86156666666667,
+                        17.674511111111116
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.07249421199642725,
+                    "mae_in_sample": 11.855231487678436
+                },
+                "quadratic": {
+                    "r_squared": 0.36292969840863876,
+                    "mae_in_sample": 9.553584256474236
+                },
+                "threshold": {
+                    "r_squared": 0.23626382838523208,
+                    "mae_in_sample": 9.932314285714286
+                },
+                "saturation": {
+                    "r_squared": 0.6152223817157345,
+                    "mae_in_sample": 6.606554545454546
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 13.402373012763578,
+                "rmse": 18.323256598194657,
+                "mean_model_disagreement": 3.8017095084728343,
+                "median_model_disagreement": 2.4898076857444362,
+                "predictions": [
+                    21.658086277726014,
+                    16.603675284151684,
+                    18.391158177196136,
+                    18.368383589681343,
+                    20.59697978286909,
+                    32.14640840488015,
+                    26.25913200876649,
+                    15.459063531792879,
+                    16.72694675981913,
+                    16.76695374770408,
+                    16.444305777252083
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.1086315763178324,
+                        "quadratic": 0.21936640101190238,
+                        "threshold": 0.3075637120816189,
+                        "saturation": 0.36443831058864623
+                    },
+                    {
+                        "linear": 0.11430497373761431,
+                        "quadratic": 0.1964344462446182,
+                        "threshold": 0.31559734939154516,
+                        "saturation": 0.3736632306262224
+                    },
+                    {
+                        "linear": 0.11756698214383401,
+                        "quadratic": 0.19052805007942944,
+                        "threshold": 0.3165038445999113,
+                        "saturation": 0.37540112317682517
+                    },
+                    {
+                        "linear": 0.11717895200705293,
+                        "quadratic": 0.19096773909625064,
+                        "threshold": 0.3171812287881989,
+                        "saturation": 0.3746720801084975
+                    },
+                    {
+                        "linear": 0.12038351952599831,
+                        "quadratic": 0.19337149708306337,
+                        "threshold": 0.30834412455665894,
+                        "saturation": 0.3779008588342795
+                    },
+                    {
+                        "linear": 0.10976216609073129,
+                        "quadratic": 0.21198853828230071,
+                        "threshold": 0.327292753933819,
+                        "saturation": 0.35095654169314894
+                    },
+                    {
+                        "linear": 0.11400098185848266,
+                        "quadratic": 0.1877418992734286,
+                        "threshold": 0.33539503196895554,
+                        "saturation": 0.36286208689913324
+                    },
+                    {
+                        "linear": 0.16948348387777062,
+                        "quadratic": 0.20682829775264605,
+                        "threshold": 0.3209866458318094,
+                        "saturation": 0.3027015725377739
+                    },
+                    {
+                        "linear": 0.11258288895324368,
+                        "quadratic": 0.17944635509085535,
+                        "threshold": 0.2870840018074831,
+                        "saturation": 0.4208867541484179
+                    },
+                    {
+                        "linear": 0.11300872772214661,
+                        "quadratic": 0.18947553432045366,
+                        "threshold": 0.31376298914648854,
+                        "saturation": 0.3837527488109112
+                    },
+                    {
+                        "linear": 0.1126796233233111,
+                        "quadratic": 0.189052834217312,
+                        "threshold": 0.31107633033814563,
+                        "saturation": 0.38719121212123125
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    18.952704440678705,
+                    16.814840666804976,
+                    18.00385054665289,
+                    18.215408513436603,
+                    18.215408513436603,
+                    26.806227720770092,
+                    24.021460953892134,
+                    44.141194614395346,
+                    24.021460953892134,
+                    17.901971538020383,
+                    17.901971538020383
+                ],
+                "mae": 8.703345701031251,
+                "rmse": 10.71176603998471,
+                "mean_model_disagreement": 4.262594258330577
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "pair_name": "eg_5_vs_initial_ir",
+            "predictor": "EG_5",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.12037050153930233,
+                "quadratic": 0.18853432522484245,
+                "threshold": 0.316823678881869,
+                "saturation": 0.37427149435398627
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 11,
+                        "winner_share": 0.0022,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.22861306329495582,
+                            "median": 0.20718098204461532,
+                            "p025": 0.0009808789989012357,
+                            "p975": 0.6209999864253909
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.533074920705332,
+                            "median": 9.785996550909063,
+                            "p025": 3.4226481941035316,
+                            "p975": 15.111535745817665
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 1053,
+                        "winner_share": 0.2106,
+                        "r_squared": {
+                            "n": 4999,
+                            "mean": 0.5144360383213192,
+                            "median": 0.5717348743975593,
+                            "p025": 0.015850273662251158,
+                            "p975": 0.9367462055768967
+                        },
+                        "mae": {
+                            "n": 4999,
+                            "mean": 6.914807225145516,
+                            "median": 6.974006743886013,
+                            "p025": 2.4458770272150283,
+                            "p975": 11.257292348256776
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 1687,
+                        "winner_share": 0.3374,
+                        "r_squared": {
+                            "n": 4998,
+                            "mean": 0.47770665456460304,
+                            "median": 0.48043568241352785,
+                            "p025": 0.002740483233539814,
+                            "p975": 0.9470179498637126
+                        },
+                        "mae": {
+                            "n": 4998,
+                            "mean": 6.272681176767965,
+                            "median": 6.297150303030303,
+                            "p025": 2.2664725757575757,
+                            "p975": 10.366341484848485
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 2249,
+                        "winner_share": 0.4498,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.6012994101959647,
+                            "median": 0.6623493200511009,
+                            "p025": 0.00511369922784983,
+                            "p975": 0.9558961410294738
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 5.4810989748407355,
+                            "median": 5.428214268586606,
+                            "p025": 1.918744181081911,
+                            "p975": 9.35543621495753
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 13.748199310102423,
+                    "rmse": 17.492745035385756,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        -0.9544013717221702,
+                        16.09190933656928,
+                        16.427676348506836,
+                        25.702858526572243,
+                        27.424560017787506,
+                        27.137454439396024,
+                        28.628465234538936,
+                        20.81761561707525,
+                        24.527054073621166,
+                        27.218697833834938,
+                        16.09544233396629
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 19.634163165114387,
+                    "rmse": 27.737539051426328,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        90.91972309903099,
+                        8.099425650601745,
+                        8.575461030160852,
+                        21.011816853114283,
+                        23.236917157742653,
+                        23.70153090566174,
+                        28.408219018117222,
+                        25.35615723534621,
+                        24.304960306108057,
+                        26.997816563477443,
+                        5.486324558669196
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 10.97818484848485,
+                    "rmse": 15.115962304899126,
+                    "winner_count": 6,
+                    "winner_share": 0.5454545454545454,
+                    "predictions": [
+                        14.683016666666667,
+                        14.550733333333334,
+                        14.828516666666665,
+                        14.503649999999999,
+                        16.9739,
+                        15.42375,
+                        41.9697,
+                        27.008466666666667,
+                        33.119566666666664,
+                        38.92766666666667,
+                        13.007533333333333
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 10.16528014671366,
+                    "rmse": 14.572268761157249,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        17.983872358697717,
+                        16.00402467144201,
+                        16.218278737658338,
+                        18.50845833871272,
+                        20.157560555572907,
+                        19.83330587037618,
+                        22.088115710086328,
+                        27.008466666666664,
+                        15.925533357538761,
+                        21.171041347348385,
+                        14.869343914258089
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.18946939445007827,
+                    "mae_in_sample": 10.898352768393789
+                },
+                "quadratic": {
+                    "r_squared": 0.4653954317805158,
+                    "mae_in_sample": 9.925618427052353
+                },
+                "threshold": {
+                    "r_squared": 0.41637916514721574,
+                    "mae_in_sample": 8.60067792207792
+                },
+                "saturation": {
+                    "r_squared": 0.6552678931157723,
+                    "mae_in_sample": 6.07166524928596
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 12.516501442925899,
+                "rmse": 15.814472535047438,
+                "mean_model_disagreement": 7.260812278730502,
+                "median_model_disagreement": 3.8234912128580185,
+                "predictions": [
+                    34.547354939363075,
+                    13.861771410404074,
+                    14.183044433411895,
+                    18.77897160833026,
+                    20.82271769405335,
+                    20.325422489216706,
+                    30.36343467772479,
+                    25.64294956840486,
+                    22.982984235082448,
+                    28.410078666414183,
+                    12.417814555614205
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.10958320583513007,
+                        "quadratic": 0.2677784563768461,
+                        "threshold": 0.2701875755742999,
+                        "saturation": 0.352450762213724
+                    },
+                    {
+                        "linear": 0.11555000954115224,
+                        "quadratic": 0.21984779229547133,
+                        "threshold": 0.2852832603810877,
+                        "saturation": 0.3793189377822888
+                    },
+                    {
+                        "linear": 0.1170156687540884,
+                        "quadratic": 0.21780299674884318,
+                        "threshold": 0.284299387401888,
+                        "saturation": 0.3808819470951805
+                    },
+                    {
+                        "linear": 0.12169395456329046,
+                        "quadratic": 0.2139083631197668,
+                        "threshold": 0.2847804353199406,
+                        "saturation": 0.3796172469970022
+                    },
+                    {
+                        "linear": 0.12335334225152665,
+                        "quadratic": 0.21541304422065535,
+                        "threshold": 0.2809926176558582,
+                        "saturation": 0.3802409958719598
+                    },
+                    {
+                        "linear": 0.12244239291340014,
+                        "quadratic": 0.21568664979460586,
+                        "threshold": 0.2804240030078417,
+                        "saturation": 0.3814469542841523
+                    },
+                    {
+                        "linear": 0.11585489338690226,
+                        "quadratic": 0.2079702340320347,
+                        "threshold": 0.312007032047195,
+                        "saturation": 0.364167840533868
+                    },
+                    {
+                        "linear": 0.16048937331356847,
+                        "quadratic": 0.22510994973743323,
+                        "threshold": 0.29250556230915936,
+                        "saturation": 0.321895114639839
+                    },
+                    {
+                        "linear": 0.1199606207817762,
+                        "quadratic": 0.20106619155239686,
+                        "threshold": 0.25245895310266503,
+                        "saturation": 0.42651423456316195
+                    },
+                    {
+                        "linear": 0.11409445958635873,
+                        "quadratic": 0.20738137573248186,
+                        "threshold": 0.300770470966746,
+                        "saturation": 0.3777536937144134
+                    },
+                    {
+                        "linear": 0.11555901921447835,
+                        "quadratic": 0.2214385347607383,
+                        "threshold": 0.27685632310485053,
+                        "saturation": 0.38614612291993283
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    16.16001677854608,
+                    14.558342728281364,
+                    14.558342728281364,
+                    18.420219951367812,
+                    18.420219951367812,
+                    19.056293353211384,
+                    27.447598119798137,
+                    46.75928562262826,
+                    27.447598119798137,
+                    27.447598119798137,
+                    14.720984526921635
+                ],
+                "mae": 7.4935902316525995,
+                "rmse": 9.515050932284874,
+                "mean_model_disagreement": 4.571816478410086
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "pair_name": "eg_7d_vs_initial_ir",
+            "predictor": "EG_7d",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7663,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.7302,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.0,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.7922,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 16.0,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.2464,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.2464,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.0,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.046,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.12668235648761078,
+                "quadratic": 0.2411300143428236,
+                "threshold": 0.4001799024228152,
+                "saturation": 0.23200772674675035
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 41,
+                        "winner_share": 0.0082,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.23411810184975554,
+                            "median": 0.19536764148994507,
+                            "p025": 0.0010666402647800392,
+                            "p975": 0.7179605940667454
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.365514123457084,
+                            "median": 9.608088651122053,
+                            "p025": 3.319209806813676,
+                            "p975": 14.78448618867229
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 1182,
+                        "winner_share": 0.2364,
+                        "r_squared": {
+                            "n": 4999,
+                            "mean": 0.36029794161581885,
+                            "median": 0.30487116677578685,
+                            "p025": 0.013805794398403543,
+                            "p975": 0.9102044412500037
+                        },
+                        "mae": {
+                            "n": 4999,
+                            "mean": 7.9468365294337815,
+                            "median": 8.002608854615799,
+                            "p025": 2.5896726134242187,
+                            "p975": 13.350306728695843
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 2582,
+                        "winner_share": 0.5164,
+                        "r_squared": {
+                            "n": 4998,
+                            "mean": 0.31761103487596987,
+                            "median": 0.27428458371334075,
+                            "p025": 0.0011144147457753774,
+                            "p975": 0.8996749063427659
+                        },
+                        "mae": {
+                            "n": 4998,
+                            "mean": 7.689664697730462,
+                            "median": 7.705471212121212,
+                            "p025": 2.645415517676769,
+                            "p975": 12.895158217893217
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 1195,
+                        "winner_share": 0.239,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.3506548024175566,
+                            "median": 0.2846410796576209,
+                            "p025": 0.0019132816743291092,
+                            "p975": 0.9215911064862837
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 7.668977834750576,
+                            "median": 7.552938635319992,
+                            "p025": 2.542091745952716,
+                            "p975": 13.394630413681977
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 14.441393739894298,
+                    "rmse": 17.90512020515666,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        -1.4027844268933336,
+                        15.045273441204841,
+                        21.401028414906406,
+                        22.878492146218406,
+                        22.75743577131834,
+                        28.553038924705618,
+                        38.674231106474366,
+                        21.016339444229377,
+                        24.220367155500625,
+                        20.427118596855124,
+                        19.855481013889218
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 15.286605282701709,
+                    "rmse": 20.00392042131101,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        24.066281925397107,
+                        13.428561821815038,
+                        17.835143253393767,
+                        19.489426094239207,
+                        20.132123061148718,
+                        27.388626674890247,
+                        55.33950983999557,
+                        20.21249072596892,
+                        22.813385863424514,
+                        16.185895941319814,
+                        15.465018386817519
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 14.878937878787879,
+                    "rmse": 19.96050401730222,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        16.818649999999998,
+                        16.686366666666668,
+                        16.96415,
+                        16.63928333333333,
+                        26.2911375,
+                        38.92766666666667,
+                        37.698433333333334,
+                        19.0571,
+                        16.0266875,
+                        15.42375,
+                        15.143166666666666
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 15.718582525756757,
+                    "rmse": 22.25260909440837,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        15.339502391811063,
+                        18.395899748497634,
+                        18.61657796101861,
+                        19.80670833530297,
+                        20.28903460404697,
+                        25.9632175325029,
+                        60.852843672274005,
+                        15.116299999999981,
+                        16.0266875,
+                        17.604685955958274,
+                        17.352198222549443
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.1951497142330736,
+                    "mae_in_sample": 11.223465393466048
+                },
+                "quadratic": {
+                    "r_squared": 0.275413128983795,
+                    "mae_in_sample": 10.36223335714318
+                },
+                "threshold": {
+                    "r_squared": 0.23626382838523208,
+                    "mae_in_sample": 9.932314285714286
+                },
+                "saturation": {
+                    "r_squared": 0.24406148125829485,
+                    "mae_in_sample": 10.328353846242464
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 14.674678943356485,
+                "rmse": 19.880561460978765,
+                "mean_model_disagreement": 3.700171626567637,
+                "median_model_disagreement": 2.138022176353247,
+                "predictions": [
+                    15.827473522764551,
+                    16.07555068153151,
+                    18.169590621344994,
+                    18.929984028467448,
+                    22.817852381472484,
+                    31.750083108550815,
+                    48.51891417227812,
+                    18.71787821335145,
+                    18.74825578455985,
+                    16.781601683632484,
+                    16.367096049352682
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.1325517773215644,
+                        "quadratic": 0.245218034673776,
+                        "threshold": 0.38348253805268795,
+                        "saturation": 0.23874764995197162
+                    },
+                    {
+                        "linear": 0.12964333699108527,
+                        "quadratic": 0.24721867087555074,
+                        "threshold": 0.38486766851548815,
+                        "saturation": 0.2382703236178758
+                    },
+                    {
+                        "linear": 0.13522082302190877,
+                        "quadratic": 0.24388435383926027,
+                        "threshold": 0.3830262727975394,
+                        "saturation": 0.23786855034129156
+                    },
+                    {
+                        "linear": 0.13470959837957228,
+                        "quadratic": 0.2445962956502313,
+                        "threshold": 0.38293472101747233,
+                        "saturation": 0.23775938495272403
+                    },
+                    {
+                        "linear": 0.14374426858454445,
+                        "quadratic": 0.24704046501942578,
+                        "threshold": 0.3686645823881711,
+                        "saturation": 0.2405506840078586
+                    },
+                    {
+                        "linear": 0.1340990519571473,
+                        "quadratic": 0.24004931088021833,
+                        "threshold": 0.3931832696871111,
+                        "saturation": 0.23266836747552322
+                    },
+                    {
+                        "linear": 0.12369443697208454,
+                        "quadratic": 0.25209844482402843,
+                        "threshold": 0.3541725097245295,
+                        "saturation": 0.2700346084793576
+                    },
+                    {
+                        "linear": 0.16636456332916577,
+                        "quadratic": 0.24223449767799946,
+                        "threshold": 0.3515904199682856,
+                        "saturation": 0.2398105190245492
+                    },
+                    {
+                        "linear": 0.13460317422358145,
+                        "quadratic": 0.23850669466640498,
+                        "threshold": 0.3775229310182982,
+                        "saturation": 0.2493672000917154
+                    },
+                    {
+                        "linear": 0.12863901822437007,
+                        "quadratic": 0.24637348484907987,
+                        "threshold": 0.38359998320630545,
+                        "saturation": 0.24138751372024458
+                    },
+                    {
+                        "linear": 0.12925171880054187,
+                        "quadratic": 0.2470853757750001,
+                        "threshold": 0.3813260319940496,
+                        "saturation": 0.24233687343040844
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    15.855100901720128,
+                    16.23236338870853,
+                    17.769490614294405,
+                    18.422641244290173,
+                    17.769490614294405,
+                    26.95006209108271,
+                    34.81935377675452,
+                    34.81935377675452,
+                    26.95006209108271,
+                    17.769490614294405,
+                    17.6390908867231
+                ],
+                "mae": 10.019861516493892,
+                "rmse": 12.951082580185288,
+                "mean_model_disagreement": 2.44561143902904
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "pair_name": "eg_5_vs_initial_reach",
+            "predictor": "EG_5",
+            "outcome": "Initial Reach",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 27,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.020734953101698046,
+                "quadratic": 0.1460617816659685,
+                "threshold": 0.7020880303120527,
+                "saturation": 0.1311152349202807
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 21,
+                        "winner_share": 0.0042,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.09316372714968653,
+                            "median": 0.02492276123962961,
+                            "p025": 5.823096290358265e-05,
+                            "p975": 0.697306641881445
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 145.14430371776783,
+                            "median": 154.47822198246143,
+                            "p025": 7.7026101295932605,
+                            "p975": 363.0211798749103
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 716,
+                        "winner_share": 0.1432,
+                        "r_squared": {
+                            "n": 4999,
+                            "mean": 0.19589653660052952,
+                            "median": 0.12182969617826589,
+                            "p025": 0.012744987783417405,
+                            "p975": 0.7796965413087891
+                        },
+                        "mae": {
+                            "n": 4999,
+                            "mean": 138.81969074810377,
+                            "median": 156.4901996769903,
+                            "p025": 6.601050626788094,
+                            "p975": 335.14606632744744
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 3626,
+                        "winner_share": 0.7252,
+                        "r_squared": {
+                            "n": 4998,
+                            "mean": 0.21101404171462945,
+                            "median": 0.15065248741353338,
+                            "p025": 0.00203499341803082,
+                            "p975": 0.8095074139561997
+                        },
+                        "mae": {
+                            "n": 4998,
+                            "mean": 126.80156671615255,
+                            "median": 144.1939393939394,
+                            "p025": 6.5046717171717185,
+                            "p975": 292.76801948051946
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 637,
+                        "winner_share": 0.1274,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.14576718605292274,
+                            "median": 0.0695643167333676,
+                            "p025": 0.007114822698378796,
+                            "p975": 0.7703475848798306
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 139.10263540966133,
+                            "median": 149.55050505050505,
+                            "p025": 6.664522662758539,
+                            "p975": 343.57575757575756
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 180.78183634233454,
+                    "rmse": 305.7647125317749,
+                    "winner_count": 0,
+                    "winner_share": 0.0,
+                    "predictions": [
+                        84.21199554391501,
+                        122.5089155249249,
+                        120.09144138845738,
+                        158.38946692312507,
+                        50.59072969357425,
+                        165.1599613062982,
+                        154.697577033047,
+                        246.00115707850142,
+                        179.41380676016394,
+                        176.16980160847982,
+                        129.94196035843558
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 272.93987774343395,
+                    "rmse": 400.00670074132995,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        -771.4719707789754,
+                        177.06982810011414,
+                        173.6424419150153,
+                        192.1734277817077,
+                        52.85601168379495,
+                        190.36635830614364,
+                        156.0681654726004,
+                        210.1234655983322,
+                        180.79552904985053,
+                        177.55006258033677,
+                        200.06974822369284
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 187.9047619047619,
+                    "rmse": 312.2247408621419,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        45,
+                        50,
+                        46,
+                        208.16666666666666,
+                        49.714285714285715,
+                        212.16666666666666,
+                        22.5,
+                        216.33333333333334,
+                        216,
+                        212.5,
+                        57
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 193.21876973745785,
+                    "rmse": 305.46623060417255,
+                    "winner_count": 6,
+                    "winner_share": 0.5454545454545454,
+                    "predictions": [
+                        159.22222222222223,
+                        160.88888888888889,
+                        159.55555555555554,
+                        158.38883637588663,
+                        56.55555555555556,
+                        165.15930299985234,
+                        147.11111111111111,
+                        195.05369473021537,
+                        179.41320735066122,
+                        176.16920343319845,
+                        163.22222222222223
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.011571338388562724,
+                    "mae_in_sample": 155.26209907429762
+                },
+                "quadratic": {
+                    "r_squared": 0.044775107917676915,
+                    "mae_in_sample": 166.5172047612172
+                },
+                "threshold": {
+                    "r_squared": 0.058983697441573724,
+                    "mae_in_sample": 149.84415584415584
+                },
+                "saturation": {
+                    "r_squared": 0.01157076109721178,
+                    "mae_in_sample": 155.26228491405385
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 197.05945511113728,
+                "rmse": 310.94482398018386,
+                "mean_model_disagreement": 55.106791489229536,
+                "median_model_disagreement": 17.841461689846867,
+                "predictions": [
+                    -62.092674920851174,
+                    85.25796097806024,
+                    81.71489683345095,
+                    198.11769397674522,
+                    51.46077912661446,
+                    201.66380269989688,
+                    61.78690736102745,
+                    213.23573235546112,
+                    205.088840604341,
+                    201.66924250600462,
+                    94.06084783534102
+                ],
+                "actuals": [
+                    63,
+                    48,
+                    60,
+                    59,
+                    987,
+                    35,
+                    172,
+                    10,
+                    12,
+                    33,
+                    27
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.02144074688384717,
+                        "quadratic": 0.15062069581844645,
+                        "threshold": 0.696228924354303,
+                        "saturation": 0.13170963294340354
+                    },
+                    {
+                        "linear": 0.02160518311314681,
+                        "quadratic": 0.1500903198341176,
+                        "threshold": 0.69646584679225,
+                        "saturation": 0.1318386502604856
+                    },
+                    {
+                        "linear": 0.021579174026336582,
+                        "quadratic": 0.1500275590144044,
+                        "threshold": 0.6965971547787532,
+                        "saturation": 0.1317961121805059
+                    },
+                    {
+                        "linear": 0.021903552445750915,
+                        "quadratic": 0.1497538632877151,
+                        "threshold": 0.6964841678412209,
+                        "saturation": 0.13185841642531304
+                    },
+                    {
+                        "linear": 0.081422703377022,
+                        "quadratic": 0.17327732490317155,
+                        "threshold": 0.580017629576247,
+                        "saturation": 0.1652823421435594
+                    },
+                    {
+                        "linear": 0.022049509037075317,
+                        "quadratic": 0.14971918401222747,
+                        "threshold": 0.6962846430804688,
+                        "saturation": 0.1319466638702284
+                    },
+                    {
+                        "linear": 0.021728920583827388,
+                        "quadratic": 0.14969505515318127,
+                        "threshold": 0.6968068532415502,
+                        "saturation": 0.13176917102144117
+                    },
+                    {
+                        "linear": 0.021680282447726594,
+                        "quadratic": 0.1503053873522858,
+                        "threshold": 0.6960839316945511,
+                        "saturation": 0.13193039850543653
+                    },
+                    {
+                        "linear": 0.022156012473508863,
+                        "quadratic": 0.14972391901661783,
+                        "threshold": 0.6961160437076824,
+                        "saturation": 0.13200402480219084
+                    },
+                    {
+                        "linear": 0.022100027384395808,
+                        "quadratic": 0.14972890399189404,
+                        "threshold": 0.6961936901091901,
+                        "saturation": 0.13197737851452004
+                    },
+                    {
+                        "linear": 0.0216874015902516,
+                        "quadratic": 0.1500871161874614,
+                        "threshold": 0.6963698306392697,
+                        "saturation": 0.13185565158301735
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    41.937810088341536,
+                    73.13416750519828,
+                    73.13416750519828,
+                    179.20103813766227,
+                    179.20103813766227,
+                    179.0193477524575,
+                    178.13960019768365,
+                    169.953386454822,
+                    178.13960019768365,
+                    178.13960019768365,
+                    76.00024382560761
+                ],
+                "mae": 150.70202759527209,
+                "rmse": 263.82992941075196,
+                "mean_model_disagreement": 24.23493113665723
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "pair_name": "eg_5_vs_initial_views",
+            "predictor": "EG_5",
+            "outcome": "Initial Views",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 188,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 134,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 144,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 135,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 1360,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 226,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 23,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 29,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 72,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.03737102940024855,
+                "quadratic": 0.17556849302015332,
+                "threshold": 0.5364405597061743,
+                "saturation": 0.25061991787342375
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 121,
+                        "winner_share": 0.0242,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.12125809303039933,
+                            "median": 0.02887989119220552,
+                            "p025": 4.2428188529913816e-05,
+                            "p975": 0.7253205364334184
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 194.63332109145685,
+                            "median": 205.16562935388714,
+                            "p025": 20.46953983337019,
+                            "p975": 486.3820903247043
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 870,
+                        "winner_share": 0.174,
+                        "r_squared": {
+                            "n": 4999,
+                            "mean": 0.23620753309718337,
+                            "median": 0.16466825622144676,
+                            "p025": 0.017521508442461427,
+                            "p975": 0.787003871877442
+                        },
+                        "mae": {
+                            "n": 4999,
+                            "mean": 186.00390444477273,
+                            "median": 209.72512820044705,
+                            "p025": 17.137714552491587,
+                            "p975": 449.0013678652698
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 2727,
+                        "winner_share": 0.5454,
+                        "r_squared": {
+                            "n": 4998,
+                            "mean": 0.22769829367231886,
+                            "median": 0.1724113738915134,
+                            "p025": 0.005513903879443414,
+                            "p975": 0.7457773447406737
+                        },
+                        "mae": {
+                            "n": 4998,
+                            "mean": 171.95108291512852,
+                            "median": 196.36363636363637,
+                            "p025": 17.622835497835496,
+                            "p975": 393.31168831168833
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 1282,
+                        "winner_share": 0.2564,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.18384632115373775,
+                            "median": 0.08190136714989416,
+                            "p025": 0.004063693424840315,
+                            "p975": 0.7686331751285536
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 185.22783058460072,
+                            "median": 199.0978024677041,
+                            "p025": 16.244373793408684,
+                            "p975": 457.08252062899624
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 237.51986025012135,
+                    "rmse": 409.10209245123576,
+                    "winner_count": 7,
+                    "winner_share": 0.6363636363636364,
+                    "predictions": [
+                        198.7361245590827,
+                        230.34382322700958,
+                        228.3292614466201,
+                        247.62577021997137,
+                        105.32679057966975,
+                        253.71983605838648,
+                        243.34560619196037,
+                        344.5799341059398,
+                        273.7774640434733,
+                        261.7283020515036,
+                        240.85913142705718
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 368.73149040985396,
+                    "rmse": 546.6232249768796,
+                    "winner_count": 0,
+                    "winner_share": 0.0,
+                    "predictions": [
+                        -982.9265985329439,
+                        301.84586308980215,
+                        298.98970793555145,
+                        291.4201106911628,
+                        107.5151163808815,
+                        286.38785134472573,
+                        245.14670520335085,
+                        310.3620433443434,
+                        275.59227160783985,
+                        263.53768186393154,
+                        336.35267727562314
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 270.0939393939394,
+                    "rmse": 414.3351940522348,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        139,
+                        166,
+                        377.8,
+                        308.6666666666667,
+                        134.6,
+                        313.3333333333333,
+                        66.5,
+                        327.3333333333333,
+                        326.3333333333333,
+                        313.3333333333333,
+                        155.33333333333334
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 248.48883995242227,
+                    "rmse": 403.83971275102965,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        257.1111111111111,
+                        263.1111111111111,
+                        262.0,
+                        263.48241512841827,
+                        127.18378033074414,
+                        266.1111111111111,
+                        252.88888888888889,
+                        289.96749356785995,
+                        274.77777777777777,
+                        266.1111111111111,
+                        270.0
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.002129070066659855,
+                    "mae_in_sample": 204.38100683120527
+                },
+                "quadratic": {
+                    "r_squared": 0.03440041917452763,
+                    "mae_in_sample": 220.9189772448951
+                },
+                "threshold": {
+                    "r_squared": 0.01574604560509396,
+                    "mae_in_sample": 206.41666666666666
+                },
+                "saturation": {
+                    "r_squared": 0.03340041907376279,
+                    "mae_in_sample": 201.7057737090069
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 276.07331281518304,
+                "rmse": 415.0345893792,
+                "mean_model_disagreement": 76.5694792014898,
+                "median_model_disagreement": 25.606305183845908,
+                "predictions": [
+                    -29.648666434876496,
+                    216.940351654606,
+                    329.1472785499456,
+                    291.9877760315447,
+                    125.07396357506529,
+                    294.4694895034127,
+                    151.57027469164544,
+                    315.61641546538766,
+                    302.4123513161528,
+                    290.7027664502601,
+                    219.5255838275384
+                ],
+                "actuals": [
+                    188,
+                    134,
+                    144,
+                    135,
+                    1360,
+                    107,
+                    226,
+                    23,
+                    29,
+                    107,
+                    72
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.03774987021468247,
+                        "quadratic": 0.17862295428914884,
+                        "threshold": 0.5338780548256299,
+                        "saturation": 0.24974912067053878
+                    },
+                    {
+                        "linear": 0.037827961679644646,
+                        "quadratic": 0.1784281036238127,
+                        "threshold": 0.5338483670180594,
+                        "saturation": 0.24989556767848325
+                    },
+                    {
+                        "linear": 0.037822369463950935,
+                        "quadratic": 0.17841182617311294,
+                        "threshold": 0.5338634224632456,
+                        "saturation": 0.2499023818996905
+                    },
+                    {
+                        "linear": 0.03790545525505121,
+                        "quadratic": 0.17813708104927253,
+                        "threshold": 0.5340284255451823,
+                        "saturation": 0.24992903815049394
+                    },
+                    {
+                        "linear": 0.08284177427039782,
+                        "quadratic": 0.19343020942567837,
+                        "threshold": 0.47266248827376073,
+                        "saturation": 0.2510655280301631
+                    },
+                    {
+                        "linear": 0.0379488228328147,
+                        "quadratic": 0.17812668788232208,
+                        "threshold": 0.5340024871430002,
+                        "saturation": 0.249922002141863
+                    },
+                    {
+                        "linear": 0.037793729629764725,
+                        "quadratic": 0.17810523348760748,
+                        "threshold": 0.5342540272213341,
+                        "saturation": 0.2498470096612938
+                    },
+                    {
+                        "linear": 0.03759563980048779,
+                        "quadratic": 0.17861547546611128,
+                        "threshold": 0.5339890706169951,
+                        "saturation": 0.24979981411640584
+                    },
+                    {
+                        "linear": 0.03801243953026178,
+                        "quadratic": 0.17812681210547734,
+                        "threshold": 0.5339388629925582,
+                        "saturation": 0.24992188537170276
+                    },
+                    {
+                        "linear": 0.037950018602328134,
+                        "quadratic": 0.17813722873391863,
+                        "threshold": 0.5339944922596294,
+                        "saturation": 0.24991826040412388
+                    },
+                    {
+                        "linear": 0.03787802332488484,
+                        "quadratic": 0.17843711721230177,
+                        "threshold": 0.5338116115580991,
+                        "saturation": 0.2498732479047144
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    167.3766978166826,
+                    203.65137704762773,
+                    203.65137704762773,
+                    257.2718103147987,
+                    257.2718103147987,
+                    255.1668062854039,
+                    248.29841793619804,
+                    174.82424057779795,
+                    248.29841793619804,
+                    248.29841793619804,
+                    260.8906267866672
+                ],
+                "mae": 204.245725794276,
+                "rmse": 355.3529241201387,
+                "mean_model_disagreement": 30.5880989385943
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "pair_name": "temperature_vs_initial_ir",
+            "predictor": "Account Temperature",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2544,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0913,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1056,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.93,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9177,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9167,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8908,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.7831,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8908,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8851,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0778,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.12176018536462528,
+                "quadratic": 0.17608237193738244,
+                "threshold": 0.3119157535317542,
+                "saturation": 0.39024168916623814
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 5,
+                        "winner_share": 0.001,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.22816752406500962,
+                            "median": 0.20614798182042526,
+                            "p025": 0.0009291267596236914,
+                            "p975": 0.6254321754170998
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.516262014488884,
+                            "median": 9.767602935963879,
+                            "p025": 3.4468009826389876,
+                            "p975": 15.122651145087675
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 881,
+                        "winner_share": 0.1762,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.501027808844796,
+                            "median": 0.5567111593268871,
+                            "p025": 0.012321158877385417,
+                            "p975": 0.933457123169612
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.963005610819363,
+                            "median": 7.024943832228117,
+                            "p025": 2.640454078315424,
+                            "p975": 11.26091124514676
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 1761,
+                        "winner_share": 0.3522,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.4999258266489635,
+                            "median": 0.5120279075219756,
+                            "p025": 0.00584461778777736,
+                            "p975": 0.9514685967556361
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.133346316881673,
+                            "median": 6.180701010101009,
+                            "p025": 2.0363332386363635,
+                            "p975": 10.156948909090906
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 2353,
+                        "winner_share": 0.4706,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5783265672908533,
+                            "median": 0.6465796995880413,
+                            "p025": 0.012466464929530513,
+                            "p975": 0.9571207764331023
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 5.517567632585427,
+                            "median": 5.437387335262679,
+                            "p025": 1.7921363636363654,
+                            "p975": 9.690302694905313
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 13.626260005978882,
+                    "rmse": 17.507817816695393,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        0.534557392324956,
+                        16.45299036643751,
+                        15.933709141036879,
+                        25.50462724147767,
+                        28.09099723719286,
+                        27.015078531785697,
+                        28.327315935887093,
+                        20.548490694961327,
+                        24.34811069322067,
+                        27.3093820716744,
+                        15.676200946342426
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 18.69550993978134,
+                    "rmse": 25.55106087826348,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        80.98499257510775,
+                        8.548004834066433,
+                        9.342822732838158,
+                        20.273428981451275,
+                        24.38525757350635,
+                        23.16116886840075,
+                        27.24603543513274,
+                        23.886127220950613,
+                        23.221048786959102,
+                        26.983112830923176,
+                        5.90748335211299
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 12.28615303030303,
+                    "rmse": 16.714162999802056,
+                    "winner_count": 5,
+                    "winner_share": 0.45454545454545453,
+                    "predictions": [
+                        14.683016666666667,
+                        14.550733333333334,
+                        14.828516666666665,
+                        14.503649999999999,
+                        16.9739,
+                        15.42375,
+                        41.9697,
+                        27.008466666666667,
+                        14.885925,
+                        38.92766666666667,
+                        16.853525
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 10.004481894687297,
+                    "rmse": 14.345746397161346,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        18.011880548762946,
+                        16.35404065223515,
+                        16.54574260386206,
+                        18.427503175424327,
+                        20.67948736652732,
+                        19.72708148984688,
+                        21.391536336934543,
+                        28.125709052547073,
+                        15.946669111661606,
+                        21.102925343896104,
+                        15.211486519457864
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.18709793642902306,
+                    "mae_in_sample": 10.831564772617762
+                },
+                "quadratic": {
+                    "r_squared": 0.46296459256489364,
+                    "mae_in_sample": 9.782527947060716
+                },
+                "threshold": {
+                    "r_squared": 0.41637916514721574,
+                    "mae_in_sample": 8.60067792207792
+                },
+                "saturation": {
+                    "r_squared": 0.6439216645421542,
+                    "mae_in_sample": 6.090853282864509
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 12.427585113008243,
+                "rmse": 15.976377220290955,
+                "mean_model_disagreement": 6.59845568013933,
+                "median_model_disagreement": 3.752094480680254,
+                "predictions": [
+                    31.152102759079025,
+                    14.226915892625396,
+                    14.508123812706176,
+                    18.51186866628717,
+                    21.288353101063283,
+                    20.079120159393323,
+                    29.901575111415944,
+                    25.665176567621575,
+                    17.96985090737171,
+                    28.409589283229522,
+                    13.791205657052728
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.10933415692286619,
+                        "quadratic": 0.2536141912663874,
+                        "threshold": 0.27630576309900956,
+                        "saturation": 0.36074588871173696
+                    },
+                    {
+                        "linear": 0.11543700404116498,
+                        "quadratic": 0.2065727962605266,
+                        "threshold": 0.2917043401229072,
+                        "saturation": 0.3862858595754012
+                    },
+                    {
+                        "linear": 0.1164917123924054,
+                        "quadratic": 0.20375698150512342,
+                        "threshold": 0.2903967051075814,
+                        "saturation": 0.3893546009948897
+                    },
+                    {
+                        "linear": 0.12119261653619906,
+                        "quadratic": 0.20005143780150478,
+                        "threshold": 0.29119586099204475,
+                        "saturation": 0.38756008467025144
+                    },
+                    {
+                        "linear": 0.12314868448828632,
+                        "quadratic": 0.2045682809431288,
+                        "threshold": 0.2865766994223107,
+                        "saturation": 0.3857063351462742
+                    },
+                    {
+                        "linear": 0.12223167744606964,
+                        "quadratic": 0.20289993013711072,
+                        "threshold": 0.28711744057370087,
+                        "saturation": 0.38775095184311875
+                    },
+                    {
+                        "linear": 0.11576008294997432,
+                        "quadratic": 0.19544456660975992,
+                        "threshold": 0.3189265291731906,
+                        "saturation": 0.36986882126707527
+                    },
+                    {
+                        "linear": 0.16060557014199295,
+                        "quadratic": 0.21469352615736428,
+                        "threshold": 0.29839383277086806,
+                        "saturation": 0.3263070709297748
+                    },
+                    {
+                        "linear": 0.11596542155748842,
+                        "quadratic": 0.18514145671712678,
+                        "threshold": 0.28082566333309184,
+                        "saturation": 0.41806745839229303
+                    },
+                    {
+                        "linear": 0.11402924683844119,
+                        "quadratic": 0.19406784503049174,
+                        "threshold": 0.30619187904705897,
+                        "saturation": 0.3857110290840081
+                    },
+                    {
+                        "linear": 0.11415654734395066,
+                        "quadratic": 0.2084293101168037,
+                        "threshold": 0.2837301988569881,
+                        "saturation": 0.3936839436822576
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    16.290115896547928,
+                    14.849656573049609,
+                    14.804156042995583,
+                    18.255147978935362,
+                    18.853903843692162,
+                    18.906370232273982,
+                    26.874934795166652,
+                    47.05863933324126,
+                    26.874934795166652,
+                    27.304399259758547,
+                    14.924241249172256
+                ],
+                "mae": 7.408667637522661,
+                "rmse": 9.514846728320581,
+                "mean_model_disagreement": 4.592845086958411
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "pair_name": "temperature_vs_initial_reach",
+            "predictor": "Account Temperature",
+            "outcome": "Initial Reach",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2544,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0913,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1056,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.93,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9177,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9167,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8908,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.7831,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8908,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8851,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0778,
+                    "initial_value": 27,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.018648341703667512,
+                "quadratic": 0.09882995078084758,
+                "threshold": 0.7591022051135717,
+                "saturation": 0.12341950240191307
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": {
+                "status": "ok",
+                "n": 11,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 10,
+                        "winner_share": 0.002,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.09898152015794381,
+                            "median": 0.03090038373288967,
+                            "p025": 9.231311137211929e-05,
+                            "p975": 0.7030276400152793
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 144.25954929807935,
+                            "median": 154.15548977335118,
+                            "p025": 7.597785628923393,
+                            "p975": 358.98109670254775
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 465,
+                        "winner_share": 0.093,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.18347109801523628,
+                            "median": 0.11275414109827775,
+                            "p025": 0.01449395971036869,
+                            "p975": 0.7588773915498761
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 139.09240443300558,
+                            "median": 154.19344711825704,
+                            "p025": 6.717607002589437,
+                            "p975": 335.15561721832836
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 3929,
+                        "winner_share": 0.7858,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.23660036970235732,
+                            "median": 0.17418670725467372,
+                            "p025": 0.008696529574860487,
+                            "p975": 0.8079104633314181
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 121.65941223665223,
+                            "median": 140.46731601731602,
+                            "p025": 6.493290043290044,
+                            "p975": 275.6763636363636
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 596,
+                        "winner_share": 0.1192,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.14545606882659695,
+                            "median": 0.07180249602171207,
+                            "p025": 0.012937562010797935,
+                            "p975": 0.7650770406367858
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 138.1454108515764,
+                            "median": 148.6232522265986,
+                            "p025": 6.65045480279415,
+                            "p975": 343.57575757575756
+                        }
+                    }
+                }
+            },
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 179.52434859922596,
+                    "rmse": 307.07636180046705,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        61.261344548769216,
+                        117.20135619616406,
+                        111.4482162253255,
+                        159.81051765317397,
+                        50.2006898868831,
+                        167.6640889279056,
+                        158.23068623792585,
+                        262.60058427468636,
+                        182.2104695491613,
+                        181.75283895984904,
+                        123.77248347879777
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 263.61814128652446,
+                    "rmse": 378.77908169193535,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        -633.8022227871643,
+                        165.96247769499178,
+                        150.9386291048654,
+                        194.59352415381682,
+                        52.668321192922406,
+                        193.91944344750755,
+                        164.343209572756,
+                        285.72888562161125,
+                        188.59888420318612,
+                        183.59196854818174,
+                        181.6750493561226
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 188.2969696969697,
+                    "rmse": 314.063037888378,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        48.5,
+                        52.25,
+                        49.25,
+                        208.16666666666666,
+                        59.5,
+                        242.8,
+                        215.4,
+                        247.8,
+                        247.4,
+                        243.2,
+                        57.5
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 194.79098047970766,
+                    "rmse": 306.9024522539096,
+                    "winner_count": 5,
+                    "winner_share": 0.45454545454545453,
+                    "predictions": [
+                        159.22222222222223,
+                        160.88888888888889,
+                        159.55555555555554,
+                        159.80985326159072,
+                        56.561300895997235,
+                        167.4480197413876,
+                        158.1747835479473,
+                        215.4280683567775,
+                        180.10084573319298,
+                        179.7611937388911,
+                        163.22222222222223
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.01664453331180049,
+                    "mae_in_sample": 154.00993079654484
+                },
+                "quadratic": {
+                    "r_squared": 0.043397105046873885,
+                    "mae_in_sample": 165.50550829045002
+                },
+                "threshold": {
+                    "r_squared": 0.08231901543844722,
+                    "mae_in_sample": 146.66060606060606
+                },
+                "saturation": {
+                    "r_squared": 0.016449456021653708,
+                    "mae_in_sample": 153.93040745738654
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 192.65899901020057,
+                "rmse": 312.50539235166275,
+                "mean_model_disagreement": 45.33439713243932,
+                "median_model_disagreement": 27.508435760290784,
+                "predictions": [
+                    -8.246568909507262,
+                    78.7403021214632,
+                    74.64174687903692,
+                    199.78905201815073,
+                    57.35620104574236,
+                    226.9024964825703,
+                    201.92061966812085,
+                    247.9842985789762,
+                    231.68200020855184,
+                    227.95869735917162,
+                    84.73940793239989
+                ],
+                "actuals": [
+                    63,
+                    48,
+                    60,
+                    59,
+                    987,
+                    35,
+                    172,
+                    10,
+                    12,
+                    33,
+                    27
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.01942865616146796,
+                        "quadratic": 0.10368270024346184,
+                        "threshold": 0.7527181574916346,
+                        "saturation": 0.12417048610343556
+                    },
+                    {
+                        "linear": 0.01957310161061261,
+                        "quadratic": 0.10301521671289635,
+                        "threshold": 0.7531018030289763,
+                        "saturation": 0.12430987864751475
+                    },
+                    {
+                        "linear": 0.019529408588882656,
+                        "quadratic": 0.10294900829263573,
+                        "threshold": 0.7532458028928417,
+                        "saturation": 0.12427578022563976
+                    },
+                    {
+                        "linear": 0.01989882755579426,
+                        "quadratic": 0.10267300737044169,
+                        "threshold": 0.7528999302140996,
+                        "saturation": 0.1245282348596644
+                    },
+                    {
+                        "linear": 0.0795622051213575,
+                        "quadratic": 0.13732500971763809,
+                        "threshold": 0.6246191930996079,
+                        "saturation": 0.15849359206139652
+                    },
+                    {
+                        "linear": 0.019967169164887933,
+                        "quadratic": 0.10261071410091238,
+                        "threshold": 0.7529186435010371,
+                        "saturation": 0.12450347323316255
+                    },
+                    {
+                        "linear": 0.01965223018780296,
+                        "quadratic": 0.10261737584502709,
+                        "threshold": 0.7533697989941892,
+                        "saturation": 0.1243605949729808
+                    },
+                    {
+                        "linear": 0.019394132221246956,
+                        "quadratic": 0.10365240749811415,
+                        "threshold": 0.7523341986851072,
+                        "saturation": 0.12461926159553173
+                    },
+                    {
+                        "linear": 0.019941517665958846,
+                        "quadratic": 0.10265494002215836,
+                        "threshold": 0.7528581940933938,
+                        "saturation": 0.124545348218489
+                    },
+                    {
+                        "linear": 0.019886173999233682,
+                        "quadratic": 0.10266159551349115,
+                        "threshold": 0.7529243814314833,
+                        "saturation": 0.12452784905579191
+                    },
+                    {
+                        "linear": 0.01963677067145809,
+                        "quadratic": 0.10303091229844047,
+                        "threshold": 0.7530049856862213,
+                        "saturation": 0.12432733134388015
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    45.24428619611793,
+                    67.9778203729402,
+                    66.50562915145537,
+                    77.64876966848465,
+                    196.86535941107638,
+                    196.87955577357093,
+                    197.07666507688626,
+                    194.37354290989384,
+                    197.07666507688626,
+                    197.0759454591709,
+                    69.27576090351825
+                ],
+                "mae": 146.8891553441466,
+                "rmse": 260.9782626941072,
+                "mean_model_disagreement": 26.949432497866024
+            }
+        }
+    }
+}

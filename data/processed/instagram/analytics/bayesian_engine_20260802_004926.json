@@ -1,0 +1,136 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T00:49:26.300741",
+        "engine": "bayesian_engine_v0.1",
+        "source": "model_ensemble_20260802_001242.json",
+        "description": "Actualización probabilística de confianza entre modelos."
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "pair_name": "eg_3_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.1818,
+                "quadratic": 0.2727,
+                "threshold": 0.2727,
+                "saturation": 0.2727
+            },
+            "most_likely_model": "quadratic",
+            "posterior_confidence": 0.2727,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "pair_name": "eg_5_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.1818,
+                "quadratic": 0.0909,
+                "threshold": 0.5454,
+                "saturation": 0.1819
+            },
+            "most_likely_model": "threshold",
+            "posterior_confidence": 0.5454,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "pair_name": "eg_7d_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.3636,
+                "quadratic": 0.0909,
+                "threshold": 0.3636,
+                "saturation": 0.1818
+            },
+            "most_likely_model": "linear",
+            "posterior_confidence": 0.3636,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "pair_name": "eg_5_vs_initial_reach",
+            "posterior_probabilities": {
+                "linear": 0.0,
+                "quadratic": 0.0909,
+                "threshold": 0.3636,
+                "saturation": 0.5455
+            },
+            "most_likely_model": "saturation",
+            "posterior_confidence": 0.5455,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "pair_name": "eg_5_vs_initial_views",
+            "posterior_probabilities": {
+                "linear": 0.6364,
+                "quadratic": 0.0,
+                "threshold": 0.2727,
+                "saturation": 0.0909
+            },
+            "most_likely_model": "linear",
+            "posterior_confidence": 0.6364,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "pair_name": "temperature_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.1818,
+                "quadratic": 0.0909,
+                "threshold": 0.4545,
+                "saturation": 0.2728
+            },
+            "most_likely_model": "threshold",
+            "posterior_confidence": 0.4545,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "pair_name": "temperature_vs_initial_reach",
+            "posterior_probabilities": {
+                "linear": 0.0909,
+                "quadratic": 0.0909,
+                "threshold": 0.3636,
+                "saturation": 0.4545
+            },
+            "most_likely_model": "saturation",
+            "posterior_confidence": 0.4545,
+            "method": {
+                "prior": "uniform",
+                "evidence": [
+                    "LOOCV_MAE",
+                    "bootstrap_winner_share"
+                ]
+            }
+        }
+    }
+}

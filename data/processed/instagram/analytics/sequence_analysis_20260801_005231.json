@@ -1,0 +1,1586 @@
+{
+    "snapshot": {
+        "timestamp": "20260801_005231"
+    },
+    "study": {
+        "name": "Instagram Reel performance according to temporal context",
+        "window": [
+            "R-3",
+            "R-2",
+            "R-1",
+            "R",
+            "R+1",
+            "R+2",
+            "R+3"
+        ],
+        "format_categories": [
+            "REELS",
+            "CAROUSEL",
+            "IMAGE",
+            "OTHER"
+        ],
+        "methodology": "Exploratory observational analysis of Reel performance according to preceding and following content.",
+        "causality_warning": "Differences do not establish causality."
+    },
+    "context_statistics": {
+        "R-3": {
+            "IMAGE": {
+                "sample_size": 1,
+                "average_reach": 1438,
+                "median_reach": 1438,
+                "average_interactions": 24,
+                "average_interaction_rate_by_reach": 1.67
+            },
+            "CAROUSEL": {
+                "sample_size": 5,
+                "average_reach": 475.2,
+                "median_reach": 234,
+                "average_interactions": 21.6,
+                "average_interaction_rate_by_reach": 7.61
+            },
+            "REELS": {
+                "sample_size": 6,
+                "average_reach": 479.33,
+                "median_reach": 298.5,
+                "average_interactions": 34.33,
+                "average_interaction_rate_by_reach": 9.25
+            }
+        },
+        "R-2": {
+            "CAROUSEL": {
+                "sample_size": 5,
+                "average_reach": 964.6,
+                "median_reach": 1438,
+                "average_interactions": 33.2,
+                "average_interaction_rate_by_reach": 4.95
+            },
+            "REELS": {
+                "sample_size": 7,
+                "average_reach": 266.71,
+                "median_reach": 246,
+                "average_interactions": 24.57,
+                "average_interaction_rate_by_reach": 10.07
+            }
+        },
+        "R-1": {
+            "CAROUSEL": {
+                "sample_size": 5,
+                "average_reach": 754.8,
+                "median_reach": 348,
+                "average_interactions": 25.6,
+                "average_interaction_rate_by_reach": 6.45
+            },
+            "REELS": {
+                "sample_size": 7,
+                "average_reach": 416.57,
+                "median_reach": 204,
+                "average_interactions": 30,
+                "average_interaction_rate_by_reach": 9.0
+            }
+        },
+        "R+1": {
+            "REELS": {
+                "sample_size": 7,
+                "average_reach": 631.57,
+                "median_reach": 348,
+                "average_interactions": 33.57,
+                "average_interaction_rate_by_reach": 7.43
+            },
+            "CAROUSEL": {
+                "sample_size": 5,
+                "average_reach": 453.8,
+                "median_reach": 204,
+                "average_interactions": 20.6,
+                "average_interaction_rate_by_reach": 8.64
+            }
+        },
+        "R+2": {
+            "REELS": {
+                "sample_size": 7,
+                "average_reach": 772.86,
+                "median_reach": 348,
+                "average_interactions": 31,
+                "average_interaction_rate_by_reach": 6.15
+            },
+            "CAROUSEL": {
+                "sample_size": 5,
+                "average_reach": 256,
+                "median_reach": 246,
+                "average_interactions": 24.2,
+                "average_interaction_rate_by_reach": 10.44
+            }
+        },
+        "R+3": {
+            "CAROUSEL": {
+                "sample_size": 6,
+                "average_reach": 666.17,
+                "median_reach": 346.0,
+                "average_interactions": 26.33,
+                "average_interaction_rate_by_reach": 8.29
+            },
+            "REELS": {
+                "sample_size": 6,
+                "average_reach": 448.83,
+                "median_reach": 226.5,
+                "average_interactions": 30,
+                "average_interaction_rate_by_reach": 7.58
+            }
+        }
+    },
+    "previous_sequence_statistics": {
+        "IMAGE → CAROUSEL → CAROUSEL": {
+            "sample_size": 1,
+            "average_reach": 1438,
+            "median_reach": 1438,
+            "average_interaction_rate_by_reach": 1.67
+        },
+        "CAROUSEL → CAROUSEL → REELS": {
+            "sample_size": 1,
+            "average_reach": 199,
+            "median_reach": 199,
+            "average_interaction_rate_by_reach": 7.04
+        },
+        "CAROUSEL → REELS → REELS": {
+            "sample_size": 2,
+            "average_reach": 219,
+            "median_reach": 219.0,
+            "average_interaction_rate_by_reach": 9.35
+        },
+        "REELS → REELS → CAROUSEL": {
+            "sample_size": 2,
+            "average_reach": 298.5,
+            "median_reach": 298.5,
+            "average_interaction_rate_by_reach": 9.13
+        },
+        "REELS → CAROUSEL → REELS": {
+            "sample_size": 2,
+            "average_reach": 846.5,
+            "median_reach": 846.5,
+            "average_interaction_rate_by_reach": 7.15
+        },
+        "REELS → REELS → REELS": {
+            "sample_size": 2,
+            "average_reach": 293,
+            "median_reach": 293.0,
+            "average_interaction_rate_by_reach": 11.46
+        },
+        "CAROUSEL → CAROUSEL → CAROUSEL": {
+            "sample_size": 1,
+            "average_reach": 1493,
+            "median_reach": 1493,
+            "average_interaction_rate_by_reach": 1.74
+        },
+        "CAROUSEL → REELS → CAROUSEL": {
+            "sample_size": 1,
+            "average_reach": 246,
+            "median_reach": 246,
+            "average_interaction_rate_by_reach": 10.57
+        }
+    },
+    "records": [
+        {
+            "reel": {
+                "post_id": "18025424555829862",
+                "timestamp": "2026-06-27T16:20:04+0000",
+                "format": "REELS",
+                "reach": 1438,
+                "views": 1789,
+                "likes": 22,
+                "comments": 0,
+                "saved": 0,
+                "shares": 0,
+                "total_interactions": 24,
+                "interaction_rate_by_reach": 1.67,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "17934596643275353",
+                    "timestamp": "2026-06-21T01:22:08+0000",
+                    "format": "IMAGE",
+                    "reach": 94,
+                    "views": 266,
+                    "likes": 12,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 12.77,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18101678624156260",
+                    "timestamp": "2026-06-21T15:15:01+0000",
+                    "format": "CAROUSEL",
+                    "reach": 96,
+                    "views": 336,
+                    "likes": 21,
+                    "comments": 1,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 22,
+                    "interaction_rate_by_reach": 22.92,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18458710993116375",
+                    "timestamp": "2026-06-26T01:15:26+0000",
+                    "format": "CAROUSEL",
+                    "reach": 88,
+                    "views": 284,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 18.18,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18097078631459027",
+                    "timestamp": "2026-06-27T16:36:54+0000",
+                    "format": "REELS",
+                    "reach": 199,
+                    "views": 279,
+                    "likes": 12,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 14,
+                    "interaction_rate_by_reach": 7.04,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18083984966447408",
+                    "timestamp": "2026-06-27T16:41:53+0000",
+                    "format": "REELS",
+                    "reach": 204,
+                    "views": 275,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 5.88,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18127155814651053",
+                    "timestamp": "2026-06-28T11:21:47+0000",
+                    "format": "CAROUSEL",
+                    "reach": 117,
+                    "views": 436,
+                    "likes": 26,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 24.79,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "IMAGE",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 1.67
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18097078631459027",
+                "timestamp": "2026-06-27T16:36:54+0000",
+                "format": "REELS",
+                "reach": 199,
+                "views": 279,
+                "likes": 12,
+                "comments": 0,
+                "saved": 0,
+                "shares": 0,
+                "total_interactions": 14,
+                "interaction_rate_by_reach": 7.04,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18101678624156260",
+                    "timestamp": "2026-06-21T15:15:01+0000",
+                    "format": "CAROUSEL",
+                    "reach": 96,
+                    "views": 336,
+                    "likes": 21,
+                    "comments": 1,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 22,
+                    "interaction_rate_by_reach": 22.92,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18458710993116375",
+                    "timestamp": "2026-06-26T01:15:26+0000",
+                    "format": "CAROUSEL",
+                    "reach": 88,
+                    "views": 284,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 18.18,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18025424555829862",
+                    "timestamp": "2026-06-27T16:20:04+0000",
+                    "format": "REELS",
+                    "reach": 1438,
+                    "views": 1789,
+                    "likes": 22,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 24,
+                    "interaction_rate_by_reach": 1.67,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18083984966447408",
+                    "timestamp": "2026-06-27T16:41:53+0000",
+                    "format": "REELS",
+                    "reach": 204,
+                    "views": 275,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 5.88,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18127155814651053",
+                    "timestamp": "2026-06-28T11:21:47+0000",
+                    "format": "CAROUSEL",
+                    "reach": 117,
+                    "views": 436,
+                    "likes": 26,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 24.79,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18067433102415693",
+                    "timestamp": "2026-06-29T13:39:29+0000",
+                    "format": "REELS",
+                    "reach": 249,
+                    "views": 387,
+                    "likes": 25,
+                    "comments": 0,
+                    "saved": 3,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 11.65,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "CAROUSEL",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 7.04
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18083984966447408",
+                "timestamp": "2026-06-27T16:41:53+0000",
+                "format": "REELS",
+                "reach": 204,
+                "views": 275,
+                "likes": 10,
+                "comments": 0,
+                "saved": 0,
+                "shares": 0,
+                "total_interactions": 12,
+                "interaction_rate_by_reach": 5.88,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18458710993116375",
+                    "timestamp": "2026-06-26T01:15:26+0000",
+                    "format": "CAROUSEL",
+                    "reach": 88,
+                    "views": 284,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 18.18,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18025424555829862",
+                    "timestamp": "2026-06-27T16:20:04+0000",
+                    "format": "REELS",
+                    "reach": 1438,
+                    "views": 1789,
+                    "likes": 22,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 24,
+                    "interaction_rate_by_reach": 1.67,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18097078631459027",
+                    "timestamp": "2026-06-27T16:36:54+0000",
+                    "format": "REELS",
+                    "reach": 199,
+                    "views": 279,
+                    "likes": 12,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 14,
+                    "interaction_rate_by_reach": 7.04,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18127155814651053",
+                    "timestamp": "2026-06-28T11:21:47+0000",
+                    "format": "CAROUSEL",
+                    "reach": 117,
+                    "views": 436,
+                    "likes": 26,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 24.79,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18067433102415693",
+                    "timestamp": "2026-06-29T13:39:29+0000",
+                    "format": "REELS",
+                    "reach": 249,
+                    "views": 387,
+                    "likes": 25,
+                    "comments": 0,
+                    "saved": 3,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 11.65,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18107211718972922",
+                    "timestamp": "2026-07-01T11:10:17+0000",
+                    "format": "REELS",
+                    "reach": 186,
+                    "views": 273,
+                    "likes": 13,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 8.6,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 5.88
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18067433102415693",
+                "timestamp": "2026-06-29T13:39:29+0000",
+                "format": "REELS",
+                "reach": 249,
+                "views": 387,
+                "likes": 25,
+                "comments": 0,
+                "saved": 3,
+                "shares": 0,
+                "total_interactions": 29,
+                "interaction_rate_by_reach": 11.65,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18097078631459027",
+                    "timestamp": "2026-06-27T16:36:54+0000",
+                    "format": "REELS",
+                    "reach": 199,
+                    "views": 279,
+                    "likes": 12,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 14,
+                    "interaction_rate_by_reach": 7.04,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18083984966447408",
+                    "timestamp": "2026-06-27T16:41:53+0000",
+                    "format": "REELS",
+                    "reach": 204,
+                    "views": 275,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 5.88,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18127155814651053",
+                    "timestamp": "2026-06-28T11:21:47+0000",
+                    "format": "CAROUSEL",
+                    "reach": 117,
+                    "views": 436,
+                    "likes": 26,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 24.79,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18107211718972922",
+                    "timestamp": "2026-07-01T11:10:17+0000",
+                    "format": "REELS",
+                    "reach": 186,
+                    "views": 273,
+                    "likes": 13,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 8.6,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18120581164834576",
+                    "timestamp": "2026-07-01T11:42:25+0000",
+                    "format": "CAROUSEL",
+                    "reach": 77,
+                    "views": 279,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 19,
+                    "interaction_rate_by_reach": 24.68,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "format": "REELS",
+                    "reach": 348,
+                    "views": 589,
+                    "likes": 16,
+                    "comments": 1,
+                    "saved": 3,
+                    "shares": 1,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 6.61,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 11.65
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18107211718972922",
+                "timestamp": "2026-07-01T11:10:17+0000",
+                "format": "REELS",
+                "reach": 186,
+                "views": 273,
+                "likes": 13,
+                "comments": 0,
+                "saved": 1,
+                "shares": 0,
+                "total_interactions": 16,
+                "interaction_rate_by_reach": 8.6,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18083984966447408",
+                    "timestamp": "2026-06-27T16:41:53+0000",
+                    "format": "REELS",
+                    "reach": 204,
+                    "views": 275,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 0,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 5.88,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18127155814651053",
+                    "timestamp": "2026-06-28T11:21:47+0000",
+                    "format": "CAROUSEL",
+                    "reach": 117,
+                    "views": 436,
+                    "likes": 26,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 24.79,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18067433102415693",
+                    "timestamp": "2026-06-29T13:39:29+0000",
+                    "format": "REELS",
+                    "reach": 249,
+                    "views": 387,
+                    "likes": 25,
+                    "comments": 0,
+                    "saved": 3,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 11.65,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18120581164834576",
+                    "timestamp": "2026-07-01T11:42:25+0000",
+                    "format": "CAROUSEL",
+                    "reach": 77,
+                    "views": 279,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 19,
+                    "interaction_rate_by_reach": 24.68,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "format": "REELS",
+                    "reach": 348,
+                    "views": 589,
+                    "likes": 16,
+                    "comments": 1,
+                    "saved": 3,
+                    "shares": 1,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 6.61,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "17967701021935499",
+                    "timestamp": "2026-07-13T11:25:26+0000",
+                    "format": "REELS",
+                    "reach": 1507,
+                    "views": 1911,
+                    "likes": 71,
+                    "comments": 2,
+                    "saved": 8,
+                    "shares": 2,
+                    "total_interactions": 86,
+                    "interaction_rate_by_reach": 5.71,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 8.6
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17881402041611543",
+                "timestamp": "2026-07-12T19:09:29+0000",
+                "format": "REELS",
+                "reach": 348,
+                "views": 589,
+                "likes": 16,
+                "comments": 1,
+                "saved": 3,
+                "shares": 1,
+                "total_interactions": 23,
+                "interaction_rate_by_reach": 6.61,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18067433102415693",
+                    "timestamp": "2026-06-29T13:39:29+0000",
+                    "format": "REELS",
+                    "reach": 249,
+                    "views": 387,
+                    "likes": 25,
+                    "comments": 0,
+                    "saved": 3,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 11.65,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18107211718972922",
+                    "timestamp": "2026-07-01T11:10:17+0000",
+                    "format": "REELS",
+                    "reach": 186,
+                    "views": 273,
+                    "likes": 13,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 8.6,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18120581164834576",
+                    "timestamp": "2026-07-01T11:42:25+0000",
+                    "format": "CAROUSEL",
+                    "reach": 77,
+                    "views": 279,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 19,
+                    "interaction_rate_by_reach": 24.68,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "17967701021935499",
+                    "timestamp": "2026-07-13T11:25:26+0000",
+                    "format": "REELS",
+                    "reach": 1507,
+                    "views": 1911,
+                    "likes": 71,
+                    "comments": 2,
+                    "saved": 8,
+                    "shares": 2,
+                    "total_interactions": 86,
+                    "interaction_rate_by_reach": 5.71,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18371722144225322",
+                    "timestamp": "2026-07-14T11:23:12+0000",
+                    "format": "REELS",
+                    "reach": 234,
+                    "views": 554,
+                    "likes": 23,
+                    "comments": 2,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 30,
+                    "interaction_rate_by_reach": 12.82,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18143759353540817",
+                    "timestamp": "2026-07-15T11:00:02+0000",
+                    "format": "REELS",
+                    "reach": 446,
+                    "views": 691,
+                    "likes": 26,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 6.5,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 6.61
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17967701021935499",
+                "timestamp": "2026-07-13T11:25:26+0000",
+                "format": "REELS",
+                "reach": 1507,
+                "views": 1911,
+                "likes": 71,
+                "comments": 2,
+                "saved": 8,
+                "shares": 2,
+                "total_interactions": 86,
+                "interaction_rate_by_reach": 5.71,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18107211718972922",
+                    "timestamp": "2026-07-01T11:10:17+0000",
+                    "format": "REELS",
+                    "reach": 186,
+                    "views": 273,
+                    "likes": 13,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 16,
+                    "interaction_rate_by_reach": 8.6,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18120581164834576",
+                    "timestamp": "2026-07-01T11:42:25+0000",
+                    "format": "CAROUSEL",
+                    "reach": 77,
+                    "views": 279,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 19,
+                    "interaction_rate_by_reach": 24.68,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "format": "REELS",
+                    "reach": 348,
+                    "views": 589,
+                    "likes": 16,
+                    "comments": 1,
+                    "saved": 3,
+                    "shares": 1,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 6.61,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18371722144225322",
+                    "timestamp": "2026-07-14T11:23:12+0000",
+                    "format": "REELS",
+                    "reach": 234,
+                    "views": 554,
+                    "likes": 23,
+                    "comments": 2,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 30,
+                    "interaction_rate_by_reach": 12.82,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18143759353540817",
+                    "timestamp": "2026-07-15T11:00:02+0000",
+                    "format": "REELS",
+                    "reach": 446,
+                    "views": 691,
+                    "likes": 26,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 6.5,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18121622737805420",
+                    "timestamp": "2026-07-16T11:00:01+0000",
+                    "format": "REELS",
+                    "reach": 140,
+                    "views": 326,
+                    "likes": 14,
+                    "comments": 5,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 16.43,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "reel_interaction_rate_by_reach": 5.71
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18371722144225322",
+                "timestamp": "2026-07-14T11:23:12+0000",
+                "format": "REELS",
+                "reach": 234,
+                "views": 554,
+                "likes": 23,
+                "comments": 2,
+                "saved": 2,
+                "shares": 0,
+                "total_interactions": 30,
+                "interaction_rate_by_reach": 12.82,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18120581164834576",
+                    "timestamp": "2026-07-01T11:42:25+0000",
+                    "format": "CAROUSEL",
+                    "reach": 77,
+                    "views": 279,
+                    "likes": 16,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 19,
+                    "interaction_rate_by_reach": 24.68,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "format": "REELS",
+                    "reach": 348,
+                    "views": 589,
+                    "likes": 16,
+                    "comments": 1,
+                    "saved": 3,
+                    "shares": 1,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 6.61,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "17967701021935499",
+                    "timestamp": "2026-07-13T11:25:26+0000",
+                    "format": "REELS",
+                    "reach": 1507,
+                    "views": 1911,
+                    "likes": 71,
+                    "comments": 2,
+                    "saved": 8,
+                    "shares": 2,
+                    "total_interactions": 86,
+                    "interaction_rate_by_reach": 5.71,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18143759353540817",
+                    "timestamp": "2026-07-15T11:00:02+0000",
+                    "format": "REELS",
+                    "reach": 446,
+                    "views": 691,
+                    "likes": 26,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 6.5,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18121622737805420",
+                    "timestamp": "2026-07-16T11:00:01+0000",
+                    "format": "REELS",
+                    "reach": 140,
+                    "views": 326,
+                    "likes": 14,
+                    "comments": 5,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 16.43,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18125781514709463",
+                    "timestamp": "2026-07-18T15:31:21+0000",
+                    "format": "CAROUSEL",
+                    "reach": 85,
+                    "views": 341,
+                    "likes": 17,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 20,
+                    "interaction_rate_by_reach": 23.53,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 12.82
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18143759353540817",
+                "timestamp": "2026-07-15T11:00:02+0000",
+                "format": "REELS",
+                "reach": 446,
+                "views": 691,
+                "likes": 26,
+                "comments": 0,
+                "saved": 1,
+                "shares": 0,
+                "total_interactions": 29,
+                "interaction_rate_by_reach": 6.5,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "format": "REELS",
+                    "reach": 348,
+                    "views": 589,
+                    "likes": 16,
+                    "comments": 1,
+                    "saved": 3,
+                    "shares": 1,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 6.61,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "17967701021935499",
+                    "timestamp": "2026-07-13T11:25:26+0000",
+                    "format": "REELS",
+                    "reach": 1507,
+                    "views": 1911,
+                    "likes": 71,
+                    "comments": 2,
+                    "saved": 8,
+                    "shares": 2,
+                    "total_interactions": 86,
+                    "interaction_rate_by_reach": 5.71,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18371722144225322",
+                    "timestamp": "2026-07-14T11:23:12+0000",
+                    "format": "REELS",
+                    "reach": 234,
+                    "views": 554,
+                    "likes": 23,
+                    "comments": 2,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 30,
+                    "interaction_rate_by_reach": 12.82,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18121622737805420",
+                    "timestamp": "2026-07-16T11:00:01+0000",
+                    "format": "REELS",
+                    "reach": 140,
+                    "views": 326,
+                    "likes": 14,
+                    "comments": 5,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 23,
+                    "interaction_rate_by_reach": 16.43,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18125781514709463",
+                    "timestamp": "2026-07-18T15:31:21+0000",
+                    "format": "CAROUSEL",
+                    "reach": 85,
+                    "views": 341,
+                    "likes": 17,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 20,
+                    "interaction_rate_by_reach": 23.53,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18104120821968892",
+                    "timestamp": "2026-07-19T17:19:21+0000",
+                    "format": "CAROUSEL",
+                    "reach": 65,
+                    "views": 225,
+                    "likes": 13,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 17,
+                    "interaction_rate_by_reach": 26.15,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "REELS",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 6.5
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18121622737805420",
+                "timestamp": "2026-07-16T11:00:01+0000",
+                "format": "REELS",
+                "reach": 140,
+                "views": 326,
+                "likes": 14,
+                "comments": 5,
+                "saved": 2,
+                "shares": 0,
+                "total_interactions": 23,
+                "interaction_rate_by_reach": 16.43,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "17967701021935499",
+                    "timestamp": "2026-07-13T11:25:26+0000",
+                    "format": "REELS",
+                    "reach": 1507,
+                    "views": 1911,
+                    "likes": 71,
+                    "comments": 2,
+                    "saved": 8,
+                    "shares": 2,
+                    "total_interactions": 86,
+                    "interaction_rate_by_reach": 5.71,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18371722144225322",
+                    "timestamp": "2026-07-14T11:23:12+0000",
+                    "format": "REELS",
+                    "reach": 234,
+                    "views": 554,
+                    "likes": 23,
+                    "comments": 2,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 30,
+                    "interaction_rate_by_reach": 12.82,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18143759353540817",
+                    "timestamp": "2026-07-15T11:00:02+0000",
+                    "format": "REELS",
+                    "reach": 446,
+                    "views": 691,
+                    "likes": 26,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 29,
+                    "interaction_rate_by_reach": 6.5,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "18125781514709463",
+                    "timestamp": "2026-07-18T15:31:21+0000",
+                    "format": "CAROUSEL",
+                    "reach": 85,
+                    "views": 341,
+                    "likes": 17,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 20,
+                    "interaction_rate_by_reach": 23.53,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18104120821968892",
+                    "timestamp": "2026-07-19T17:19:21+0000",
+                    "format": "CAROUSEL",
+                    "reach": 65,
+                    "views": 225,
+                    "likes": 13,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 17,
+                    "interaction_rate_by_reach": 26.15,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "17980091366878014",
+                    "timestamp": "2026-07-22T13:38:18+0000",
+                    "format": "CAROUSEL",
+                    "reach": 108,
+                    "views": 360,
+                    "likes": 19,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 21,
+                    "interaction_rate_by_reach": 19.44,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "next_sequence": [
+                    "CAROUSEL",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 16.43
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17924163105400464",
+                "timestamp": "2026-07-29T18:43:34+0000",
+                "format": "REELS",
+                "reach": 1493,
+                "views": 2137,
+                "likes": 23,
+                "comments": 1,
+                "saved": 1,
+                "shares": 0,
+                "total_interactions": 26,
+                "interaction_rate_by_reach": 1.74,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "format": "CAROUSEL",
+                    "reach": 60,
+                    "views": 181,
+                    "likes": 6,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 9,
+                    "interaction_rate_by_reach": 15.0,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "format": "CAROUSEL",
+                    "reach": 81,
+                    "views": 197,
+                    "likes": 7,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 10,
+                    "interaction_rate_by_reach": 12.35,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "format": "CAROUSEL",
+                    "reach": 82,
+                    "views": 199,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 14.63,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "format": "CAROUSEL",
+                    "reach": 53,
+                    "views": 161,
+                    "likes": 5,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 7,
+                    "interaction_rate_by_reach": 13.21,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "format": "REELS",
+                    "reach": 246,
+                    "views": 332,
+                    "likes": 21,
+                    "comments": 0,
+                    "saved": 2,
+                    "shares": 0,
+                    "total_interactions": 26,
+                    "interaction_rate_by_reach": 10.57,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "format": "CAROUSEL",
+                    "reach": 63,
+                    "views": 186,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 19.05,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "CAROUSEL",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "next_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 1.74
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18210587605343856",
+                "timestamp": "2026-07-30T16:00:05+0000",
+                "format": "REELS",
+                "reach": 246,
+                "views": 332,
+                "likes": 21,
+                "comments": 0,
+                "saved": 2,
+                "shares": 0,
+                "total_interactions": 26,
+                "interaction_rate_by_reach": 10.57,
+                "insights_status": "available"
+            },
+            "previous": {
+                "r-3": {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "format": "CAROUSEL",
+                    "reach": 82,
+                    "views": 199,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 14.63,
+                    "insights_status": "available"
+                },
+                "r-2": {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "format": "REELS",
+                    "reach": 1493,
+                    "views": 2137,
+                    "likes": 23,
+                    "comments": 1,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 26,
+                    "interaction_rate_by_reach": 1.74,
+                    "insights_status": "available"
+                },
+                "r-1": {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "format": "CAROUSEL",
+                    "reach": 53,
+                    "views": 161,
+                    "likes": 5,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 7,
+                    "interaction_rate_by_reach": 13.21,
+                    "insights_status": "available"
+                }
+            },
+            "next": {
+                "r+1": {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "format": "CAROUSEL",
+                    "reach": 63,
+                    "views": 186,
+                    "likes": 10,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 12,
+                    "interaction_rate_by_reach": 19.05,
+                    "insights_status": "available"
+                },
+                "r+2": {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "format": "CAROUSEL",
+                    "reach": 35,
+                    "views": 102,
+                    "likes": 7,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 10,
+                    "interaction_rate_by_reach": 28.57,
+                    "insights_status": "available"
+                },
+                "r+3": {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "format": "CAROUSEL",
+                    "reach": 33,
+                    "views": 107,
+                    "likes": 6,
+                    "comments": 0,
+                    "saved": 1,
+                    "shares": 0,
+                    "total_interactions": 8,
+                    "interaction_rate_by_reach": 24.24,
+                    "insights_status": "available"
+                }
+            },
+            "study_variables": {
+                "previous_sequence": [
+                    "CAROUSEL",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "next_sequence": [
+                    "CAROUSEL",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "reel_interaction_rate_by_reach": 10.57
+            }
+        }
+    ]
+}

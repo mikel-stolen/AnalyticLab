@@ -1,0 +1,448 @@
+{
+    "snapshot": {
+        "timestamp": "20260730_235027"
+    },
+    "study": {
+        "name": "Relative Instagram Reel performance",
+        "baseline_definition": "Median performance of the three previous available Reels.",
+        "relative_reach_definition": "Current Reel reach divided by baseline Reel reach.",
+        "relative_interaction_rate_definition": "Current interaction rate divided by baseline interaction rate.",
+        "causality_warning": "This is an observational analysis and does not establish causality."
+    },
+    "summary_by_previous_format": {
+        "CAROUSEL": {
+            "sample_size": 4,
+            "median_relative_reach": 1.4632,
+            "median_relative_interaction_rate": 1.3741,
+            "relative_reach_values": [
+                1.2206,
+                1.7059,
+                6.0684,
+                0.4305
+            ],
+            "relative_interaction_rate_values": [
+                1.9799,
+                0.7683,
+                0.1428,
+                2.0826
+            ]
+        },
+        "REELS": {
+            "sample_size": 5,
+            "median_relative_reach": 0.9118,
+            "median_relative_interaction_rate": 1.2227,
+            "relative_reach_values": [
+                0.9118,
+                6.0522,
+                0.6724,
+                1.2816,
+                0.3139
+            ],
+            "relative_interaction_rate_values": [
+                1.2227,
+                0.6634,
+                1.9398,
+                0.9838,
+                2.5266
+            ]
+        }
+    },
+    "records": [
+        {
+            "reel": {
+                "post_id": "18067433102415693",
+                "timestamp": "2026-06-29T13:39:29+0000",
+                "reach": 249,
+                "interaction_rate_by_reach": 11.6466
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18025424555829862",
+                        "timestamp": "2026-06-27T16:20:04+0000",
+                        "reach": 1438,
+                        "interaction_rate_by_reach": 1.669
+                    },
+                    {
+                        "post_id": "18097078631459027",
+                        "timestamp": "2026-06-27T16:36:54+0000",
+                        "reach": 199,
+                        "interaction_rate_by_reach": 7.0352
+                    },
+                    {
+                        "post_id": "18083984966447408",
+                        "timestamp": "2026-06-27T16:41:53+0000",
+                        "reach": 204,
+                        "interaction_rate_by_reach": 5.8824
+                    }
+                ],
+                "baseline_reach": 204,
+                "baseline_interaction_rate_by_reach": 5.8824
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "immediate_previous_format": "CAROUSEL"
+            },
+            "relative_performance": {
+                "relative_reach": 1.2206,
+                "relative_interaction_rate": 1.9799
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18107211718972922",
+                "timestamp": "2026-07-01T11:10:17+0000",
+                "reach": 186,
+                "interaction_rate_by_reach": 8.6022
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18097078631459027",
+                        "timestamp": "2026-06-27T16:36:54+0000",
+                        "reach": 199,
+                        "interaction_rate_by_reach": 7.0352
+                    },
+                    {
+                        "post_id": "18083984966447408",
+                        "timestamp": "2026-06-27T16:41:53+0000",
+                        "reach": 204,
+                        "interaction_rate_by_reach": 5.8824
+                    },
+                    {
+                        "post_id": "18067433102415693",
+                        "timestamp": "2026-06-29T13:39:29+0000",
+                        "reach": 249,
+                        "interaction_rate_by_reach": 11.6466
+                    }
+                ],
+                "baseline_reach": 204,
+                "baseline_interaction_rate_by_reach": 7.0352
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "immediate_previous_format": "REELS"
+            },
+            "relative_performance": {
+                "relative_reach": 0.9118,
+                "relative_interaction_rate": 1.2227
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17881402041611543",
+                "timestamp": "2026-07-12T19:09:29+0000",
+                "reach": 348,
+                "interaction_rate_by_reach": 6.6092
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18083984966447408",
+                        "timestamp": "2026-06-27T16:41:53+0000",
+                        "reach": 204,
+                        "interaction_rate_by_reach": 5.8824
+                    },
+                    {
+                        "post_id": "18067433102415693",
+                        "timestamp": "2026-06-29T13:39:29+0000",
+                        "reach": 249,
+                        "interaction_rate_by_reach": 11.6466
+                    },
+                    {
+                        "post_id": "18107211718972922",
+                        "timestamp": "2026-07-01T11:10:17+0000",
+                        "reach": 186,
+                        "interaction_rate_by_reach": 8.6022
+                    }
+                ],
+                "baseline_reach": 204,
+                "baseline_interaction_rate_by_reach": 8.6022
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "immediate_previous_format": "CAROUSEL"
+            },
+            "relative_performance": {
+                "relative_reach": 1.7059,
+                "relative_interaction_rate": 0.7683
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17967701021935499",
+                "timestamp": "2026-07-13T11:25:26+0000",
+                "reach": 1507,
+                "interaction_rate_by_reach": 5.7067
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18067433102415693",
+                        "timestamp": "2026-06-29T13:39:29+0000",
+                        "reach": 249,
+                        "interaction_rate_by_reach": 11.6466
+                    },
+                    {
+                        "post_id": "18107211718972922",
+                        "timestamp": "2026-07-01T11:10:17+0000",
+                        "reach": 186,
+                        "interaction_rate_by_reach": 8.6022
+                    },
+                    {
+                        "post_id": "17881402041611543",
+                        "timestamp": "2026-07-12T19:09:29+0000",
+                        "reach": 348,
+                        "interaction_rate_by_reach": 6.6092
+                    }
+                ],
+                "baseline_reach": 249,
+                "baseline_interaction_rate_by_reach": 8.6022
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "CAROUSEL",
+                    "REELS"
+                ],
+                "immediate_previous_format": "REELS"
+            },
+            "relative_performance": {
+                "relative_reach": 6.0522,
+                "relative_interaction_rate": 0.6634
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18371722144225322",
+                "timestamp": "2026-07-14T11:23:12+0000",
+                "reach": 234,
+                "interaction_rate_by_reach": 12.8205
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18107211718972922",
+                        "timestamp": "2026-07-01T11:10:17+0000",
+                        "reach": 186,
+                        "interaction_rate_by_reach": 8.6022
+                    },
+                    {
+                        "post_id": "17881402041611543",
+                        "timestamp": "2026-07-12T19:09:29+0000",
+                        "reach": 348,
+                        "interaction_rate_by_reach": 6.6092
+                    },
+                    {
+                        "post_id": "17967701021935499",
+                        "timestamp": "2026-07-13T11:25:26+0000",
+                        "reach": 1507,
+                        "interaction_rate_by_reach": 5.7067
+                    }
+                ],
+                "baseline_reach": 348,
+                "baseline_interaction_rate_by_reach": 6.6092
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "CAROUSEL",
+                    "REELS",
+                    "REELS"
+                ],
+                "immediate_previous_format": "REELS"
+            },
+            "relative_performance": {
+                "relative_reach": 0.6724,
+                "relative_interaction_rate": 1.9398
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18143759353540817",
+                "timestamp": "2026-07-15T11:00:02+0000",
+                "reach": 446,
+                "interaction_rate_by_reach": 6.5022
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "17881402041611543",
+                        "timestamp": "2026-07-12T19:09:29+0000",
+                        "reach": 348,
+                        "interaction_rate_by_reach": 6.6092
+                    },
+                    {
+                        "post_id": "17967701021935499",
+                        "timestamp": "2026-07-13T11:25:26+0000",
+                        "reach": 1507,
+                        "interaction_rate_by_reach": 5.7067
+                    },
+                    {
+                        "post_id": "18371722144225322",
+                        "timestamp": "2026-07-14T11:23:12+0000",
+                        "reach": 234,
+                        "interaction_rate_by_reach": 12.8205
+                    }
+                ],
+                "baseline_reach": 348,
+                "baseline_interaction_rate_by_reach": 6.6092
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "immediate_previous_format": "REELS"
+            },
+            "relative_performance": {
+                "relative_reach": 1.2816,
+                "relative_interaction_rate": 0.9838
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18121622737805420",
+                "timestamp": "2026-07-16T11:00:01+0000",
+                "reach": 140,
+                "interaction_rate_by_reach": 16.4286
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "17967701021935499",
+                        "timestamp": "2026-07-13T11:25:26+0000",
+                        "reach": 1507,
+                        "interaction_rate_by_reach": 5.7067
+                    },
+                    {
+                        "post_id": "18371722144225322",
+                        "timestamp": "2026-07-14T11:23:12+0000",
+                        "reach": 234,
+                        "interaction_rate_by_reach": 12.8205
+                    },
+                    {
+                        "post_id": "18143759353540817",
+                        "timestamp": "2026-07-15T11:00:02+0000",
+                        "reach": 446,
+                        "interaction_rate_by_reach": 6.5022
+                    }
+                ],
+                "baseline_reach": 446,
+                "baseline_interaction_rate_by_reach": 6.5022
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "REELS",
+                    "REELS",
+                    "REELS"
+                ],
+                "immediate_previous_format": "REELS"
+            },
+            "relative_performance": {
+                "relative_reach": 0.3139,
+                "relative_interaction_rate": 2.5266
+            }
+        },
+        {
+            "reel": {
+                "post_id": "17924163105400464",
+                "timestamp": "2026-07-29T18:43:34+0000",
+                "reach": 1420,
+                "interaction_rate_by_reach": 1.831
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18371722144225322",
+                        "timestamp": "2026-07-14T11:23:12+0000",
+                        "reach": 234,
+                        "interaction_rate_by_reach": 12.8205
+                    },
+                    {
+                        "post_id": "18143759353540817",
+                        "timestamp": "2026-07-15T11:00:02+0000",
+                        "reach": 446,
+                        "interaction_rate_by_reach": 6.5022
+                    },
+                    {
+                        "post_id": "18121622737805420",
+                        "timestamp": "2026-07-16T11:00:01+0000",
+                        "reach": 140,
+                        "interaction_rate_by_reach": 16.4286
+                    }
+                ],
+                "baseline_reach": 234,
+                "baseline_interaction_rate_by_reach": 12.8205
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "CAROUSEL",
+                    "CAROUSEL",
+                    "CAROUSEL"
+                ],
+                "immediate_previous_format": "CAROUSEL"
+            },
+            "relative_performance": {
+                "relative_reach": 6.0684,
+                "relative_interaction_rate": 0.1428
+            }
+        },
+        {
+            "reel": {
+                "post_id": "18210587605343856",
+                "timestamp": "2026-07-30T16:00:05+0000",
+                "reach": 192,
+                "interaction_rate_by_reach": 13.5417
+            },
+            "baseline": {
+                "previous_reels": [
+                    {
+                        "post_id": "18143759353540817",
+                        "timestamp": "2026-07-15T11:00:02+0000",
+                        "reach": 446,
+                        "interaction_rate_by_reach": 6.5022
+                    },
+                    {
+                        "post_id": "18121622737805420",
+                        "timestamp": "2026-07-16T11:00:01+0000",
+                        "reach": 140,
+                        "interaction_rate_by_reach": 16.4286
+                    },
+                    {
+                        "post_id": "17924163105400464",
+                        "timestamp": "2026-07-29T18:43:34+0000",
+                        "reach": 1420,
+                        "interaction_rate_by_reach": 1.831
+                    }
+                ],
+                "baseline_reach": 446,
+                "baseline_interaction_rate_by_reach": 6.5022
+            },
+            "sequence_context": {
+                "previous_3_formats": [
+                    "CAROUSEL",
+                    "REELS",
+                    "CAROUSEL"
+                ],
+                "immediate_previous_format": "CAROUSEL"
+            },
+            "relative_performance": {
+                "relative_reach": 0.4305,
+                "relative_interaction_rate": 2.0826
+            }
+        }
+    ]
+}

@@ -1,0 +1,4062 @@
+{
+    "previous_snapshot": "posts_normalized_20260731_140707.json",
+    "current_snapshot": "posts_normalized_20260801_003108.json",
+    "processed_data": {
+        "previous_snapshot": "posts_normalized_20260731_140707.json",
+        "current_snapshot": "posts_normalized_20260801_003108.json",
+        "snapshot_delta_hours": 10.4003,
+        "previous_post_count": 60,
+        "current_post_count": 61,
+        "common_post_count": 60,
+        "new_post_count": 1,
+        "new_post_ids": [
+            "18091459607561811"
+        ],
+        "new_posts": [
+            {
+                "post_id": "18091459607561811",
+                "timestamp": "2026-07-31T17:06:04+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "reach": 33,
+                "views": 107,
+                "total_interactions": 8
+            }
+        ],
+        "missing_post_count": 0,
+        "missing_post_ids": [],
+        "post_changes": [
+            {
+                "post_id": "17852560133724754",
+                "timestamp": "2022-03-07T22:35:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 11,
+                            "current": 11,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 75,
+                            "current": 75,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 11,
+                            "current": 11,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17855433481715297",
+                "timestamp": "2019-12-23T12:50:11+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17862822130994083",
+                "timestamp": "2020-07-23T19:26:58+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17866794171525378",
+                "timestamp": "2026-04-13T18:50:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 22,
+                            "current": 22,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 138,
+                            "current": 138,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 24,
+                            "current": 24,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 310,
+                            "current": 310,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17873924610625945",
+                "timestamp": "2026-07-27T18:18:27+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 64,
+                            "current": 64,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 14,
+                            "current": 14,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 247,
+                            "current": 248,
+                            "absolute_change": 1,
+                            "percentage_change": 0.4049,
+                            "velocity_per_hour": 0.0962
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17874738222687369",
+                "timestamp": "2026-07-30T20:27:48+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 9,
+                            "current": 10,
+                            "absolute_change": 1,
+                            "percentage_change": 11.1111,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 53,
+                            "current": 63,
+                            "absolute_change": 10,
+                            "percentage_change": 18.8679,
+                            "velocity_per_hour": 0.9615
+                        },
+                        "total_interactions": {
+                            "previous": 11,
+                            "current": 12,
+                            "absolute_change": 1,
+                            "percentage_change": 9.0909,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 153,
+                            "current": 186,
+                            "absolute_change": 33,
+                            "percentage_change": 21.5686,
+                            "velocity_per_hour": 3.173
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17877733691261636",
+                "timestamp": "2021-05-03T21:38:19+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17878743461216451",
+                "timestamp": "2021-04-28T21:09:12+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17881402041611543",
+                "timestamp": "2026-07-12T19:09:29+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 3,
+                            "current": 3,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 348,
+                            "current": 348,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 23,
+                            "current": 23,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 589,
+                            "current": 589,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17899141086481486",
+                "timestamp": "2026-07-25T15:13:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 68,
+                            "current": 68,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 14,
+                            "current": 14,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 214,
+                            "current": 216,
+                            "absolute_change": 2,
+                            "percentage_change": 0.9346,
+                            "velocity_per_hour": 0.1923
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17905864366711356",
+                "timestamp": "2021-03-13T20:07:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17910251300314180",
+                "timestamp": "2021-11-22T21:41:05+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 56,
+                            "current": 56,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17918902111337380",
+                "timestamp": "2019-09-29T09:15:44+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17920248482045948",
+                "timestamp": "2021-11-22T21:47:15+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 65,
+                            "current": 65,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17923769769395602",
+                "timestamp": "2026-07-27T17:57:07+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 8,
+                            "current": 9,
+                            "absolute_change": 1,
+                            "percentage_change": 12.5,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 60,
+                            "current": 62,
+                            "absolute_change": 2,
+                            "percentage_change": 3.3333,
+                            "velocity_per_hour": 0.1923
+                        },
+                        "total_interactions": {
+                            "previous": 10,
+                            "current": 11,
+                            "absolute_change": 1,
+                            "percentage_change": 10.0,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 217,
+                            "current": 224,
+                            "absolute_change": 7,
+                            "percentage_change": 3.2258,
+                            "velocity_per_hour": 0.6731
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17924163105400464",
+                "timestamp": "2026-07-29T18:43:34+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 23,
+                            "current": 23,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 1489,
+                            "current": 1493,
+                            "absolute_change": 4,
+                            "percentage_change": 0.2686,
+                            "velocity_per_hour": 0.3846
+                        },
+                        "total_interactions": {
+                            "previous": 26,
+                            "current": 26,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 2110,
+                            "current": 2137,
+                            "absolute_change": 27,
+                            "percentage_change": 1.2796,
+                            "velocity_per_hour": 2.5961
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17924460108164428",
+                "timestamp": "2026-07-30T11:24:48+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 4,
+                            "current": 5,
+                            "absolute_change": 1,
+                            "percentage_change": 25.0,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 52,
+                            "current": 53,
+                            "absolute_change": 1,
+                            "percentage_change": 1.9231,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "total_interactions": {
+                            "previous": 6,
+                            "current": 7,
+                            "absolute_change": 1,
+                            "percentage_change": 16.6667,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 156,
+                            "current": 161,
+                            "absolute_change": 5,
+                            "percentage_change": 3.2051,
+                            "velocity_per_hour": 0.4808
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17931296376068416",
+                "timestamp": "2026-04-13T18:58:21+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 15,
+                            "current": 15,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 103,
+                            "current": 103,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 15,
+                            "current": 15,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 241,
+                            "current": 241,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17934596643275353",
+                "timestamp": "2026-06-21T01:22:08+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 94,
+                            "current": 94,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 266,
+                            "current": 266,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17947094820038412",
+                "timestamp": "2026-07-28T17:50:22+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 8,
+                            "current": 8,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 67,
+                            "current": 69,
+                            "absolute_change": 2,
+                            "percentage_change": 2.9851,
+                            "velocity_per_hour": 0.1923
+                        },
+                        "total_interactions": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 201,
+                            "current": 204,
+                            "absolute_change": 3,
+                            "percentage_change": 1.4925,
+                            "velocity_per_hour": 0.2885
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17947590334329023",
+                "timestamp": "2020-04-07T21:02:53+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17967701021935499",
+                "timestamp": "2026-07-13T11:25:26+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 71,
+                            "current": 71,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 8,
+                            "current": 8,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 1507,
+                            "current": 1507,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 86,
+                            "current": 86,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 1911,
+                            "current": 1911,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17980091366878014",
+                "timestamp": "2026-07-22T13:38:18+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 19,
+                            "current": 19,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 108,
+                            "current": 108,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 21,
+                            "current": 21,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 360,
+                            "current": 360,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "17997776324988274",
+                "timestamp": "2026-07-23T11:13:20+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 77,
+                            "current": 77,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 246,
+                            "current": 246,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18025424555829862",
+                "timestamp": "2026-06-27T16:20:04+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 22,
+                            "current": 22,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 1438,
+                            "current": 1438,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 24,
+                            "current": 24,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 1789,
+                            "current": 1789,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18029771440225029",
+                "timestamp": "2019-11-01T22:26:56+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18032038708339262",
+                "timestamp": "2022-03-07T22:36:40+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 33,
+                            "current": 33,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 101,
+                            "current": 101,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 33,
+                            "current": 33,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18039551023230022",
+                "timestamp": "2020-01-19T16:33:57+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18048634622583511",
+                "timestamp": "2026-07-29T15:46:14+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 6,
+                            "current": 7,
+                            "absolute_change": 1,
+                            "percentage_change": 16.6667,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 78,
+                            "current": 81,
+                            "absolute_change": 3,
+                            "percentage_change": 3.8462,
+                            "velocity_per_hour": 0.2885
+                        },
+                        "total_interactions": {
+                            "previous": 9,
+                            "current": 10,
+                            "absolute_change": 1,
+                            "percentage_change": 11.1111,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 189,
+                            "current": 197,
+                            "absolute_change": 8,
+                            "percentage_change": 4.2328,
+                            "velocity_per_hour": 0.7692
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18066701995152315",
+                "timestamp": "2019-09-22T16:09:21+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18067433102415693",
+                "timestamp": "2026-06-29T13:39:29+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 25,
+                            "current": 25,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 3,
+                            "current": 3,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 249,
+                            "current": 249,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 29,
+                            "current": 29,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 387,
+                            "current": 387,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18083529986214738",
+                "timestamp": "2026-07-24T15:46:23+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 11,
+                            "current": 11,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 75,
+                            "current": 75,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 15,
+                            "current": 15,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 238,
+                            "current": 241,
+                            "absolute_change": 3,
+                            "percentage_change": 1.2605,
+                            "velocity_per_hour": 0.2885
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18083984966447408",
+                "timestamp": "2026-06-27T16:41:53+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 204,
+                            "current": 204,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 275,
+                            "current": 275,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18089718469081158",
+                "timestamp": "2020-01-19T16:37:50+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18096069113343316",
+                "timestamp": "2026-07-23T17:19:59+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 8,
+                            "current": 8,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 78,
+                            "current": 78,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 279,
+                            "current": 279,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18097078631459027",
+                "timestamp": "2026-06-27T16:36:54+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 199,
+                            "current": 199,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 14,
+                            "current": 14,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 279,
+                            "current": 279,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18101678624156260",
+                "timestamp": "2026-06-21T15:15:01+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 21,
+                            "current": 21,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 96,
+                            "current": 96,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 22,
+                            "current": 22,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 336,
+                            "current": 336,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18103199504004851",
+                "timestamp": "2026-07-29T18:18:22+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 9,
+                            "current": 10,
+                            "absolute_change": 1,
+                            "percentage_change": 11.1111,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 81,
+                            "current": 82,
+                            "absolute_change": 1,
+                            "percentage_change": 1.2346,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "total_interactions": {
+                            "previous": 11,
+                            "current": 12,
+                            "absolute_change": 1,
+                            "percentage_change": 9.0909,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 192,
+                            "current": 199,
+                            "absolute_change": 7,
+                            "percentage_change": 3.6458,
+                            "velocity_per_hour": 0.6731
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18104120821968892",
+                "timestamp": "2026-07-19T17:19:21+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 13,
+                            "current": 13,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 65,
+                            "current": 65,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 17,
+                            "current": 17,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 225,
+                            "current": 225,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18106991768152437",
+                "timestamp": "2026-07-29T13:47:20+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 5,
+                            "current": 6,
+                            "absolute_change": 1,
+                            "percentage_change": 20.0,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 59,
+                            "current": 60,
+                            "absolute_change": 1,
+                            "percentage_change": 1.6949,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "total_interactions": {
+                            "previous": 8,
+                            "current": 9,
+                            "absolute_change": 1,
+                            "percentage_change": 12.5,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "views": {
+                            "previous": 175,
+                            "current": 181,
+                            "absolute_change": 6,
+                            "percentage_change": 3.4286,
+                            "velocity_per_hour": 0.5769
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18107211718972922",
+                "timestamp": "2026-07-01T11:10:17+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 13,
+                            "current": 13,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 186,
+                            "current": 186,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 273,
+                            "current": 273,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18108977311062714",
+                "timestamp": "2019-11-01T22:50:00+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18109283738099039",
+                "timestamp": "2026-07-31T11:01:42+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 3,
+                            "current": 7,
+                            "absolute_change": 4,
+                            "percentage_change": 133.3333,
+                            "velocity_per_hour": 0.3846
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 12,
+                            "current": 35,
+                            "absolute_change": 23,
+                            "percentage_change": 191.6667,
+                            "velocity_per_hour": 2.2115
+                        },
+                        "total_interactions": {
+                            "previous": 5,
+                            "current": 10,
+                            "absolute_change": 5,
+                            "percentage_change": 100.0,
+                            "velocity_per_hour": 0.4808
+                        },
+                        "views": {
+                            "previous": 29,
+                            "current": 102,
+                            "absolute_change": 73,
+                            "percentage_change": 251.7241,
+                            "velocity_per_hour": 7.019
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18118349672507307",
+                "timestamp": "2026-07-24T15:25:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 13,
+                            "current": 13,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 128,
+                            "current": 128,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 393,
+                            "current": 393,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18120581164834576",
+                "timestamp": "2026-07-01T11:42:25+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 77,
+                            "current": 77,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 19,
+                            "current": 19,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 279,
+                            "current": 279,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18121622737805420",
+                "timestamp": "2026-07-16T11:00:01+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 14,
+                            "current": 14,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 5,
+                            "current": 5,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 140,
+                            "current": 140,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 23,
+                            "current": 23,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 325,
+                            "current": 326,
+                            "absolute_change": 1,
+                            "percentage_change": 0.3077,
+                            "velocity_per_hour": 0.0962
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18125781514709463",
+                "timestamp": "2026-07-18T15:31:21+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 17,
+                            "current": 17,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 85,
+                            "current": 85,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 20,
+                            "current": 20,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 341,
+                            "current": 341,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18127155814651053",
+                "timestamp": "2026-06-28T11:21:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 26,
+                            "current": 26,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 117,
+                            "current": 117,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 29,
+                            "current": 29,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 436,
+                            "current": 436,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18132774430544337",
+                "timestamp": "2026-04-11T17:04:36+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 22,
+                            "current": 22,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 140,
+                            "current": 140,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 24,
+                            "current": 24,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 339,
+                            "current": 339,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18136450669148978",
+                "timestamp": "2021-01-25T16:57:27+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "comments": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "shares": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "saved": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "reach": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "total_interactions": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        },
+                        "views": {
+                            "previous": null,
+                            "current": null,
+                            "absolute_change": null,
+                            "percentage_change": null,
+                            "velocity_per_hour": null
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18143759353540817",
+                "timestamp": "2026-07-15T11:00:02+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 26,
+                            "current": 26,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 446,
+                            "current": 446,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 29,
+                            "current": 29,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 691,
+                            "current": 691,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18172571221428145",
+                "timestamp": "2026-07-22T22:29:36+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 13,
+                            "current": 13,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 82,
+                            "current": 82,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 15,
+                            "current": 15,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 276,
+                            "current": 276,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18174274720434014",
+                "timestamp": "2026-07-27T13:47:23+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 9,
+                            "current": 9,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 58,
+                            "current": 59,
+                            "absolute_change": 1,
+                            "percentage_change": 1.7241,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 174,
+                            "current": 177,
+                            "absolute_change": 3,
+                            "percentage_change": 1.7241,
+                            "velocity_per_hour": 0.2885
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18202850776178118",
+                "timestamp": "2022-03-07T22:35:38+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 11,
+                            "current": 11,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 95,
+                            "current": 95,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 11,
+                            "current": 11,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18210587605343856",
+                "timestamp": "2026-07-30T16:00:05+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 21,
+                            "current": 21,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 227,
+                            "current": 246,
+                            "absolute_change": 19,
+                            "percentage_change": 8.37,
+                            "velocity_per_hour": 1.8269
+                        },
+                        "total_interactions": {
+                            "previous": 26,
+                            "current": 26,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 306,
+                            "current": 332,
+                            "absolute_change": 26,
+                            "percentage_change": 8.4967,
+                            "velocity_per_hour": 2.4999
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18266396278035729",
+                "timestamp": "2021-11-22T21:37:33+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 21,
+                            "current": 21,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 57,
+                            "current": 57,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 22,
+                            "current": 22,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18348458266172539",
+                "timestamp": "2026-07-25T13:49:05+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 10,
+                            "current": 10,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 71,
+                            "current": 72,
+                            "absolute_change": 1,
+                            "percentage_change": 1.4085,
+                            "velocity_per_hour": 0.0962
+                        },
+                        "total_interactions": {
+                            "previous": 12,
+                            "current": 12,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 229,
+                            "current": 230,
+                            "absolute_change": 1,
+                            "percentage_change": 0.4367,
+                            "velocity_per_hour": 0.0962
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18371722144225322",
+                "timestamp": "2026-07-14T11:23:12+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 23,
+                            "current": 23,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 2,
+                            "current": 2,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 234,
+                            "current": 234,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 30,
+                            "current": 30,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 554,
+                            "current": 554,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18458710993116375",
+                "timestamp": "2026-06-26T01:15:26+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 88,
+                            "current": 88,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 16,
+                            "current": 16,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 284,
+                            "current": 284,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            },
+            {
+                "post_id": "18610104733019520",
+                "timestamp": "2026-07-26T15:14:03+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "delta_hours": 10.4003,
+                    "metrics": {
+                        "likes": {
+                            "previous": 5,
+                            "current": 5,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "comments": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "shares": {
+                            "previous": 0,
+                            "current": 0,
+                            "absolute_change": 0,
+                            "percentage_change": null,
+                            "velocity_per_hour": 0.0
+                        },
+                        "saved": {
+                            "previous": 1,
+                            "current": 1,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "reach": {
+                            "previous": 60,
+                            "current": 60,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "total_interactions": {
+                            "previous": 8,
+                            "current": 8,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        },
+                        "views": {
+                            "previous": 188,
+                            "current": 188,
+                            "absolute_change": 0,
+                            "percentage_change": 0.0,
+                            "velocity_per_hour": 0.0
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "top_changes": {
+        "reach": {
+            "absolute": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 12,
+                    "current": 35,
+                    "change": 23
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 227,
+                    "current": 246,
+                    "change": 19
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 53,
+                    "current": 63,
+                    "change": 10
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 1489,
+                    "current": 1493,
+                    "change": 4
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 78,
+                    "current": 81,
+                    "change": 3
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 12,
+                    "current": 35,
+                    "change": 191.6667
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 53,
+                    "current": 63,
+                    "change": 18.8679
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 227,
+                    "current": 246,
+                    "change": 8.37
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 78,
+                    "current": 81,
+                    "change": 3.8462
+                },
+                {
+                    "post_id": "17923769769395602",
+                    "timestamp": "2026-07-27T17:57:07+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 60,
+                    "current": 62,
+                    "change": 3.3333
+                }
+            ],
+            "velocity_per_hour": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 12,
+                    "current": 35,
+                    "change": 2.2115
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 227,
+                    "current": 246,
+                    "change": 1.8269
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 53,
+                    "current": 63,
+                    "change": 0.9615
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 1489,
+                    "current": 1493,
+                    "change": 0.3846
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 78,
+                    "current": 81,
+                    "change": 0.2885
+                }
+            ]
+        },
+        "views": {
+            "absolute": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 29,
+                    "current": 102,
+                    "change": 73
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 153,
+                    "current": 186,
+                    "change": 33
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 2110,
+                    "current": 2137,
+                    "change": 27
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 306,
+                    "current": 332,
+                    "change": 26
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 189,
+                    "current": 197,
+                    "change": 8
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 29,
+                    "current": 102,
+                    "change": 251.7241
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 153,
+                    "current": 186,
+                    "change": 21.5686
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 306,
+                    "current": 332,
+                    "change": 8.4967
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 189,
+                    "current": 197,
+                    "change": 4.2328
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 192,
+                    "current": 199,
+                    "change": 3.6458
+                }
+            ],
+            "velocity_per_hour": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 29,
+                    "current": 102,
+                    "change": 7.019
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 153,
+                    "current": 186,
+                    "change": 3.173
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 2110,
+                    "current": 2137,
+                    "change": 2.5961
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 306,
+                    "current": 332,
+                    "change": 2.4999
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 189,
+                    "current": 197,
+                    "change": 0.7692
+                }
+            ]
+        },
+        "total_interactions": {
+            "absolute": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 5,
+                    "current": 10,
+                    "change": 5
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 11,
+                    "current": 12,
+                    "change": 1
+                },
+                {
+                    "post_id": "17923769769395602",
+                    "timestamp": "2026-07-27T17:57:07+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 10,
+                    "current": 11,
+                    "change": 1
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 6,
+                    "current": 7,
+                    "change": 1
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 9,
+                    "current": 10,
+                    "change": 1
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 5,
+                    "current": 10,
+                    "change": 100.0
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 6,
+                    "current": 7,
+                    "change": 16.6667
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 8,
+                    "current": 9,
+                    "change": 12.5
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 9,
+                    "current": 10,
+                    "change": 11.1111
+                },
+                {
+                    "post_id": "17923769769395602",
+                    "timestamp": "2026-07-27T17:57:07+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 10,
+                    "current": 11,
+                    "change": 10.0
+                }
+            ],
+            "velocity_per_hour": [
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 5,
+                    "current": 10,
+                    "change": 0.4808
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 11,
+                    "current": 12,
+                    "change": 0.0962
+                },
+                {
+                    "post_id": "17923769769395602",
+                    "timestamp": "2026-07-27T17:57:07+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 10,
+                    "current": 11,
+                    "change": 0.0962
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 6,
+                    "current": 7,
+                    "change": 0.0962
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 9,
+                    "current": 10,
+                    "change": 0.0962
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T00:55:18.999496",
+        "engine": "strategy_executor_v0.1",
+        "source": "model_arbitrator_20260802_005412.json"
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "decision": {
+                "strategy": "hybrid",
+                "models": [
+                    "linear",
+                    "threshold"
+                ],
+                "reason": "Existe ventaja parcial pero no suficiente"
+            },
+            "execution": {
+                "execution_type": "hybrid",
+                "models": {
+                    "linear": 0.616081018873715,
+                    "threshold": 0.3839189811262851
+                },
+                "method": "weighted_hybrid"
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.25,
+                    "quadratic": 0.25,
+                    "threshold": 0.25,
+                    "saturation": 0.25
+                },
+                "method": "full_model_average"
+            }
+        }
+    }
+}

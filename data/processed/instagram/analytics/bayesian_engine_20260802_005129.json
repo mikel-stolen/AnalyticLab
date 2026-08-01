@@ -1,0 +1,149 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T00:51:29.711489",
+        "engine": "bayesian_engine_v0.2",
+        "source": "model_ensemble_20260802_001242.json",
+        "method": {
+            "prior": {
+                "linear": 0.3,
+                "quadratic": 0.2,
+                "threshold": 0.25,
+                "saturation": 0.25
+            },
+            "weights": {
+                "mae": 0.5,
+                "rmse": 0.2,
+                "bootstrap": 0.2,
+                "complexity": 0.1
+            }
+        }
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "pair_name": "eg_3_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.2797,
+                "quadratic": 0.1863,
+                "threshold": 0.249,
+                "saturation": 0.285
+            },
+            "winner": "saturation",
+            "posterior_confidence": 0.285,
+            "evidence_state": "undetermined",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "eg_5_vs_initial_ir": {
+            "pair_name": "eg_5_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.2842,
+                "quadratic": 0.1272,
+                "threshold": 0.3141,
+                "saturation": 0.2745
+            },
+            "winner": "threshold",
+            "posterior_confidence": 0.3141,
+            "evidence_state": "weak",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "eg_7d_vs_initial_ir": {
+            "pair_name": "eg_7d_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.3392,
+                "quadratic": 0.1714,
+                "threshold": 0.2686,
+                "saturation": 0.2208
+            },
+            "winner": "linear",
+            "posterior_confidence": 0.3392,
+            "evidence_state": "weak",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "eg_5_vs_initial_reach": {
+            "pair_name": "eg_5_vs_initial_reach",
+            "posterior_probabilities": {
+                "linear": 0.2775,
+                "quadratic": 0.1361,
+                "threshold": 0.2816,
+                "saturation": 0.3048
+            },
+            "winner": "saturation",
+            "posterior_confidence": 0.3048,
+            "evidence_state": "weak",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "eg_5_vs_initial_views": {
+            "pair_name": "eg_5_vs_initial_views",
+            "posterior_probabilities": {
+                "linear": 0.4015,
+                "quadratic": 0.1192,
+                "threshold": 0.2502,
+                "saturation": 0.2291
+            },
+            "winner": "linear",
+            "posterior_confidence": 0.4015,
+            "evidence_state": "weak",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "temperature_vs_initial_ir": {
+            "pair_name": "temperature_vs_initial_ir",
+            "posterior_probabilities": {
+                "linear": 0.2861,
+                "quadratic": 0.1314,
+                "threshold": 0.2887,
+                "saturation": 0.2937
+            },
+            "winner": "saturation",
+            "posterior_confidence": 0.2937,
+            "evidence_state": "undetermined",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        },
+        "temperature_vs_initial_reach": {
+            "pair_name": "temperature_vs_initial_reach",
+            "posterior_probabilities": {
+                "linear": 0.2931,
+                "quadratic": 0.1378,
+                "threshold": 0.2807,
+                "saturation": 0.2884
+            },
+            "winner": "linear",
+            "posterior_confidence": 0.2931,
+            "evidence_state": "undetermined",
+            "evidence_sources": [
+                "LOOCV_MAE",
+                "LOOCV_RMSE",
+                "BOOTSTRAP",
+                "COMPLEXITY_PRIOR"
+            ]
+        }
+    }
+}

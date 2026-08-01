@@ -1,74 +1,68 @@
 """
-Contrato base para los modelos de AnalyticLab.
+base.py
+
+Clase base para todos los modelos del Motor de Modelos.
+
+Todos los modelos deberán implementar la misma interfaz para que
+el Engine pueda evaluarlos de forma uniforme.
 """
 
-from __future__ import annotations
-
 from abc import ABC, abstractmethod
-from dataclasses import dataclass, field
-
-
-@dataclass(frozen=True)
-class ModelMetadata:
-    name: str
-    version: str = "1.0"
-    description: str = ""
-    parameter_count: int = 0
-    tags: tuple[str, ...] = field(default_factory=tuple)
-    capabilities: tuple[str, ...] = field(default_factory=tuple)
 
 
 class BaseModel(ABC):
-    metadata: ModelMetadata
+    """
+    Clase abstracta de la que heredarán todos los modelos.
+    """
 
-    def __init__(self) -> None:
-        self._fitted = False
-
-    @property
-    def name(self) -> str:
-        return self.metadata.name
-
-    @property
-    def version(self) -> str:
-        return self.metadata.version
-
-    def is_fitted(self) -> bool:
-        return self._fitted
-
-    def validate_training_data(
-        self,
-        x: list[float],
-        y: list[float],
-    ) -> None:
-        if len(x) != len(y):
-            raise ValueError(
-                f"{self.name}: x e y deben tener la misma longitud."
-            )
-
-        if not x:
-            raise ValueError(
-                f"{self.name}: no hay observaciones."
-            )
-
-        if not all(
-            isinstance(value, (int, float))
-            for value in x + y
-        ):
-            raise TypeError(
-                f"{self.name}: x e y deben ser numéricos."
-            )
+    name = "BaseModel"
 
     @abstractmethod
-    def fit(
-        self,
-        x: list[float],
-        y: list[float],
-    ) -> "BaseModel":
-        raise NotImplementedError
+    def fit(self, x, y):
+        """
+        Ajusta el modelo a los datos.
+        """
+        pass
 
     @abstractmethod
-    def predict(
-        self,
-        x: float,
-    ) -> float:
-        raise NotImplementedError
+    def predict(self, x):
+        """
+        Devuelve las predicciones del modelo.
+        """
+        pass
+
+    @abstractmethod
+    def evaluate(self, x, y):
+        """
+        Calcula las métricas descriptivas del modelo.
+
+        Debe devolver un diccionario con métricas como:
+
+        {
+            "r2": ...,
+            "mae": ...,
+            "rmse": ...
+        }
+        """
+        pass
+
+    @abstractmethod
+    def bootstrap(self, x, y):
+        """
+        Ejecuta el análisis bootstrap.
+        """
+        pass
+
+    @abstractmethod
+    def loocv(self, x, y):
+        """
+        Ejecuta Leave-One-Out Cross Validation.
+        """
+        pass
+
+    @abstractmethod
+    def describe(self):
+        """
+        Devuelve información descriptiva del modelo.
+        """
+        pass

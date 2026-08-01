@@ -1,0 +1,116 @@
+{
+    "created_at": "2026-08-02T01:09:41.923217",
+    "predictions": [
+        {
+            "id": "e340edb7-00ba-4119-b5e6-a41ab24b9ba1",
+            "created_at": "2026-08-02T01:09:41.923252",
+            "pair": "eg_3_vs_initial_ir",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 17.940201966198313,
+            "uncertainty": 1.1725413698524718,
+            "models": {
+                "linear": 0.24659086124823792,
+                "quadratic": 0.22467769005601737,
+                "threshold": 0.23918196765738764,
+                "saturation": 0.28954948103835704
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "743f1eb4-3a90-4a92-ac89-44ec4b955548",
+            "created_at": "2026-08-02T01:09:41.923265",
+            "pair": "eg_5_vs_initial_ir",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 15.081726324785507,
+            "uncertainty": 2.445306042854478,
+            "models": {
+                "linear": 0.2439512128738063,
+                "quadratic": 0.16227813606871566,
+                "threshold": 0.29022970970866274,
+                "saturation": 0.3035409413488153
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "78f0c9fa-63e2-4c4b-b2db-6ffdb5826f2b",
+            "created_at": "2026-08-02T01:09:41.923274",
+            "pair": "eg_7d_vs_initial_ir",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 18.188582550882238,
+            "uncertainty": 1.508221237170695,
+            "models": {
+                "linear": 0.27286739249570857,
+                "quadratic": 0.24489126996394456,
+                "threshold": 0.25160103574700426,
+                "saturation": 0.2306403017933427
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "9f632b69-793a-4443-b8e8-a69507693502",
+            "created_at": "2026-08-02T01:09:41.923280",
+            "pair": "eg_5_vs_initial_reach",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 106.48293351815352,
+            "uncertainty": 38.61229458497021,
+            "models": {
+                "linear": 0.29377174051961974,
+                "quadratic": 0.18485083747350423,
+                "threshold": 0.2685039190564071,
+                "saturation": 0.2528735029504689
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "72ea3889-4ba3-43e8-9fc8-27ded5d53768",
+            "created_at": "2026-08-02T01:09:41.923286",
+            "pair": "eg_5_vs_initial_views",
+            "metric": "unknown",
+            "strategy": "bayesian_hybrid",
+            "prediction": 232.74819507515247,
+            "uncertainty": 19.440567930464187,
+            "models": {
+                "linear": 0.616081018873715,
+                "threshold": 0.3839189811262851
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "ff6154ba-1e6a-427f-8e5c-cf901af025ae",
+            "created_at": "2026-08-02T01:09:41.923291",
+            "pair": "temperature_vs_initial_ir",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 15.115244929835555,
+            "uncertainty": 2.4025663209120567,
+            "models": {
+                "linear": 0.2500572271423353,
+                "quadratic": 0.17314197709349352,
+                "threshold": 0.2634655083459401,
+                "saturation": 0.3133352874182311
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "d3d0eebf-5388-4ff7-ae9b-7423ba87aecc",
+            "created_at": "2026-08-02T01:09:41.923296",
+            "pair": "temperature_vs_initial_reach",
+            "metric": "unknown",
+            "strategy": "ensemble_weighted_average",
+            "prediction": 101.54249606055049,
+            "uncertainty": 33.53638579007077,
+            "models": {
+                "linear": 0.2940668663642007,
+                "quadratic": 0.19024697713313257,
+                "threshold": 0.266348176382912,
+                "saturation": 0.24933798011975467
+            },
+            "status": "waiting_result"
+        }
+    ],
+    "updated_at": "2026-08-02T01:10:57.513654"
+}

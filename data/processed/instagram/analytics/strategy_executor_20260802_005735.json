@@ -1,0 +1,239 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T00:57:35.070482",
+        "engine": "strategy_executor_v0.2",
+        "source": {
+            "arbitrator": "model_arbitrator_20260802_005412.json",
+            "ensemble": "model_ensemble_20260802_001242.json"
+        }
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.24659086124823792,
+                    "quadratic": 0.22467769005601737,
+                    "threshold": 0.23918196765738764,
+                    "saturation": 0.28954948103835704
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "saturation",
+                "bayesian_confidence": 0.285,
+                "ensemble_weights": {
+                    "linear": 0.24659086124823792,
+                    "quadratic": 0.22467769005601737,
+                    "threshold": 0.23918196765738764,
+                    "saturation": 0.28954948103835704
+                },
+                "final_strategy": "full_ensemble"
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2439512128738063,
+                    "quadratic": 0.16227813606871566,
+                    "threshold": 0.29022970970866274,
+                    "saturation": 0.3035409413488153
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "threshold",
+                "bayesian_confidence": 0.3141,
+                "ensemble_weights": {
+                    "linear": 0.2439512128738063,
+                    "quadratic": 0.16227813606871566,
+                    "threshold": 0.29022970970866274,
+                    "saturation": 0.3035409413488153
+                },
+                "final_strategy": "full_ensemble"
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.27286739249570857,
+                    "quadratic": 0.24489126996394456,
+                    "threshold": 0.25160103574700426,
+                    "saturation": 0.2306403017933427
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "linear",
+                "bayesian_confidence": 0.3392,
+                "ensemble_weights": {
+                    "linear": 0.27286739249570857,
+                    "quadratic": 0.24489126996394456,
+                    "threshold": 0.25160103574700426,
+                    "saturation": 0.2306403017933427
+                },
+                "final_strategy": "full_ensemble"
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.29377174051961974,
+                    "quadratic": 0.18485083747350423,
+                    "threshold": 0.2685039190564071,
+                    "saturation": 0.2528735029504689
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "saturation",
+                "bayesian_confidence": 0.3048,
+                "ensemble_weights": {
+                    "linear": 0.29377174051961974,
+                    "quadratic": 0.18485083747350423,
+                    "threshold": 0.2685039190564071,
+                    "saturation": 0.2528735029504689
+                },
+                "final_strategy": "full_ensemble"
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "decision": {
+                "strategy": "hybrid",
+                "models": [
+                    "linear",
+                    "threshold"
+                ],
+                "reason": "Existe ventaja parcial pero no suficiente"
+            },
+            "execution": {
+                "execution_type": "hybrid",
+                "models": {
+                    "linear": 0.616081018873715,
+                    "threshold": 0.3839189811262851
+                },
+                "method": "bayesian_hybrid"
+            },
+            "decision_trace": {
+                "bayesian_winner": "linear",
+                "bayesian_confidence": 0.4015,
+                "ensemble_weights": {
+                    "linear": 0.3005925588805637,
+                    "quadratic": 0.18394650094373485,
+                    "threshold": 0.2511232484551741,
+                    "saturation": 0.2643376917205273
+                },
+                "final_strategy": "hybrid"
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2500572271423353,
+                    "quadratic": 0.17314197709349352,
+                    "threshold": 0.2634655083459401,
+                    "saturation": 0.3133352874182311
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "saturation",
+                "bayesian_confidence": 0.2937,
+                "ensemble_weights": {
+                    "linear": 0.2500572271423353,
+                    "quadratic": 0.17314197709349352,
+                    "threshold": 0.2634655083459401,
+                    "saturation": 0.3133352874182311
+                },
+                "final_strategy": "full_ensemble"
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "decision": {
+                "strategy": "full_ensemble",
+                "models": [
+                    "linear",
+                    "quadratic",
+                    "threshold",
+                    "saturation"
+                ],
+                "reason": "No existe separación suficiente"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2940668663642007,
+                    "quadratic": 0.19024697713313257,
+                    "threshold": 0.266348176382912,
+                    "saturation": 0.24933798011975467
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "decision_trace": {
+                "bayesian_winner": "linear",
+                "bayesian_confidence": 0.2931,
+                "ensemble_weights": {
+                    "linear": 0.2940668663642007,
+                    "quadratic": 0.19024697713313257,
+                    "threshold": 0.266348176382912,
+                    "saturation": 0.24933798011975467
+                },
+                "final_strategy": "full_ensemble"
+            }
+        }
+    }
+}

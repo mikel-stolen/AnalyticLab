@@ -1,0 +1,234 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T01:03:55.479482",
+        "engine": "strategy_predictor_v0.2",
+        "executor_source": "strategy_executor_20260802_005735.json"
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "prediction_point": {
+                "state_value": 19.403,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.24659086124823792,
+                    "quadratic": 0.22467769005601737,
+                    "threshold": 0.23918196765738764,
+                    "saturation": 0.28954948103835704
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 17.940201966198313,
+                "uncertainty": 1.1725413698524718,
+                "individual_predictions": {
+                    "linear": 16.940479750032807,
+                    "quadratic": 19.654218412758894,
+                    "threshold": 16.683557142857143,
+                    "saturation": 18.499649999999995
+                },
+                "weights": {
+                    "linear": 0.24659086124823792,
+                    "quadratic": 0.22467769005601737,
+                    "threshold": 0.23918196765738764,
+                    "saturation": 0.28954948103835704
+                },
+                "method": "ensemble_weighted_average"
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "prediction_point": {
+                "state_value": 17.0213,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2439512128738063,
+                    "quadratic": 0.16227813606871566,
+                    "threshold": 0.29022970970866274,
+                    "saturation": 0.3035409413488153
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 15.081726324785507,
+                "uncertainty": 2.445306042854478,
+                "individual_predictions": {
+                    "linear": 17.461062899397703,
+                    "quadratic": 9.962421923949194,
+                    "threshold": 14.853014285714286,
+                    "saturation": 16.125039164970154
+                },
+                "weights": {
+                    "linear": 0.2439512128738063,
+                    "quadratic": 0.16227813606871566,
+                    "threshold": 0.29022970970866274,
+                    "saturation": 0.3035409413488153
+                },
+                "method": "ensemble_weighted_average"
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "prediction_point": {
+                "state_value": 16.046,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.27286739249570857,
+                    "quadratic": 0.24489126996394456,
+                    "threshold": 0.25160103574700426,
+                    "saturation": 0.2306403017933427
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 18.188582550882238,
+                "uncertainty": 1.508221237170695,
+                "individual_predictions": {
+                    "linear": 20.44801973542974,
+                    "quadratic": 17.070367894074593,
+                    "threshold": 16.683557142857143,
+                    "saturation": 18.344584019608675
+                },
+                "weights": {
+                    "linear": 0.27286739249570857,
+                    "quadratic": 0.24489126996394456,
+                    "threshold": 0.25160103574700426,
+                    "saturation": 0.2306403017933427
+                },
+                "method": "ensemble_weighted_average"
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "prediction_point": {
+                "state_value": 17.0213,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.29377174051961974,
+                    "quadratic": 0.18485083747350423,
+                    "threshold": 0.2685039190564071,
+                    "saturation": 0.2528735029504689
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 106.48293351815352,
+                "uncertainty": 38.61229458497021,
+                "individual_predictions": {
+                    "linear": 115.6415419153519,
+                    "quadratic": 162.16890990852335,
+                    "threshold": 49.5,
+                    "saturation": 115.64166798839314
+                },
+                "weights": {
+                    "linear": 0.29377174051961974,
+                    "quadratic": 0.18485083747350423,
+                    "threshold": 0.2685039190564071,
+                    "saturation": 0.2528735029504689
+                },
+                "method": "ensemble_weighted_average"
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "prediction_point": {
+                "state_value": 17.0213,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "hybrid",
+                "models": {
+                    "linear": 0.616081018873715,
+                    "threshold": 0.3839189811262851
+                },
+                "method": "bayesian_hybrid"
+            },
+            "prediction": {
+                "prediction": 232.74819507515247,
+                "uncertainty": 19.440567930464187,
+                "individual_predictions": {
+                    "linear": 217.4016780335662,
+                    "threshold": 257.375
+                },
+                "weights": {
+                    "linear": 0.616081018873715,
+                    "threshold": 0.3839189811262851
+                },
+                "method": "bayesian_hybrid"
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "prediction_point": {
+                "state_value": 1.0778,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2500572271423353,
+                    "quadratic": 0.17314197709349352,
+                    "threshold": 0.2634655083459401,
+                    "saturation": 0.3133352874182311
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 15.115244929835555,
+                "uncertainty": 2.4025663209120567,
+                "individual_predictions": {
+                    "linear": 17.168698202702885,
+                    "quadratic": 10.205108943119512,
+                    "threshold": 14.853014285714286,
+                    "saturation": 16.410210952842306
+                },
+                "weights": {
+                    "linear": 0.2500572271423353,
+                    "quadratic": 0.17314197709349352,
+                    "threshold": 0.2634655083459401,
+                    "saturation": 0.3133352874182311
+                },
+                "method": "ensemble_weighted_average"
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "prediction_point": {
+                "state_value": 1.0778,
+                "source": "latest_observation"
+            },
+            "execution": {
+                "execution_type": "full_ensemble",
+                "models": {
+                    "linear": 0.2940668663642007,
+                    "quadratic": 0.19024697713313257,
+                    "threshold": 0.266348176382912,
+                    "saturation": 0.24933798011975467
+                },
+                "method": "ensemble_weighted_average"
+            },
+            "prediction": {
+                "prediction": 101.54249606055049,
+                "uncertainty": 33.53638579007077,
+                "individual_predictions": {
+                    "linear": 109.68107793340704,
+                    "quadratic": 148.4688541761966,
+                    "threshold": 51.4,
+                    "saturation": 109.70201245941566
+                },
+                "weights": {
+                    "linear": 0.2940668663642007,
+                    "quadratic": 0.19024697713313257,
+                    "threshold": 0.266348176382912,
+                    "saturation": 0.24933798011975467
+                },
+                "method": "ensemble_weighted_average"
+            }
+        }
+    }
+}

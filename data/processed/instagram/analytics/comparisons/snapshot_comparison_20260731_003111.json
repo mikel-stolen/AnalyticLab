@@ -1,0 +1,3307 @@
+{
+    "previous_snapshot": "posts_normalized_20260730_230741.json",
+    "current_snapshot": "posts_normalized_20260731_001017.json",
+    "processed_data": {
+        "previous_snapshot": "posts_normalized_20260730_230741.json",
+        "current_snapshot": "posts_normalized_20260731_001017.json",
+        "previous_post_count": 59,
+        "current_post_count": 59,
+        "common_post_count": 59,
+        "new_post_count": 0,
+        "new_post_ids": [],
+        "missing_post_count": 0,
+        "missing_post_ids": [],
+        "post_changes": [
+            {
+                "post_id": "17852560133724754",
+                "timestamp": "2022-03-07T22:35:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 75,
+                        "current": 75,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17855433481715297",
+                "timestamp": "2019-12-23T12:50:11+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17862822130994083",
+                "timestamp": "2020-07-23T19:26:58+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17866794171525378",
+                "timestamp": "2026-04-13T18:50:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 22,
+                        "current": 22,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 138,
+                        "current": 138,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 24,
+                        "current": 24,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 310,
+                        "current": 310,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17873924610625945",
+                "timestamp": "2026-07-27T18:18:27+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 63,
+                        "current": 63,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 14,
+                        "current": 14,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 243,
+                        "current": 243,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17874738222687369",
+                "timestamp": "2026-07-30T20:27:48+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 4,
+                        "current": 6,
+                        "absolute_change": 2,
+                        "percentage_change": 50.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 10,
+                        "current": 22,
+                        "absolute_change": 12,
+                        "percentage_change": 120.0
+                    },
+                    "total_interactions": {
+                        "previous": 6,
+                        "current": 8,
+                        "absolute_change": 2,
+                        "percentage_change": 33.3333
+                    },
+                    "views": {
+                        "previous": 23,
+                        "current": 51,
+                        "absolute_change": 28,
+                        "percentage_change": 121.7391
+                    }
+                }
+            },
+            {
+                "post_id": "17877733691261636",
+                "timestamp": "2021-05-03T21:38:19+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17878743461216451",
+                "timestamp": "2021-04-28T21:09:12+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17881402041611543",
+                "timestamp": "2026-07-12T19:09:29+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "saved": {
+                        "previous": 3,
+                        "current": 3,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 348,
+                        "current": 348,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 23,
+                        "current": 23,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 589,
+                        "current": 589,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17899141086481486",
+                "timestamp": "2026-07-25T15:13:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 67,
+                        "current": 67,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 14,
+                        "current": 14,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 211,
+                        "current": 211,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17905864366711356",
+                "timestamp": "2021-03-13T20:07:04+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17910251300314180",
+                "timestamp": "2021-11-22T21:41:05+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 56,
+                        "current": 56,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17918902111337380",
+                "timestamp": "2019-09-29T09:15:44+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17920248482045948",
+                "timestamp": "2021-11-22T21:47:15+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 65,
+                        "current": 65,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17923769769395602",
+                "timestamp": "2026-07-27T17:57:07+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 57,
+                        "current": 57,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 212,
+                        "current": 212,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17924163105400464",
+                "timestamp": "2026-07-29T18:43:34+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 23,
+                        "current": 23,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 1420,
+                        "current": 1434,
+                        "absolute_change": 14,
+                        "percentage_change": 0.9859
+                    },
+                    "total_interactions": {
+                        "previous": 26,
+                        "current": 26,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 1991,
+                        "current": 2021,
+                        "absolute_change": 30,
+                        "percentage_change": 1.5068
+                    }
+                }
+            },
+            {
+                "post_id": "17924460108164428",
+                "timestamp": "2026-07-30T11:24:48+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 4,
+                        "current": 4,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 44,
+                        "current": 45,
+                        "absolute_change": 1,
+                        "percentage_change": 2.2727
+                    },
+                    "total_interactions": {
+                        "previous": 6,
+                        "current": 6,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 136,
+                        "current": 137,
+                        "absolute_change": 1,
+                        "percentage_change": 0.7353
+                    }
+                }
+            },
+            {
+                "post_id": "17931296376068416",
+                "timestamp": "2026-04-13T18:58:21+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 15,
+                        "current": 15,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 103,
+                        "current": 103,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 15,
+                        "current": 15,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 241,
+                        "current": 241,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17934596643275353",
+                "timestamp": "2026-06-21T01:22:08+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 94,
+                        "current": 94,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 266,
+                        "current": 266,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17947094820038412",
+                "timestamp": "2026-07-28T17:50:22+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 66,
+                        "current": 66,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 198,
+                        "current": 198,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17947590334329023",
+                "timestamp": "2020-04-07T21:02:53+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "17967701021935499",
+                "timestamp": "2026-07-13T11:25:26+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 71,
+                        "current": 71,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "saved": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 1507,
+                        "current": 1507,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 86,
+                        "current": 86,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 1911,
+                        "current": 1911,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17980091366878014",
+                "timestamp": "2026-07-22T13:38:18+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 19,
+                        "current": 19,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 107,
+                        "current": 107,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 21,
+                        "current": 21,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 357,
+                        "current": 357,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "17997776324988274",
+                "timestamp": "2026-07-23T11:13:20+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 77,
+                        "current": 77,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 246,
+                        "current": 246,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18025424555829862",
+                "timestamp": "2026-06-27T16:20:04+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 22,
+                        "current": 22,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 1438,
+                        "current": 1438,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 24,
+                        "current": 24,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 1789,
+                        "current": 1789,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18029771440225029",
+                "timestamp": "2019-11-01T22:26:56+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18032038708339262",
+                "timestamp": "2022-03-07T22:36:40+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 33,
+                        "current": 33,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 101,
+                        "current": 101,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 33,
+                        "current": 33,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18039551023230022",
+                "timestamp": "2020-01-19T16:33:57+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18048634622583511",
+                "timestamp": "2026-07-29T15:46:14+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 6,
+                        "current": 6,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 76,
+                        "current": 77,
+                        "absolute_change": 1,
+                        "percentage_change": 1.3158
+                    },
+                    "total_interactions": {
+                        "previous": 9,
+                        "current": 9,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 185,
+                        "current": 186,
+                        "absolute_change": 1,
+                        "percentage_change": 0.5405
+                    }
+                }
+            },
+            {
+                "post_id": "18066701995152315",
+                "timestamp": "2019-09-22T16:09:21+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18067433102415693",
+                "timestamp": "2026-06-29T13:39:29+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 25,
+                        "current": 25,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 3,
+                        "current": 3,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 249,
+                        "current": 249,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 29,
+                        "current": 29,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 387,
+                        "current": 387,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18083529986214738",
+                "timestamp": "2026-07-24T15:46:23+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 75,
+                        "current": 75,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 15,
+                        "current": 15,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 238,
+                        "current": 238,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18083984966447408",
+                "timestamp": "2026-06-27T16:41:53+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 204,
+                        "current": 204,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 275,
+                        "current": 275,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18089718469081158",
+                "timestamp": "2020-01-19T16:37:50+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18096069113343316",
+                "timestamp": "2026-07-23T17:19:59+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 77,
+                        "current": 77,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 278,
+                        "current": 278,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18097078631459027",
+                "timestamp": "2026-06-27T16:36:54+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 199,
+                        "current": 199,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 14,
+                        "current": 14,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 279,
+                        "current": 279,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18101678624156260",
+                "timestamp": "2026-06-21T15:15:01+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 21,
+                        "current": 21,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 96,
+                        "current": 96,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 22,
+                        "current": 22,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 336,
+                        "current": 336,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18103199504004851",
+                "timestamp": "2026-07-29T18:18:22+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 9,
+                        "current": 9,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 78,
+                        "current": 79,
+                        "absolute_change": 1,
+                        "percentage_change": 1.2821
+                    },
+                    "total_interactions": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 181,
+                        "current": 187,
+                        "absolute_change": 6,
+                        "percentage_change": 3.3149
+                    }
+                }
+            },
+            {
+                "post_id": "18104120821968892",
+                "timestamp": "2026-07-19T17:19:21+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 13,
+                        "current": 13,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 65,
+                        "current": 65,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 17,
+                        "current": 17,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 225,
+                        "current": 225,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18106991768152437",
+                "timestamp": "2026-07-29T13:47:20+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 5,
+                        "current": 5,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 58,
+                        "current": 58,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 171,
+                        "current": 171,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18107211718972922",
+                "timestamp": "2026-07-01T11:10:17+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 13,
+                        "current": 13,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 186,
+                        "current": 186,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 273,
+                        "current": 273,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18108977311062714",
+                "timestamp": "2019-11-01T22:50:00+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18118349672507307",
+                "timestamp": "2026-07-24T15:25:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 13,
+                        "current": 13,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 128,
+                        "current": 128,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 392,
+                        "current": 392,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18120581164834576",
+                "timestamp": "2026-07-01T11:42:25+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 77,
+                        "current": 77,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 19,
+                        "current": 19,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 279,
+                        "current": 279,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18121622737805420",
+                "timestamp": "2026-07-16T11:00:01+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 14,
+                        "current": 14,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 5,
+                        "current": 5,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 140,
+                        "current": 140,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 23,
+                        "current": 23,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 325,
+                        "current": 325,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18125781514709463",
+                "timestamp": "2026-07-18T15:31:21+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 17,
+                        "current": 17,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 85,
+                        "current": 85,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 20,
+                        "current": 20,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 341,
+                        "current": 341,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18127155814651053",
+                "timestamp": "2026-06-28T11:21:47+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 26,
+                        "current": 26,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 117,
+                        "current": 117,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 29,
+                        "current": 29,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 436,
+                        "current": 436,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18132774430544337",
+                "timestamp": "2026-04-11T17:04:36+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 22,
+                        "current": 22,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 140,
+                        "current": 140,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 24,
+                        "current": 24,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 339,
+                        "current": 339,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18136450669148978",
+                "timestamp": "2021-01-25T16:57:27+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "comments": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "total_interactions": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    },
+                    "views": {
+                        "previous": null,
+                        "current": null,
+                        "absolute_change": null,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18143759353540817",
+                "timestamp": "2026-07-15T11:00:02+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 26,
+                        "current": 26,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 446,
+                        "current": 446,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 29,
+                        "current": 29,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 691,
+                        "current": 691,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18172571221428145",
+                "timestamp": "2026-07-22T22:29:36+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 13,
+                        "current": 13,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 82,
+                        "current": 82,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 15,
+                        "current": 15,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 276,
+                        "current": 276,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18174274720434014",
+                "timestamp": "2026-07-27T13:47:23+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 9,
+                        "current": 9,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 58,
+                        "current": 58,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 174,
+                        "current": 174,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18202850776178118",
+                "timestamp": "2022-03-07T22:35:38+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 95,
+                        "current": 95,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 11,
+                        "current": 11,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18210587605343856",
+                "timestamp": "2026-07-30T16:00:05+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 21,
+                        "current": 21,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 192,
+                        "current": 196,
+                        "absolute_change": 4,
+                        "percentage_change": 2.0833
+                    },
+                    "total_interactions": {
+                        "previous": 26,
+                        "current": 26,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 257,
+                        "current": 265,
+                        "absolute_change": 8,
+                        "percentage_change": 3.1128
+                    }
+                }
+            },
+            {
+                "post_id": "18266396278035729",
+                "timestamp": "2021-11-22T21:37:33+0000",
+                "media_type": "IMAGE",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 21,
+                        "current": 21,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 57,
+                        "current": 57,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 22,
+                        "current": 22,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    }
+                }
+            },
+            {
+                "post_id": "18348458266172539",
+                "timestamp": "2026-07-25T13:49:05+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 10,
+                        "current": 10,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 71,
+                        "current": 71,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 12,
+                        "current": 12,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 228,
+                        "current": 228,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18371722144225322",
+                "timestamp": "2026-07-14T11:23:12+0000",
+                "media_type": "VIDEO",
+                "media_product_type": "REELS",
+                "comparison": {
+                    "likes": {
+                        "previous": 23,
+                        "current": 23,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 2,
+                        "current": 2,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 234,
+                        "current": 234,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 30,
+                        "current": 30,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 554,
+                        "current": 554,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18458710993116375",
+                "timestamp": "2026-06-26T01:15:26+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "reach": {
+                        "previous": 88,
+                        "current": 88,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 16,
+                        "current": 16,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 284,
+                        "current": 284,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            },
+            {
+                "post_id": "18610104733019520",
+                "timestamp": "2026-07-26T15:14:03+0000",
+                "media_type": "CAROUSEL_ALBUM",
+                "media_product_type": "FEED",
+                "comparison": {
+                    "likes": {
+                        "previous": 5,
+                        "current": 5,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "comments": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "shares": {
+                        "previous": 0,
+                        "current": 0,
+                        "absolute_change": 0,
+                        "percentage_change": null
+                    },
+                    "saved": {
+                        "previous": 1,
+                        "current": 1,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "reach": {
+                        "previous": 59,
+                        "current": 59,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "total_interactions": {
+                        "previous": 8,
+                        "current": 8,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    },
+                    "views": {
+                        "previous": 187,
+                        "current": 187,
+                        "absolute_change": 0,
+                        "percentage_change": 0.0
+                    }
+                }
+            }
+        ]
+    },
+    "top_changes": {
+        "reach": {
+            "absolute": [
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 1420,
+                    "current": 1434,
+                    "change": 14
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 10,
+                    "current": 22,
+                    "change": 12
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 192,
+                    "current": 196,
+                    "change": 4
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 44,
+                    "current": 45,
+                    "change": 1
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 76,
+                    "current": 77,
+                    "change": 1
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 10,
+                    "current": 22,
+                    "change": 120.0
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 44,
+                    "current": 45,
+                    "change": 2.2727
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 192,
+                    "current": 196,
+                    "change": 2.0833
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 76,
+                    "current": 77,
+                    "change": 1.3158
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 78,
+                    "current": 79,
+                    "change": 1.2821
+                }
+            ]
+        },
+        "views": {
+            "absolute": [
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 1991,
+                    "current": 2021,
+                    "change": 30
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 23,
+                    "current": 51,
+                    "change": 28
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 257,
+                    "current": 265,
+                    "change": 8
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 181,
+                    "current": 187,
+                    "change": 6
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 136,
+                    "current": 137,
+                    "change": 1
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 23,
+                    "current": 51,
+                    "change": 121.7391
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 181,
+                    "current": 187,
+                    "change": 3.3149
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 257,
+                    "current": 265,
+                    "change": 3.1128
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 1991,
+                    "current": 2021,
+                    "change": 1.5068
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 136,
+                    "current": 137,
+                    "change": 0.7353
+                }
+            ]
+        },
+        "total_interactions": {
+            "absolute": [
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 6,
+                    "current": 8,
+                    "change": 2
+                },
+                {
+                    "post_id": "17852560133724754",
+                    "timestamp": "2022-03-07T22:35:04+0000",
+                    "media_type": "IMAGE",
+                    "media_product_type": "FEED",
+                    "previous": 11,
+                    "current": 11,
+                    "change": 0
+                },
+                {
+                    "post_id": "17866794171525378",
+                    "timestamp": "2026-04-13T18:50:04+0000",
+                    "media_type": "IMAGE",
+                    "media_product_type": "FEED",
+                    "previous": 24,
+                    "current": 24,
+                    "change": 0
+                },
+                {
+                    "post_id": "17873924610625945",
+                    "timestamp": "2026-07-27T18:18:27+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 14,
+                    "current": 14,
+                    "change": 0
+                },
+                {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 23,
+                    "current": 23,
+                    "change": 0
+                }
+            ],
+            "percentage": [
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 6,
+                    "current": 8,
+                    "change": 33.3333
+                },
+                {
+                    "post_id": "17852560133724754",
+                    "timestamp": "2022-03-07T22:35:04+0000",
+                    "media_type": "IMAGE",
+                    "media_product_type": "FEED",
+                    "previous": 11,
+                    "current": 11,
+                    "change": 0.0
+                },
+                {
+                    "post_id": "17866794171525378",
+                    "timestamp": "2026-04-13T18:50:04+0000",
+                    "media_type": "IMAGE",
+                    "media_product_type": "FEED",
+                    "previous": 24,
+                    "current": 24,
+                    "change": 0.0
+                },
+                {
+                    "post_id": "17873924610625945",
+                    "timestamp": "2026-07-27T18:18:27+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "media_product_type": "FEED",
+                    "previous": 14,
+                    "current": 14,
+                    "change": 0.0
+                },
+                {
+                    "post_id": "17881402041611543",
+                    "timestamp": "2026-07-12T19:09:29+0000",
+                    "media_type": "VIDEO",
+                    "media_product_type": "REELS",
+                    "previous": 23,
+                    "current": 23,
+                    "change": 0.0
+                }
+            ]
+        }
+    },
+    "relative_performance": {
+        "previous_snapshot": "relative_performance_20260730_231003.json",
+        "current_snapshot": "relative_performance_20260731_001343.json",
+        "groups": {
+            "CAROUSEL": {
+                "sample_size": {
+                    "previous": 4,
+                    "current": 4,
+                    "absolute_change": 0
+                },
+                "median_relative_reach": {
+                    "previous": 1.4632,
+                    "current": 1.4632,
+                    "absolute_change": 0.0
+                },
+                "median_log2_relative_reach": {
+                    "previous": null,
+                    "current": 0.5291,
+                    "absolute_change": null
+                },
+                "median_relative_interaction_rate": {
+                    "previous": 1.3741,
+                    "current": 1.3741,
+                    "absolute_change": 0.0
+                }
+            },
+            "REELS": {
+                "sample_size": {
+                    "previous": 5,
+                    "current": 5,
+                    "absolute_change": 0
+                },
+                "median_relative_reach": {
+                    "previous": 0.9118,
+                    "current": 0.9118,
+                    "absolute_change": 0.0
+                },
+                "median_log2_relative_reach": {
+                    "previous": null,
+                    "current": -0.1333,
+                    "absolute_change": null
+                },
+                "median_relative_interaction_rate": {
+                    "previous": 1.2227,
+                    "current": 1.2227,
+                    "absolute_change": 0.0
+                }
+            }
+        }
+    }
+}

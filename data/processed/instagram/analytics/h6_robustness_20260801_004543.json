@@ -1,0 +1,1842 @@
+{
+    "analysis": {
+        "created_at": "2026-08-01T00:45:43.966199",
+        "source_snapshot": "account_engagement_state_20260801_003409.json",
+        "bootstrap_iterations": 5000,
+        "bootstrap_seed": 20260731,
+        "methods": {
+            "bootstrap": "Paired non-parametric bootstrap with replacement.",
+            "loocv": "Leave-One-Out Cross-Validation."
+        },
+        "warning": "Con n pequeño, cualquier modelo puede ser inestable. La robustez debe reevaluarse al crecer la muestra."
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "predictor": "EG_3",
+            "outcome": "Initial IR",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.0,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.6341,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.3457,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.2075,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 10.5691,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 19.0476,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 11,
+                        "winner_share": 0.0022,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.23648100166838656,
+                            "median": 0.20919779425881613,
+                            "p025": 0.00081180034281228,
+                            "p975": 0.6518591845327434
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 10.084466631094182,
+                            "median": 10.589715782567154,
+                            "p025": 2.3684901063870543,
+                            "p975": 16.03527231239179
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 808,
+                        "winner_share": 0.1616,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5277660274814588,
+                            "median": 0.5848777239372123,
+                            "p025": 0.01904904607289168,
+                            "p975": 0.9339517652743263
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.913722937645723,
+                            "median": 7.096844399437172,
+                            "p025": 1.9802575063446948,
+                            "p975": 11.231152229933574
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 1867,
+                        "winner_share": 0.3734,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.41345233229192774,
+                            "median": 0.34766265958257586,
+                            "p025": 0.0011470440705101115,
+                            "p975": 0.9707606055989834
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.670265419714285,
+                            "median": 6.6769847619047615,
+                            "p025": 1.4118595625000008,
+                            "p975": 12.143646666666665
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 2314,
+                        "winner_share": 0.4628,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5640710587725757,
+                            "median": 0.6521811672611919,
+                            "p025": 0.010501647068032761,
+                            "p975": 0.9777174904574037
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 5.557035599695944,
+                            "median": 5.53981380952381,
+                            "p025": 1.3155419047619061,
+                            "p975": 10.401167
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 15.784562718749417,
+                        "rmse": 19.16914033527653,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            5.880272737778803,
+                            15.751175677822374,
+                            22.819944958499477,
+                            23.88925077782652,
+                            25.210825846101145,
+                            31.730510728761715,
+                            27.81372901031626,
+                            17.798903166463315,
+                            23.495087440602493,
+                            8.520195111343952
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 15.604137578892264,
+                        "rmse": 18.52467507442013,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            41.7491703047134,
+                            8.812916742826019,
+                            11.58017165882859,
+                            13.934828680535361,
+                            16.581674862933795,
+                            34.937216599046025,
+                            24.121491998989143,
+                            25.434831091226613,
+                            19.375247141261838,
+                            12.189582662081307
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 14.689049714285714,
+                        "rmse": 20.287735510899292,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            14.9972,
+                            14.83846,
+                            15.1718,
+                            14.78196,
+                            17.74626,
+                            38.92766666666667,
+                            37.698433333333334,
+                            16.9936,
+                            15.139328571428571,
+                            17.628514285714285
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 12.330263850754855,
+                        "rmse": 19.08020677760873,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            17.899699999999996,
+                            17.800487500000003,
+                            18.008825,
+                            17.765175,
+                            19.6178625,
+                            24.42631350754855,
+                            17.9942875,
+                            11.428599999999982,
+                            14.675487500000003,
+                            16.853525000000005
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "saturation"
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "predictor": "EG_5",
+            "outcome": "Initial IR",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.0,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.6341,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.2075,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.3457,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 4,
+                        "winner_share": 0.0008,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.25878015291060624,
+                            "median": 0.24132964777738913,
+                            "p025": 0.005412037974673346,
+                            "p975": 0.6588785600089089
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.621518875496543,
+                            "median": 9.836074093438851,
+                            "p025": 2.5958287352370455,
+                            "p975": 15.892080043474143
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 1094,
+                        "winner_share": 0.2188,
+                        "r_squared": {
+                            "n": 4996,
+                            "mean": 0.5949171414994464,
+                            "median": 0.6214203911537868,
+                            "p025": 0.12961107888637602,
+                            "p975": 0.956088554074666
+                        },
+                        "mae": {
+                            "n": 4996,
+                            "mean": 6.565399429845902,
+                            "median": 6.604694624060196,
+                            "p025": 1.8031517636462673,
+                            "p975": 10.811149528582327
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 1115,
+                        "winner_share": 0.223,
+                        "r_squared": {
+                            "n": 4993,
+                            "mean": 0.5297757667317139,
+                            "median": 0.5587518960124505,
+                            "p025": 0.0029842379546888734,
+                            "p975": 0.9711602430614062
+                        },
+                        "mae": {
+                            "n": 4993,
+                            "mean": 5.966432640053217,
+                            "median": 6.03025,
+                            "p025": 1.3825862857142854,
+                            "p975": 10.141594599999998
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 2787,
+                        "winner_share": 0.5574,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.6892322678635923,
+                            "median": 0.7755073515895573,
+                            "p025": 0.016058029042015,
+                            "p975": 0.9829991585472918
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 4.729793101796646,
+                            "median": 4.7740678518572945,
+                            "p025": 1.149456,
+                            "p975": 8.35445822207125
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 14.36244548876009,
+                        "rmse": 18.051716682088315,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            -4.709168008989096,
+                            13.583030335913264,
+                            14.020581872304007,
+                            23.104123707554884,
+                            26.109181764405243,
+                            25.53833187953302,
+                            30.4148688816784,
+                            21.44174601297964,
+                            25.15495269079767,
+                            28.606891557434835
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 19.299343528322286,
+                        "rmse": 25.990122932471532,
+                        "winner_count": 1,
+                        "winner_share": 0.1,
+                        "predictions": [
+                            83.42650006472581,
+                            2.052100491177498,
+                            2.717129356981445,
+                            11.909406606144671,
+                            18.767570613837563,
+                            18.13849779012895,
+                            34.69272631543629,
+                            30.63593612616657,
+                            28.920562296929972,
+                            32.7086753764944
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 11.297837333333334,
+                        "rmse": 15.269233614189462,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            12.43444,
+                            12.2757,
+                            12.60904,
+                            12.219199999999999,
+                            15.1835,
+                            13.323319999999999,
+                            41.9697,
+                            27.008466666666667,
+                            33.119566666666664,
+                            38.92766666666667
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 10.608790867444869,
+                        "rmse": 15.186296078464814,
+                        "winner_count": 4,
+                        "winner_share": 0.4,
+                        "predictions": [
+                            13.761527294174932,
+                            17.153161821221275,
+                            17.366978802026722,
+                            17.11827701838635,
+                            16.153665666744843,
+                            17.8348757312243,
+                            29.27671952644817,
+                            27.00846666666666,
+                            14.676167891522844,
+                            17.863208039238536
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "saturation"
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "predictor": "EG_7d",
+            "outcome": "Initial IR",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 18.0173,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.2043,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.6667,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.1255,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 15.5844,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.8171,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.6341,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.6341,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.8171,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.0,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 19,
+                        "winner_share": 0.0038,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.19535861626175077,
+                            "median": 0.16606363506690308,
+                            "p025": 0.002707185866768869,
+                            "p975": 0.5551022140645258
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.77016104574834,
+                            "median": 9.914190069749191,
+                            "p025": 2.4805460196435054,
+                            "p975": 16.65358340699384
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 577,
+                        "winner_share": 0.1154,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.3512880859514605,
+                            "median": 0.31605697790823795,
+                            "p025": 0.04303024636276509,
+                            "p975": 0.8493750766724818
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 8.515935188607484,
+                            "median": 8.672947526953925,
+                            "p025": 2.2136547686897097,
+                            "p975": 14.210159817184477
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 2410,
+                        "winner_share": 0.482,
+                        "r_squared": {
+                            "n": 4999,
+                            "mean": 0.35953197492010197,
+                            "median": 0.3388334432436062,
+                            "p025": 0.0015829485680665667,
+                            "p975": 0.9239930563316874
+                        },
+                        "mae": {
+                            "n": 4999,
+                            "mean": 7.499275351413139,
+                            "median": 7.51122,
+                            "p025": 1.8288276000000006,
+                            "p975": 13.194972833333333
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 1994,
+                        "winner_share": 0.3988,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.40519980927435295,
+                            "median": 0.3594995624866757,
+                            "p025": 0.0009854466161312025,
+                            "p975": 0.9723751869151072
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 7.1191572555897205,
+                            "median": 6.985207994934915,
+                            "p025": 1.3914727142857146,
+                            "p975": 13.190608031058902
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 13.901366827840192,
+                        "rmse": 17.94284869605835,
+                        "winner_count": 1,
+                        "winner_share": 0.1,
+                        "predictions": [
+                            3.25144476817502,
+                            12.968905935544484,
+                            17.25417320256669,
+                            20.210967760441847,
+                            25.16728612444605,
+                            30.13789615472858,
+                            31.156535897705254,
+                            20.258299035027704,
+                            24.09066635433622,
+                            26.31392523159694
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 16.865152553627116,
+                        "rmse": 20.106135071564157,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            46.03773724951543,
+                            10.015430191938549,
+                            8.228391270551583,
+                            9.542200763439496,
+                            20.809254282461325,
+                            32.54807080972569,
+                            38.95067744889593,
+                            22.863737467680608,
+                            26.050174173153437,
+                            25.51111961243646
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 14.439735071428572,
+                        "rmse": 19.853512926285134,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            14.9972,
+                            14.83846,
+                            15.1718,
+                            14.78196,
+                            16.122225,
+                            38.92766666666667,
+                            37.698433333333334,
+                            18.916339999999998,
+                            14.612514285714285,
+                            17.1017
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 16.383347311003824,
+                        "rmse": 23.458697747242134,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            13.660980242780425,
+                            16.59681448119905,
+                            16.864532846499284,
+                            16.551459962305337,
+                            17.179050517336467,
+                            29.701906071149175,
+                            61.21101598283379,
+                            15.116300000000008,
+                            14.61251428571428,
+                            16.310363335781368
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "linear"
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "predictor": "EG_5",
+            "outcome": "Initial Reach",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.0,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.6341,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.2075,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.3457,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 19,
+                        "winner_share": 0.0038,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.1085153018456752,
+                            "median": 0.01785071785397696,
+                            "p025": 3.900457152901105e-05,
+                            "p975": 0.8122634902894773
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 155.46647331769165,
+                            "median": 165.86282010092208,
+                            "p025": 6.484539865194968,
+                            "p975": 385.61763879702204
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 1031,
+                        "winner_share": 0.2062,
+                        "r_squared": {
+                            "n": 4996,
+                            "mean": 0.2621426697266105,
+                            "median": 0.1596492211798481,
+                            "p025": 0.0068436336539142995,
+                            "p975": 0.9144350726064601
+                        },
+                        "mae": {
+                            "n": 4996,
+                            "mean": 139.64276094580515,
+                            "median": 164.2190198789691,
+                            "p025": 4.67873426175724,
+                            "p975": 309.46315290596
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 3337,
+                        "winner_share": 0.6674,
+                        "r_squared": {
+                            "n": 4993,
+                            "mean": 0.25917847306560077,
+                            "median": 0.1951164212580787,
+                            "p025": 0.002064572442970803,
+                            "p975": 0.8811933195720636
+                        },
+                        "mae": {
+                            "n": 4993,
+                            "mean": 127.08440049402496,
+                            "median": 149.20000000000002,
+                            "p025": 5.131428571428572,
+                            "p975": 279.52571428571406
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 613,
+                        "winner_share": 0.1226,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.18567118179871142,
+                            "median": 0.08478436800657924,
+                            "p025": 0.0023391251188426333,
+                            "p975": 0.9096329551475094
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 147.02239082558157,
+                            "median": 161.81251605114292,
+                            "p025": 4.641757479352859,
+                            "p975": 351.15187499999996
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 201.17071713575086,
+                        "rmse": 320.40490731042763,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            164.75202442714888,
+                            150.3150323983754,
+                            147.16472434252302,
+                            159.4219397108673,
+                            53.897393253013576,
+                            167.38124204754124,
+                            160.7082399340828,
+                            217.62628653178137,
+                            192.40593904750207,
+                            188.24561603886568
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 311.606564767748,
+                        "rmse": 446.01282695525344,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            -884.2885081061722,
+                            261.7604061110669,
+                            256.9722940395186,
+                            281.29871795798226,
+                            55.80517754647579,
+                            252.0692837683464,
+                            124.38453761638084,
+                            81.09327197435073,
+                            159.16918278033472,
+                            154.60369810256498
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 214.78,
+                        "rmse": 334.30978414904007,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            55.666666666666664,
+                            60.666666666666664,
+                            56.666666666666664,
+                            208.16666666666666,
+                            52.4,
+                            242.8,
+                            22.5,
+                            247.8,
+                            247.4,
+                            243.2
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 206.60496359083444,
+                        "rmse": 320.0149038883018,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            175.75,
+                            177.625,
+                            176.125,
+                            176.25,
+                            60.25,
+                            179.25,
+                            162.125,
+                            202.7996359083445,
+                            182.125,
+                            179.5
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "linear"
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "predictor": "EG_5",
+            "outcome": "Initial Views",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 188,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 134,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7419,
+                    "initial_value": 144,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.0,
+                    "initial_value": 135,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.6341,
+                    "initial_value": 1360,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.2075,
+                    "initial_value": 226,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.3457,
+                    "initial_value": 23,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 29,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.2075,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 120,
+                        "winner_share": 0.024,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.14073643419565238,
+                            "median": 0.022846254525054177,
+                            "p025": 3.428049679166101e-05,
+                            "p975": 0.8302938762198624
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 206.42810613667191,
+                            "median": 220.8808265759981,
+                            "p025": 15.599828644217185,
+                            "p975": 514.4063298085924
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 1316,
+                        "winner_share": 0.2632,
+                        "r_squared": {
+                            "n": 4996,
+                            "mean": 0.300333153616173,
+                            "median": 0.2184264493141162,
+                            "p025": 0.03487744297335636,
+                            "p975": 0.9300898761372025
+                        },
+                        "mae": {
+                            "n": 4996,
+                            "mean": 183.92828329870355,
+                            "median": 214.68945142228392,
+                            "p025": 11.136927886101383,
+                            "p975": 410.4053809902719
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 2648,
+                        "winner_share": 0.5296,
+                        "r_squared": {
+                            "n": 4993,
+                            "mean": 0.2815633211191337,
+                            "median": 0.22333298697328274,
+                            "p025": 0.01159942339801823,
+                            "p975": 0.8638718994223581
+                        },
+                        "mae": {
+                            "n": 4993,
+                            "mean": 171.2535595548053,
+                            "median": 203.5047619047619,
+                            "p025": 11.982857142857144,
+                            "p975": 373.86
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 916,
+                        "winner_share": 0.1832,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.23553116664615872,
+                            "median": 0.1173140600329069,
+                            "p025": 0.00456084030320121,
+                            "p975": 0.9187714296824977
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 193.23559769015517,
+                            "median": 214.74053459694903,
+                            "p025": 9.996858755181616,
+                            "p975": 462.8710119461056
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 265.824096447058,
+                        "rmse": 426.94379629460997,
+                        "winner_count": 5,
+                        "winner_share": 0.5,
+                        "predictions": [
+                            318.748494726338,
+                            276.31949278626917,
+                            273.69423607305896,
+                            257.5195028221799,
+                            113.95082327898477,
+                            261.6256242685433,
+                            247.79409584073088,
+                            311.2991938019805,
+                            286.821887874128,
+                            271.36925955633626
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 415.9664970292353,
+                        "rmse": 607.4968221495437,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            -1138.6075283276987,
+                            428.7256286480988,
+                            424.7355352551349,
+                            421.8636966787153,
+                            119.0107825454943,
+                            375.3733366977531,
+                            198.8129469532364,
+                            126.85740607840671,
+                            241.64154131135228,
+                            224.6840267939242
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 358.8333333333333,
+                        "rmse": 476.51446247143895,
+                        "winner_count": 1,
+                        "winner_share": 0.1,
+                        "predictions": [
+                            137.66666666666666,
+                            456.75,
+                            454.25,
+                            456.5,
+                            98.4,
+                            349,
+                            66.5,
+                            365.8,
+                            364.6,
+                            349
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 264.7660008128309,
+                        "rmse": 417.50725094059914,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            280.25,
+                            287.0,
+                            285.75,
+                            286.875,
+                            142.4598407217548,
+                            290.375,
+                            275.5,
+                            300.04348195559817,
+                            226.95136689446554,
+                            290.375
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "saturation"
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "predictor": "Account Temperature",
+            "outcome": "Initial IR",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2291,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0799,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1084,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9625,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9451,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.942,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8694,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.823,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8694,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8585,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 2,
+                        "winner_share": 0.0004,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.26970199384237,
+                            "median": 0.25365283436149405,
+                            "p025": 0.005203523545807576,
+                            "p975": 0.6522222224743914
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 9.579435324076798,
+                            "median": 9.812864421631406,
+                            "p025": 2.5747078726942396,
+                            "p975": 15.70001665320831
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 652,
+                        "winner_share": 0.1304,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5876674293463647,
+                            "median": 0.6105980749046345,
+                            "p025": 0.14197883044124074,
+                            "p975": 0.9372611558099634
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 6.8085004033448255,
+                            "median": 6.99578841499684,
+                            "p025": 1.872077645517723,
+                            "p975": 10.775191765920242
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 1242,
+                        "winner_share": 0.2484,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.5542787426077318,
+                            "median": 0.586822895503827,
+                            "p025": 0.003770914885788868,
+                            "p975": 0.9715604001173719
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 5.807413374861905,
+                            "median": 5.895734999999999,
+                            "p025": 1.1591032571428577,
+                            "p975": 9.951035812499992
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 3104,
+                        "winner_share": 0.6208,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.666439114348208,
+                            "median": 0.7580806327082761,
+                            "p025": 0.057516674960855614,
+                            "p975": 0.9856225200617558
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 4.757081983493169,
+                            "median": 4.842518420531501,
+                            "p025": 0.9617783142857155,
+                            "p975": 8.7842274771184
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 14.413884100510257,
+                        "rmse": 18.026937160459134,
+                        "winner_count": 0,
+                        "winner_share": 0.0,
+                        "predictions": [
+                            -5.671591575819903,
+                            14.754097656122923,
+                            12.870901750077252,
+                            22.883526795261687,
+                            25.80806085838796,
+                            24.959942483965833,
+                            30.516316956356803,
+                            21.730576571449895,
+                            25.306732627542203,
+                            29.61951094050267
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 18.496705053027334,
+                        "rmse": 23.97753241338635,
+                        "winner_count": 3,
+                        "winner_share": 0.3,
+                        "predictions": [
+                            75.66533419054758,
+                            2.1727904783543863,
+                            4.233524467769257,
+                            11.95391543206631,
+                            18.420638377744865,
+                            16.92611337949404,
+                            33.99396541983748,
+                            30.69500700107855,
+                            28.427942532254804,
+                            35.949579074172675
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 13.682170285714285,
+                        "rmse": 17.596114073932174,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            12.43444,
+                            12.2757,
+                            17.118314285714284,
+                            12.219199999999999,
+                            15.1835,
+                            17.628514285714285,
+                            41.9697,
+                            27.008466666666667,
+                            13.308785714285714,
+                            38.92766666666667
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 10.809395968294547,
+                        "rmse": 15.789421335238323,
+                        "winner_count": 5,
+                        "winner_share": 0.5,
+                        "predictions": [
+                            13.475071152916193,
+                            17.056483957731494,
+                            17.27129975822099,
+                            17.02102056314444,
+                            18.93368757201352,
+                            17.73611249465725,
+                            27.90797069418992,
+                            24.242399999999986,
+                            15.346999141348078,
+                            19.26174506274787
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "saturation"
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "predictor": "Account Temperature",
+            "outcome": "Initial Reach",
+            "n": 10,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2291,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0799,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1084,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9625,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9451,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.942,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8694,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.823,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8694,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8585,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                }
+            ],
+            "bootstrap": {
+                "status": "ok",
+                "n": 10,
+                "iterations_requested": 5000,
+                "successful_iterations": 5000,
+                "seed": 20260731,
+                "models": {
+                    "linear": {
+                        "winner_count": 16,
+                        "winner_share": 0.0032,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.10856896873482363,
+                            "median": 0.016667767321993487,
+                            "p025": 2.7833032679097654e-05,
+                            "p975": 0.8178154819721318
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 155.6893672115806,
+                            "median": 166.38212843268383,
+                            "p025": 6.191593634358535,
+                            "p975": 386.58729147731026
+                        }
+                    },
+                    "quadratic": {
+                        "winner_count": 826,
+                        "winner_share": 0.1652,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.25908522163203673,
+                            "median": 0.16046610907921433,
+                            "p025": 0.0066794405963525715,
+                            "p975": 0.8957472229271431
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 141.27570615576963,
+                            "median": 166.0155798347142,
+                            "p025": 4.830710751796948,
+                            "p975": 314.1353298339124
+                        }
+                    },
+                    "threshold": {
+                        "winner_count": 3533,
+                        "winner_share": 0.7066,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.2714306486670424,
+                            "median": 0.2025837561300059,
+                            "p025": 0.007406066301469353,
+                            "p975": 0.8814194535040112
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 126.64415071428571,
+                            "median": 149.09761904761905,
+                            "p025": 5.094857142857141,
+                            "p975": 279.2907142857138
+                        }
+                    },
+                    "saturation": {
+                        "winner_count": 625,
+                        "winner_share": 0.125,
+                        "r_squared": {
+                            "n": 5000,
+                            "mean": 0.1837332075054886,
+                            "median": 0.08537029704563548,
+                            "p025": 0.015742303034002873,
+                            "p975": 0.9089585681097451
+                        },
+                        "mae": {
+                            "n": 5000,
+                            "mean": 146.87673408104845,
+                            "median": 161.5340107322843,
+                            "p025": 4.593985102248746,
+                            "p975": 350.5526457620371
+                        }
+                    }
+                }
+            },
+            "leave_one_out": {
+                "status": "ok",
+                "n": 10,
+                "models": {
+                    "linear": {
+                        "folds": 10,
+                        "mae": 202.99274569352042,
+                        "rmse": 320.6288170663067,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            181.88178836062735,
+                            154.12632924131233,
+                            152.70127067487093,
+                            158.60877934287873,
+                            53.95615032196153,
+                            164.55775541604478,
+                            156.95685621347758,
+                            213.1124093299754,
+                            188.35124170711723,
+                            188.50088939781662
+                        ]
+                    },
+                    "quadratic": {
+                        "folds": 10,
+                        "mae": 305.29464310048826,
+                        "rmse": 435.87739934301374,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            -834.8583092838053,
+                            284.12255550635746,
+                            238.44481168431776,
+                            282.1623778089652,
+                            56.26617878914175,
+                            262.17036263040245,
+                            125.79504192483182,
+                            72.15600907442195,
+                            159.3374240363355,
+                            136.75580169425075
+                        ]
+                    },
+                    "threshold": {
+                        "folds": 10,
+                        "mae": 213.6057142857143,
+                        "rmse": 331.03148851736546,
+                        "winner_count": 4,
+                        "winner_share": 0.4,
+                        "predictions": [
+                            55.666666666666664,
+                            60.666666666666664,
+                            56.666666666666664,
+                            208.16666666666666,
+                            64.14285714285714,
+                            242.8,
+                            22.5,
+                            247.8,
+                            247.4,
+                            243.2
+                        ]
+                    },
+                    "saturation": {
+                        "folds": 10,
+                        "mae": 189.5533624796811,
+                        "rmse": 314.0263363564147,
+                        "winner_count": 2,
+                        "winner_share": 0.2,
+                        "predictions": [
+                            175.75,
+                            177.625,
+                            176.125,
+                            176.25,
+                            60.96637520318891,
+                            179.25,
+                            162.125,
+                            33.0,
+                            182.125,
+                            179.5
+                        ]
+                    }
+                },
+                "preferred_by_out_of_sample_mae": "saturation"
+            }
+        }
+    }
+}

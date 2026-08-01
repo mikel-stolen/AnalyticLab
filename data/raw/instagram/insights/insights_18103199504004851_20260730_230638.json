@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "name": "likes",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 9
+                }
+            ],
+            "title": "Me gusta",
+            "description": "Número de Me gusta de tu publicación.",
+            "id": "18103199504004851/insights/likes/lifetime"
+        },
+        {
+            "name": "comments",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 0
+                }
+            ],
+            "title": "Comentarios",
+            "description": "Número de comentarios de tu publicación.",
+            "id": "18103199504004851/insights/comments/lifetime"
+        },
+        {
+            "name": "shares",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 0
+                }
+            ],
+            "title": "Veces que se ha compartido",
+            "description": "Número de veces que se ha compartido tu publicación.",
+            "id": "18103199504004851/insights/shares/lifetime"
+        },
+        {
+            "name": "saved",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 1
+                }
+            ],
+            "title": "Veces que se ha guardado",
+            "description": "Número de veces que se ha guardado tu publicación.",
+            "id": "18103199504004851/insights/saved/lifetime"
+        },
+        {
+            "name": "reach",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 78
+                }
+            ],
+            "title": "Cuentas alcanzadas",
+            "description": "Número de cuentas únicas que han visto este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, ya que estas pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
+            "id": "18103199504004851/insights/reach/lifetime"
+        },
+        {
+            "name": "total_interactions",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 11
+                }
+            ],
+            "title": "Interacciones con la publicación",
+            "description": "Número de Me gusta de tu publicación y de veces que esta se ha guardado, comentado o compartido menos el número de Ya no me gusta, de comentarios eliminados de la publicación y de veces que esta se ha eliminado de los elementos guardados.",
+            "id": "18103199504004851/insights/total_interactions/lifetime"
+        },
+        {
+            "name": "views",
+            "period": "lifetime",
+            "values": [
+                {
+                    "value": 181
+                }
+            ],
+            "title": "Visualizaciones",
+            "description": "Número de veces que se ha reproducido o mostrado tu publicación.",
+            "id": "18103199504004851/insights/views/lifetime"
+        }
+    ]
+}
