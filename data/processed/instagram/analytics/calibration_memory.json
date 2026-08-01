@@ -31,5 +31,18 @@
             "errors": []
         }
     },
-    "updated_at": "2026-08-02T01:06:55.563449"
+    "updated_at": "2026-08-02T01:34:24.532004",
+    "results": [
+        {
+            "prediction_id": "e340edb7-00ba-4119-b5e6-a41ab24b9ba1",
+            "pair": "eg_3_vs_initial_ir",
+            "prediction": 17.940201966198313,
+            "actual": 250,
+            "error": {
+                "absolute_error": 232.05979803380168,
+                "relative_error": 0.9282391921352068
+            },
+            "timestamp": "2026-08-02T01:34:24.531145"
+        }
+    ]
 }

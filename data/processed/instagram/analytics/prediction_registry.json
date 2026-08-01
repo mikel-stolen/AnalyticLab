@@ -15,7 +15,15 @@
                 "threshold": 0.23918196765738764,
                 "saturation": 0.28954948103835704
             },
-            "status": "waiting_result"
+            "status": "waiting_result",
+            "learning": {
+                "status": "completed",
+                "actual": 250,
+                "error": {
+                    "absolute_error": 232.05979803380168,
+                    "relative_error": 0.9282391921352068
+                }
+            }
         },
         {
             "id": "743f1eb4-3a90-4a92-ac89-44ec4b955548",
