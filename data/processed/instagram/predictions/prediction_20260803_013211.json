@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-08-03T01:32:11.510499",
+    "relation": "eg_3_vs_initial_ir",
+    "predictor_value": 17,
+    "prediction": {
+        "ensemble": 16.835550477256763
+    },
+    "models": {
+        "linear": 20.206832809739886,
+        "quadratic": 11.152687608346127,
+        "threshold": 16.683557142857143,
+        "saturation": 18.499649999999995
+    },
+    "winner": {
+        "model": "saturation",
+        "probability": 0.285
+    },
+    "confidence": 0.285,
+    "evidence_state": "undetermined"
+}
