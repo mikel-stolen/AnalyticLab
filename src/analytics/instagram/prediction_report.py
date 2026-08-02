@@ -83,19 +83,22 @@ def generate_report(result):
     print("BAYESIAN")
     print("-" * 60)
 
+    winner = reasoning["bayesian"]["winner"]
+
+    winner_probability = reasoning["bayesian"]["winner_probability"]
+
     print(
         "Modelo dominante:",
-        reasoning["bayesian"]["winner"]
+        winner
     )
 
     print(
-        "Probabilidad:",
+        "Probabilidad dominante:",
         format_percentage(
-            reasoning["bayesian"]["winner_probability"] * 100
+            winner_probability * 100
         ),
         "%"
     )
-
 
     print(
         "Confianza:",
@@ -121,7 +124,42 @@ def generate_report(result):
 
     print()
 
-    print(reasoning)
+    print(
+        "Diagnóstico:"
+    )
+
+    print()
+
+    models_reasoning = reasoning["models"]
+
+    consensus_reasoning = reasoning["consensus"]
+
+    if models_reasoning["agreement"]:
+
+        print(
+            "- Los modelos presentan buena concordancia."
+        )
+
+    else:
+
+        print(
+            "- Los modelos presentan divergencia alta."
+        )
+
+    print(
+        "- Dispersión entre modelos:",
+        models_reasoning["spread"]
+    )
+
+    print(
+        "- Estrategia:",
+        consensus_reasoning["strategy"]
+    )
+
+    print(
+        "- Motivo:",
+        consensus_reasoning["reason"]
+    )
 
 
     print()
