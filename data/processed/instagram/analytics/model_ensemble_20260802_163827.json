@@ -1,0 +1,2442 @@
+{
+    "analysis": {
+        "created_at": "2026-08-02T16:38:27.243121",
+        "source_snapshot": "account_engagement_state_20260802_001030.json",
+        "models": [
+            "linear",
+            "quadratic",
+            "threshold",
+            "saturation"
+        ],
+        "weighting": {
+            "loocv_mae_share": 0.75,
+            "bootstrap_winner_share": 0.25,
+            "complexity_penalty": {
+                "linear": 0.0,
+                "quadratic": 0.05,
+                "threshold": 0.05,
+                "saturation": 0.08
+            }
+        },
+        "ensemble_goal": "Mantener varias hipótesis de forma funcional y repartir la confianza en lugar de seleccionar obligatoriamente un único modelo.",
+        "uncertainty_definition": "El desacuerdo ponderado entre modelos se conserva como señal de incertidumbre estructural.",
+        "warning": "Con n pequeño, los pesos pueden ser inestables. El ensemble debe reevaluarse mediante validación walk-forward cuando la serie temporal tenga suficiente longitud."
+    },
+    "results": {
+        "eg_3_vs_initial_ir": {
+            "pair_name": "eg_3_vs_initial_ir",
+            "predictor": "EG_3",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.2857,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 10.9804,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 19.403,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 19.403,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.24659086124823792,
+                "quadratic": 0.22467769005601737,
+                "threshold": 0.23918196765738764,
+                "saturation": 0.28954948103835704
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 14.673628024893633,
+                    "rmse": 18.757025326882594,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        15.568536605689637,
+                        20.017292136867216,
+                        24.579228668839185,
+                        24.71311664882307,
+                        26.45570687267571,
+                        31.032638240737036,
+                        25.847427256515168,
+                        15.244121847532686,
+                        22.246777992968532,
+                        14.57093830361542,
+                        14.024626800821153
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 15.29953171061631,
+                    "rmse": 20.62593796283272,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        36.221147035315084,
+                        10.490453825100701,
+                        15.963369317087427,
+                        16.75157397075384,
+                        19.865188172468805,
+                        41.720088166224656,
+                        20.343893083563756,
+                        13.363770561354523,
+                        15.526387520707118,
+                        18.08404103639407,
+                        17.507910043570064
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 14.37175,
+                    "rmse": 19.625941962035782,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        16.818649999999998,
+                        16.686366666666668,
+                        16.96415,
+                        16.63928333333333,
+                        19.10953333333333,
+                        38.92766666666667,
+                        37.698433333333334,
+                        16.9936,
+                        16.48765,
+                        15.42375,
+                        15.143166666666666
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 11.496867321513975,
+                    "rmse": 17.10417218950547,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        18.7915,
+                        18.703311111111105,
+                        18.888499999999993,
+                        18.671922222222214,
+                        20.318755555555555,
+                        20.387923366891116,
+                        18.875577777777785,
+                        15.383838385792922,
+                        15.925533333333334,
+                        17.86156666666667,
+                        17.674511111111116
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.07249421199642725,
+                    "mae_in_sample": 11.855231487678436
+                },
+                "quadratic": {
+                    "r_squared": 0.36292969840863876,
+                    "mae_in_sample": 9.553584256474236
+                },
+                "threshold": {
+                    "r_squared": 0.23626382838523208,
+                    "mae_in_sample": 9.932314285714286
+                },
+                "saturation": {
+                    "r_squared": 0.6152223817157345,
+                    "mae_in_sample": 6.606554545454546
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 13.64889105538609,
+                "rmse": 18.449061613737417,
+                "mean_model_disagreement": 4.011616327498315,
+                "median_model_disagreement": 3.0420486732940386,
+                "predictions": [
+                    22.680640679639033,
+                    16.51429998420459,
+                    18.95151985243202,
+                    19.017303824673025,
+                    21.19201380088004,
+                    32.69369706090825,
+                    25.53960530947696,
+                    15.278236589714151,
+                    17.05742381727184,
+                    16.722633305514314,
+                    16.37128522205745
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.1874167623435474,
+                        "quadratic": 0.2819978796599123,
+                        "threshold": 0.21387609956513737,
+                        "saturation": 0.316709258431403
+                    },
+                    {
+                        "linear": 0.20177270029044309,
+                        "quadratic": 0.24394107618223612,
+                        "threshold": 0.22344858479598526,
+                        "saturation": 0.3308376387313356
+                    },
+                    {
+                        "linear": 0.20715349402387395,
+                        "quadratic": 0.23305659864697603,
+                        "threshold": 0.22558966264054514,
+                        "saturation": 0.3342002446886049
+                    },
+                    {
+                        "linear": 0.20760237141454393,
+                        "quadratic": 0.23439799047289855,
+                        "threshold": 0.22564702370042802,
+                        "saturation": 0.33235261441212943
+                    },
+                    {
+                        "linear": 0.2030436793463207,
+                        "quadratic": 0.23369426969793047,
+                        "threshold": 0.22064995731987638,
+                        "saturation": 0.3426120936358724
+                    },
+                    {
+                        "linear": 0.181707012045014,
+                        "quadratic": 0.2634800097898145,
+                        "threshold": 0.25625788303717495,
+                        "saturation": 0.29855509512799666
+                    },
+                    {
+                        "linear": 0.19574442595052913,
+                        "quadratic": 0.22572475526456093,
+                        "threshold": 0.2639286972137559,
+                        "saturation": 0.31460212157115414
+                    },
+                    {
+                        "linear": 0.2568834096236158,
+                        "quadratic": 0.24387527311947638,
+                        "threshold": 0.26273061385143875,
+                        "saturation": 0.23651070340546904
+                    },
+                    {
+                        "linear": 0.17363487098205502,
+                        "quadratic": 0.20346750564098218,
+                        "threshold": 0.20550037518695916,
+                        "saturation": 0.4173972481900036
+                    },
+                    {
+                        "linear": 0.1947827488470543,
+                        "quadratic": 0.229139384758551,
+                        "threshold": 0.22518238178986635,
+                        "saturation": 0.3508954846045283
+                    },
+                    {
+                        "linear": 0.19235484146892456,
+                        "quadratic": 0.2275034156991224,
+                        "threshold": 0.2225104767861142,
+                        "saturation": 0.35763126604583884
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    19.140718812797303,
+                    16.826764523789357,
+                    18.71704559524547,
+                    19.011000067860884,
+                    19.011000067860884,
+                    27.210988817220127,
+                    23.4712039121078,
+                    42.25617035861407,
+                    23.4712039121078,
+                    17.940201966198313,
+                    17.940201966198313
+                ],
+                "mae": 9.132222144887574,
+                "rmse": 11.209224014499256,
+                "mean_model_disagreement": 4.332896492110028
+            }
+        },
+        "eg_5_vs_initial_ir": {
+            "pair_name": "eg_5_vs_initial_ir",
+            "predictor": "EG_5",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.2439512128738063,
+                "quadratic": 0.16227813606871566,
+                "threshold": 0.29022970970866274,
+                "saturation": 0.3035409413488153
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 13.748199310102423,
+                    "rmse": 17.492745035385756,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        -0.9544013717221702,
+                        16.09190933656928,
+                        16.427676348506836,
+                        25.702858526572243,
+                        27.424560017787506,
+                        27.137454439396024,
+                        28.628465234538936,
+                        20.81761561707525,
+                        24.527054073621166,
+                        27.218697833834938,
+                        16.09544233396629
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 19.634163165114387,
+                    "rmse": 27.737539051426328,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        90.91972309903099,
+                        8.099425650601745,
+                        8.575461030160852,
+                        21.011816853114283,
+                        23.236917157742653,
+                        23.70153090566174,
+                        28.408219018117222,
+                        25.35615723534621,
+                        24.304960306108057,
+                        26.997816563477443,
+                        5.486324558669196
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 10.97818484848485,
+                    "rmse": 15.115962304899126,
+                    "winner_count": 6,
+                    "winner_share": 0.5454545454545454,
+                    "predictions": [
+                        14.683016666666667,
+                        14.550733333333334,
+                        14.828516666666665,
+                        14.503649999999999,
+                        16.9739,
+                        15.42375,
+                        41.9697,
+                        27.008466666666667,
+                        33.119566666666664,
+                        38.92766666666667,
+                        13.007533333333333
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 10.16528014671366,
+                    "rmse": 14.572268761157249,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        17.983872358697717,
+                        16.00402467144201,
+                        16.218278737658338,
+                        18.50845833871272,
+                        20.157560555572907,
+                        19.83330587037618,
+                        22.088115710086328,
+                        27.008466666666664,
+                        15.925533357538761,
+                        21.171041347348385,
+                        14.869343914258089
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.18946939445007827,
+                    "mae_in_sample": 10.898352768393789
+                },
+                "quadratic": {
+                    "r_squared": 0.4653954317805158,
+                    "mae_in_sample": 9.925618427052353
+                },
+                "threshold": {
+                    "r_squared": 0.41637916514721574,
+                    "mae_in_sample": 8.60067792207792
+                },
+                "saturation": {
+                    "r_squared": 0.6552678931157723,
+                    "mae_in_sample": 6.07166524928596
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 12.922682310921273,
+                "rmse": 16.242302892138756,
+                "mean_model_disagreement": 7.512063561203175,
+                "median_model_disagreement": 3.9546735326954,
+                "predictions": [
+                    36.01963275979617,
+                    13.89410951806443,
+                    14.237270515705664,
+                    19.587114143393507,
+                    21.511403900888887,
+                    21.13533963547822,
+                    30.433025151664182,
+                    25.10588258540463,
+                    22.62033246973069,
+                    28.341316759826512,
+                    12.542831842008054
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.18274955894717168,
+                        "quadratic": 0.3047381790112882,
+                        "threshold": 0.2210386744431856,
+                        "saturation": 0.29147358759835457
+                    },
+                    {
+                        "linear": 0.19992840038001772,
+                        "quadratic": 0.224497780082432,
+                        "threshold": 0.24284247213177285,
+                        "saturation": 0.3327313474057775
+                    },
+                    {
+                        "linear": 0.20282998620721476,
+                        "quadratic": 0.22094138566612456,
+                        "threshold": 0.24095174906152544,
+                        "saturation": 0.33527687906513526
+                    },
+                    {
+                        "linear": 0.21022657283747787,
+                        "quadratic": 0.21413012565959694,
+                        "threshold": 0.24216958257877513,
+                        "saturation": 0.33347371892415
+                    },
+                    {
+                        "linear": 0.200527062210756,
+                        "quadratic": 0.21656335250456818,
+                        "threshold": 0.2419424068007786,
+                        "saturation": 0.34096717848389724
+                    },
+                    {
+                        "linear": 0.20645771569753504,
+                        "quadratic": 0.21713984386423466,
+                        "threshold": 0.23719165251842475,
+                        "saturation": 0.3392107879198056
+                    },
+                    {
+                        "linear": 0.19035905735064346,
+                        "quadratic": 0.2042687314645994,
+                        "threshold": 0.2921746628033868,
+                        "saturation": 0.31319754838137037
+                    },
+                    {
+                        "linear": 0.2455893409377209,
+                        "quadratic": 0.23129871736183624,
+                        "threshold": 0.2657520559440753,
+                        "saturation": 0.25735988575636765
+                    },
+                    {
+                        "linear": 0.1869349020482198,
+                        "quadratic": 0.19392342095968831,
+                        "threshold": 0.20134354039427887,
+                        "saturation": 0.417798136597813
+                    },
+                    {
+                        "linear": 0.19370453706559307,
+                        "quadratic": 0.2029443765172486,
+                        "threshold": 0.2712399210140543,
+                        "saturation": 0.33211116540310404
+                    },
+                    {
+                        "linear": 0.1912271709151755,
+                        "quadratic": 0.22667141140602326,
+                        "threshold": 0.23316720195961596,
+                        "saturation": 0.34893421571918526
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    14.97242370918562,
+                    14.76395564914356,
+                    14.76395564914356,
+                    19.25317458421236,
+                    19.25317458421236,
+                    19.87258776392496,
+                    27.608030329944494,
+                    44.21141074555869,
+                    27.608030329944494,
+                    27.608030329944494,
+                    15.081726324785507
+                ],
+                "mae": 7.951054107679749,
+                "rmse": 10.028463759001582,
+                "mean_model_disagreement": 4.666620159458878
+            }
+        },
+        "eg_7d_vs_initial_ir": {
+            "pair_name": "eg_7d_vs_initial_ir",
+            "predictor": "EG_7d",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.7663,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.7302,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.0,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.7922,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 16.0,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.2464,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 15.2464,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.0,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 16.046,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.27286739249570857,
+                "quadratic": 0.24489126996394456,
+                "threshold": 0.25160103574700426,
+                "saturation": 0.2306403017933427
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 14.441393739894298,
+                    "rmse": 17.90512020515666,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        -1.4027844268933336,
+                        15.045273441204841,
+                        21.401028414906406,
+                        22.878492146218406,
+                        22.75743577131834,
+                        28.553038924705618,
+                        38.674231106474366,
+                        21.016339444229377,
+                        24.220367155500625,
+                        20.427118596855124,
+                        19.855481013889218
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 15.286605282701709,
+                    "rmse": 20.00392042131101,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        24.066281925397107,
+                        13.428561821815038,
+                        17.835143253393767,
+                        19.489426094239207,
+                        20.132123061148718,
+                        27.388626674890247,
+                        55.33950983999557,
+                        20.21249072596892,
+                        22.813385863424514,
+                        16.185895941319814,
+                        15.465018386817519
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 14.878937878787879,
+                    "rmse": 19.96050401730222,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        16.818649999999998,
+                        16.686366666666668,
+                        16.96415,
+                        16.63928333333333,
+                        26.2911375,
+                        38.92766666666667,
+                        37.698433333333334,
+                        19.0571,
+                        16.0266875,
+                        15.42375,
+                        15.143166666666666
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 15.718582525756757,
+                    "rmse": 22.25260909440837,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        15.339502391811063,
+                        18.395899748497634,
+                        18.61657796101861,
+                        19.80670833530297,
+                        20.28903460404697,
+                        25.9632175325029,
+                        60.852843672274005,
+                        15.116299999999981,
+                        16.0266875,
+                        17.604685955958274,
+                        17.352198222549443
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.1951497142330736,
+                    "mae_in_sample": 11.223465393466048
+                },
+                "quadratic": {
+                    "r_squared": 0.275413128983795,
+                    "mae_in_sample": 10.36223335714318
+                },
+                "threshold": {
+                    "r_squared": 0.23626382838523208,
+                    "mae_in_sample": 9.932314285714286
+                },
+                "saturation": {
+                    "r_squared": 0.24406148125829485,
+                    "mae_in_sample": 10.328353846242464
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 14.750998246547326,
+                "rmse": 19.74614350252078,
+                "mean_model_disagreement": 3.895645034266145,
+                "median_model_disagreement": 2.25307515934345,
+                "predictions": [
+                    13.783181098063292,
+                    15.870517932668864,
+                    18.69598375531954,
+                    19.68710933943343,
+                    22.352147894717202,
+                    30.706444200516867,
+                    49.35469008809525,
+                    18.88639726163024,
+                    19.52735721770962,
+                    17.337278316195693,
+                    16.883562739793994
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.24693768312786227,
+                        "quadratic": 0.25179702683645316,
+                        "threshold": 0.25731244197938713,
+                        "saturation": 0.24395284805629747
+                    },
+                    {
+                        "linear": 0.24267479002823242,
+                        "quadratic": 0.2557457470717353,
+                        "threshold": 0.2584879672249054,
+                        "saturation": 0.24309149567512695
+                    },
+                    {
+                        "linear": 0.25119545961832523,
+                        "quadratic": 0.24919156620067617,
+                        "threshold": 0.25738403646298247,
+                        "saturation": 0.24222893771801607
+                    },
+                    {
+                        "linear": 0.2511349748383063,
+                        "quadratic": 0.2506035064270846,
+                        "threshold": 0.2562078986211968,
+                        "saturation": 0.2420536201134122
+                    },
+                    {
+                        "linear": 0.2527492656517464,
+                        "quadratic": 0.25426133514349464,
+                        "threshold": 0.24643417021433045,
+                        "saturation": 0.2465552289904285
+                    },
+                    {
+                        "linear": 0.23341074723733285,
+                        "quadratic": 0.2415975873210102,
+                        "threshold": 0.2926741485609099,
+                        "saturation": 0.23231751688074712
+                    },
+                    {
+                        "linear": 0.20285346226163536,
+                        "quadratic": 0.26173801445726247,
+                        "threshold": 0.23995844011635792,
+                        "saturation": 0.29545008316474425
+                    },
+                    {
+                        "linear": 0.25884858064949295,
+                        "quadratic": 0.24466302565605857,
+                        "threshold": 0.25274842249785434,
+                        "saturation": 0.24373997119659413
+                    },
+                    {
+                        "linear": 0.22943152942839856,
+                        "quadratic": 0.2388173417926776,
+                        "threshold": 0.2701409477753891,
+                        "saturation": 0.2616101810035347
+                    },
+                    {
+                        "linear": 0.23536736196924518,
+                        "quadratic": 0.2537404202391151,
+                        "threshold": 0.26214056798826696,
+                        "saturation": 0.24875164980337272
+                    },
+                    {
+                        "linear": 0.23453792835911985,
+                        "quadratic": 0.25493754348005493,
+                        "threshold": 0.26013084773571277,
+                        "saturation": 0.25039368042511256
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    14.52884134888695,
+                    16.025369963677797,
+                    18.370321263762644,
+                    19.256096285336202,
+                    18.370321263762644,
+                    26.11551496432249,
+                    34.82780806564175,
+                    34.82780806564175,
+                    26.11551496432249,
+                    18.370321263762644,
+                    18.188582550882238
+                ],
+                "mae": 10.239683971422895,
+                "rmse": 12.992293737874341,
+                "mean_model_disagreement": 2.575233144571283
+            }
+        },
+        "eg_5_vs_initial_reach": {
+            "pair_name": "eg_5_vs_initial_reach",
+            "predictor": "EG_5",
+            "outcome": "Initial Reach",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 27,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.29377174051961974,
+                "quadratic": 0.18485083747350423,
+                "threshold": 0.2685039190564071,
+                "saturation": 0.2528735029504689
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 180.78183634233454,
+                    "rmse": 305.7647125317749,
+                    "winner_count": 0,
+                    "winner_share": 0.0,
+                    "predictions": [
+                        84.21199554391501,
+                        122.5089155249249,
+                        120.09144138845738,
+                        158.38946692312507,
+                        50.59072969357425,
+                        165.1599613062982,
+                        154.697577033047,
+                        246.00115707850142,
+                        179.41380676016394,
+                        176.16980160847982,
+                        129.94196035843558
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 272.93987774343395,
+                    "rmse": 400.00670074132995,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        -771.4719707789754,
+                        177.06982810011414,
+                        173.6424419150153,
+                        192.1734277817077,
+                        52.85601168379495,
+                        190.36635830614364,
+                        156.0681654726004,
+                        210.1234655983322,
+                        180.79552904985053,
+                        177.55006258033677,
+                        200.06974822369284
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 187.9047619047619,
+                    "rmse": 312.2247408621419,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        45,
+                        50,
+                        46,
+                        208.16666666666666,
+                        49.714285714285715,
+                        212.16666666666666,
+                        22.5,
+                        216.33333333333334,
+                        216,
+                        212.5,
+                        57
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 193.21876973745785,
+                    "rmse": 305.46623060417255,
+                    "winner_count": 6,
+                    "winner_share": 0.5454545454545454,
+                    "predictions": [
+                        159.22222222222223,
+                        160.88888888888889,
+                        159.55555555555554,
+                        158.38883637588663,
+                        56.55555555555556,
+                        165.15930299985234,
+                        147.11111111111111,
+                        195.05369473021537,
+                        179.41320735066122,
+                        176.16920343319845,
+                        163.22222222222223
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.011571338388562724,
+                    "mae_in_sample": 155.26209907429762
+                },
+                "quadratic": {
+                    "r_squared": 0.044775107917676915,
+                    "mae_in_sample": 166.5172047612172
+                },
+                "threshold": {
+                    "r_squared": 0.058983697441573724,
+                    "mae_in_sample": 149.84415584415584
+                },
+                "saturation": {
+                    "r_squared": 0.01157076109721178,
+                    "mae_in_sample": 155.26228491405385
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 202.3402563818617,
+                "rmse": 311.1961727772952,
+                "mean_model_disagreement": 61.68912110899457,
+                "median_model_disagreement": 21.83909084250338,
+                "predictions": [
+                    -118.29627801150652,
+                    126.33714303487815,
+                    123.35931508672658,
+                    179.20484167129044,
+                    52.469789683717366,
+                    183.21675110245957,
+                    118.56244409856501,
+                    217.3276990765755,
+                    189.2306906792084,
+                    185.90987843550047,
+                    135.89245688461548
+                ],
+                "actuals": [
+                    63,
+                    48,
+                    60,
+                    59,
+                    987,
+                    35,
+                    172,
+                    10,
+                    12,
+                    33,
+                    27
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.2575223501548583,
+                        "quadratic": 0.2460673202871717,
+                        "threshold": 0.25553927884942923,
+                        "saturation": 0.24087105070854084
+                    },
+                    {
+                        "linear": 0.2617209319390615,
+                        "quadratic": 0.23881978720118288,
+                        "threshold": 0.25585279283450946,
+                        "saturation": 0.24360648802524626
+                    },
+                    {
+                        "linear": 0.2615786917991605,
+                        "quadratic": 0.2379699110925671,
+                        "threshold": 0.2573676299986947,
+                        "saturation": 0.24308376710957774
+                    },
+                    {
+                        "linear": 0.26403786288964665,
+                        "quadratic": 0.23303625922696836,
+                        "threshold": 0.26001141332854927,
+                        "saturation": 0.2429144645548358
+                    },
+                    {
+                        "linear": 0.2564861981198245,
+                        "quadratic": 0.2404303736241592,
+                        "threshold": 0.24357870503411105,
+                        "saturation": 0.25950472322190526
+                    },
+                    {
+                        "linear": 0.2647199377590531,
+                        "quadratic": 0.23201639802683138,
+                        "threshold": 0.2597215139583769,
+                        "saturation": 0.24354215025573864
+                    },
+                    {
+                        "linear": 0.2630848149469462,
+                        "quadratic": 0.23272725568006536,
+                        "threshold": 0.26184744992083675,
+                        "saturation": 0.24234047945215179
+                    },
+                    {
+                        "linear": 0.25779501396834537,
+                        "quadratic": 0.24012145274394314,
+                        "threshold": 0.2594699754183043,
+                        "saturation": 0.24261355786940722
+                    },
+                    {
+                        "linear": 0.26498788339914525,
+                        "quadratic": 0.23164576014455177,
+                        "threshold": 0.25957770123614193,
+                        "saturation": 0.24378865522016113
+                    },
+                    {
+                        "linear": 0.26495981967591076,
+                        "quadratic": 0.2319884143551621,
+                        "threshold": 0.2592889249916114,
+                        "saturation": 0.24376284097731576
+                    },
+                    {
+                        "linear": 0.2609378223552325,
+                        "quadratic": 0.23803098710829185,
+                        "threshold": 0.25810549518282605,
+                        "saturation": 0.24292569535364963
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    48.30349864784548,
+                    100.86148950916304,
+                    100.86148950916304,
+                    163.41034718961035,
+                    163.41034718961035,
+                    164.1212022540096,
+                    165.24556725561914,
+                    162.81199041558804,
+                    165.24556725561914,
+                    165.24556725561914,
+                    106.48293351815352
+                ],
+                "mae": 153.64374307398646,
+                "rmse": 266.4994396510437,
+                "mean_model_disagreement": 24.905714906634906
+            }
+        },
+        "eg_5_vs_initial_views": {
+            "pair_name": "eg_5_vs_initial_views",
+            "predictor": "EG_5",
+            "outcome": "Initial Views",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 20.339,
+                    "initial_value": 188,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 134,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.4603,
+                    "initial_value": 144,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.4928,
+                    "initial_value": 135,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 14.4928,
+                    "initial_value": 1360,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 14.2857,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 13.7931,
+                    "initial_value": 226,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 12.0482,
+                    "initial_value": 23,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 29,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 13.7931,
+                    "initial_value": 107,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 17.0213,
+                    "initial_value": 72,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.3005925588805637,
+                "quadratic": 0.18394650094373485,
+                "threshold": 0.2511232484551741,
+                "saturation": 0.2643376917205273
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 237.51986025012135,
+                    "rmse": 409.10209245123576,
+                    "winner_count": 7,
+                    "winner_share": 0.6363636363636364,
+                    "predictions": [
+                        198.7361245590827,
+                        230.34382322700958,
+                        228.3292614466201,
+                        247.62577021997137,
+                        105.32679057966975,
+                        253.71983605838648,
+                        243.34560619196037,
+                        344.5799341059398,
+                        273.7774640434733,
+                        261.7283020515036,
+                        240.85913142705718
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 368.73149040985396,
+                    "rmse": 546.6232249768796,
+                    "winner_count": 0,
+                    "winner_share": 0.0,
+                    "predictions": [
+                        -982.9265985329439,
+                        301.84586308980215,
+                        298.98970793555145,
+                        291.4201106911628,
+                        107.5151163808815,
+                        286.38785134472573,
+                        245.14670520335085,
+                        310.3620433443434,
+                        275.59227160783985,
+                        263.53768186393154,
+                        336.35267727562314
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 270.0939393939394,
+                    "rmse": 414.3351940522348,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        139,
+                        166,
+                        377.8,
+                        308.6666666666667,
+                        134.6,
+                        313.3333333333333,
+                        66.5,
+                        327.3333333333333,
+                        326.3333333333333,
+                        313.3333333333333,
+                        155.33333333333334
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 248.48883995242227,
+                    "rmse": 403.83971275102965,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        257.1111111111111,
+                        263.1111111111111,
+                        262.0,
+                        263.48241512841827,
+                        127.18378033074414,
+                        266.1111111111111,
+                        252.88888888888889,
+                        289.96749356785995,
+                        274.77777777777777,
+                        266.1111111111111,
+                        270.0
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.002129070066659855,
+                    "mae_in_sample": 204.38100683120527
+                },
+                "quadratic": {
+                    "r_squared": 0.03440041917452763,
+                    "mae_in_sample": 220.9189772448951
+                },
+                "threshold": {
+                    "r_squared": 0.01574604560509396,
+                    "mae_in_sample": 206.41666666666666
+                },
+                "saturation": {
+                    "r_squared": 0.03340041907376279,
+                    "mae_in_sample": 201.7057737090069
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 273.69542722285235,
+                "rmse": 417.339014094182,
+                "mean_model_disagreement": 79.97361150622204,
+                "median_model_disagreement": 24.013011748359983,
+                "predictions": [
+                    -87.8916139918434,
+                    239.45901559940305,
+                    290.7936316977359,
+                    277.1752185909282,
+                    118.17576057396913,
+                    279.46181178650187,
+                    200.84513969329078,
+                    318.49128198831534,
+                    287.7825694471474,
+                    276.2771393828544,
+                    249.33831723390614
+                ],
+                "actuals": [
+                    188,
+                    134,
+                    144,
+                    135,
+                    1360,
+                    107,
+                    226,
+                    23,
+                    29,
+                    107,
+                    72
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.26126454555120987,
+                        "quadratic": 0.2419318053780525,
+                        "threshold": 0.25185478875772693,
+                        "saturation": 0.24494886031301064
+                    },
+                    {
+                        "linear": 0.26415398125284534,
+                        "quadratic": 0.23850132781205624,
+                        "threshold": 0.24955718727102633,
+                        "saturation": 0.24778750366407212
+                    },
+                    {
+                        "linear": 0.26439278847053715,
+                        "quadratic": 0.23827459863702194,
+                        "threshold": 0.24941471797653061,
+                        "saturation": 0.24791789491591035
+                    },
+                    {
+                        "linear": 0.2661935825248854,
+                        "quadratic": 0.23292756206003154,
+                        "threshold": 0.25243930954247434,
+                        "saturation": 0.24843954587260872
+                    },
+                    {
+                        "linear": 0.26415557410455426,
+                        "quadratic": 0.2512383371808095,
+                        "threshold": 0.23019117833389524,
+                        "saturation": 0.2544149103807411
+                    },
+                    {
+                        "linear": 0.26637282109336874,
+                        "quadratic": 0.2325634745107034,
+                        "threshold": 0.25275749098549816,
+                        "saturation": 0.2483062134104297
+                    },
+                    {
+                        "linear": 0.2646978227046429,
+                        "quadratic": 0.23246951186458192,
+                        "threshold": 0.25601226374909675,
+                        "saturation": 0.2468204016816785
+                    },
+                    {
+                        "linear": 0.2580191898591807,
+                        "quadratic": 0.24171679225134302,
+                        "threshold": 0.25432388686701907,
+                        "saturation": 0.24594013102245726
+                    },
+                    {
+                        "linear": 0.2658083366095091,
+                        "quadratic": 0.23213687178927728,
+                        "threshold": 0.25373811238003063,
+                        "saturation": 0.24831667922118308
+                    },
+                    {
+                        "linear": 0.266329305492186,
+                        "quadratic": 0.23275376469879783,
+                        "threshold": 0.2526834517445738,
+                        "saturation": 0.24823347806444243
+                    },
+                    {
+                        "linear": 0.26332700836583867,
+                        "quadratic": 0.2381987573661473,
+                        "threshold": 0.25110375260380097,
+                        "saturation": 0.2473704816642131
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    178.02088959704625,
+                    221.53328521043423,
+                    221.53328521043423,
+                    251.64178643971977,
+                    251.64178643971977,
+                    249.82626997834694,
+                    243.5495088934632,
+                    169.53716184230618,
+                    243.5495088934632,
+                    243.5495088934632,
+                    250.61700860160138
+                ],
+                "mae": 203.33405890240604,
+                "rmse": 356.06409908846183,
+                "mean_model_disagreement": 30.83062825166852
+            }
+        },
+        "temperature_vs_initial_ir": {
+            "pair_name": "temperature_vs_initial_ir",
+            "predictor": "Account Temperature",
+            "outcome": "Initial IR",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2544,
+                    "initial_value": 15.873,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0913,
+                    "initial_value": 16.6667,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1056,
+                    "initial_value": 15.0,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.93,
+                    "initial_value": 16.9492,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9177,
+                    "initial_value": 2.1277,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9167,
+                    "initial_value": 11.4286,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8908,
+                    "initial_value": 15.1163,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.7831,
+                    "initial_value": 60.0,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8908,
+                    "initial_value": 41.6667,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8851,
+                    "initial_value": 24.2424,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0778,
+                    "initial_value": 25.9259,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.2500572271423353,
+                "quadratic": 0.17314197709349352,
+                "threshold": 0.2634655083459401,
+                "saturation": 0.3133352874182311
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 13.626260005978882,
+                    "rmse": 17.507817816695393,
+                    "winner_count": 2,
+                    "winner_share": 0.18181818181818182,
+                    "predictions": [
+                        0.534557392324956,
+                        16.45299036643751,
+                        15.933709141036879,
+                        25.50462724147767,
+                        28.09099723719286,
+                        27.015078531785697,
+                        28.327315935887093,
+                        20.548490694961327,
+                        24.34811069322067,
+                        27.3093820716744,
+                        15.676200946342426
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 18.69550993978134,
+                    "rmse": 25.55106087826348,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        80.98499257510775,
+                        8.548004834066433,
+                        9.342822732838158,
+                        20.273428981451275,
+                        24.38525757350635,
+                        23.16116886840075,
+                        27.24603543513274,
+                        23.886127220950613,
+                        23.221048786959102,
+                        26.983112830923176,
+                        5.90748335211299
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 12.28615303030303,
+                    "rmse": 16.714162999802056,
+                    "winner_count": 5,
+                    "winner_share": 0.45454545454545453,
+                    "predictions": [
+                        14.683016666666667,
+                        14.550733333333334,
+                        14.828516666666665,
+                        14.503649999999999,
+                        16.9739,
+                        15.42375,
+                        41.9697,
+                        27.008466666666667,
+                        14.885925,
+                        38.92766666666667,
+                        16.853525
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 10.004481894687297,
+                    "rmse": 14.345746397161346,
+                    "winner_count": 3,
+                    "winner_share": 0.2727272727272727,
+                    "predictions": [
+                        18.011880548762946,
+                        16.35404065223515,
+                        16.54574260386206,
+                        18.427503175424327,
+                        20.67948736652732,
+                        19.72708148984688,
+                        21.391536336934543,
+                        28.125709052547073,
+                        15.946669111661606,
+                        21.102925343896104,
+                        15.211486519457864
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.18709793642902306,
+                    "mae_in_sample": 10.831564772617762
+                },
+                "quadratic": {
+                    "r_squared": 0.46296459256489364,
+                    "mae_in_sample": 9.782527947060716
+                },
+                "threshold": {
+                    "r_squared": 0.41637916514721574,
+                    "mae_in_sample": 8.60067792207792
+                },
+                "saturation": {
+                    "r_squared": 0.6439216645421542,
+                    "mae_in_sample": 6.090853282864509
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 12.893862194849204,
+                "rmse": 16.391732029881513,
+                "mean_model_disagreement": 6.917652663175061,
+                "median_model_disagreement": 3.9967541688443826,
+                "predictions": [
+                    33.25569275382592,
+                    14.162546910321776,
+                    14.407542779634403,
+                    19.363558486050255,
+                    22.0916371098598,
+                    20.968135167502886,
+                    29.96680234577618,
+                    24.96690729043149,
+                    18.556153007411115,
+                    28.321858278498006,
+                    13.56415001037301
+                ],
+                "actuals": [
+                    15.873,
+                    16.6667,
+                    15.0,
+                    16.9492,
+                    2.1277,
+                    11.4286,
+                    15.1163,
+                    60.0,
+                    41.6667,
+                    24.2424,
+                    25.9259
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.18312692987101184,
+                        "quadratic": 0.30457373080433664,
+                        "threshold": 0.22096876268039684,
+                        "saturation": 0.29133057664425477
+                    },
+                    {
+                        "linear": 0.20058219994398033,
+                        "quadratic": 0.22721303127027545,
+                        "threshold": 0.24272525721683874,
+                        "saturation": 0.3294795115689054
+                    },
+                    {
+                        "linear": 0.2025918715569605,
+                        "quadratic": 0.2223375293240631,
+                        "threshold": 0.2403454330359326,
+                        "saturation": 0.33472516608304376
+                    },
+                    {
+                        "linear": 0.2102017095169067,
+                        "quadratic": 0.21576232793160832,
+                        "threshold": 0.24207060589529175,
+                        "saturation": 0.3319653566561933
+                    },
+                    {
+                        "linear": 0.2007993743321904,
+                        "quadratic": 0.2209276993823933,
+                        "threshold": 0.24146889529695506,
+                        "saturation": 0.33680403098846123
+                    },
+                    {
+                        "linear": 0.20714863927923977,
+                        "quadratic": 0.2197563443518002,
+                        "threshold": 0.2377942493072524,
+                        "saturation": 0.33530076706170764
+                    },
+                    {
+                        "linear": 0.1913322983284746,
+                        "quadratic": 0.20638001410581672,
+                        "threshold": 0.29351383582619994,
+                        "saturation": 0.3087738517395087
+                    },
+                    {
+                        "linear": 0.24664281654464063,
+                        "quadratic": 0.23402451677378897,
+                        "threshold": 0.2665215705452643,
+                        "saturation": 0.25281109613630615
+                    },
+                    {
+                        "linear": 0.1776316032731631,
+                        "quadratic": 0.18851895988126643,
+                        "threshold": 0.23967715640571052,
+                        "saturation": 0.3941722804398599
+                    },
+                    {
+                        "linear": 0.19403604292619728,
+                        "quadratic": 0.2048472839205166,
+                        "threshold": 0.26985615711266703,
+                        "saturation": 0.3312605160406192
+                    },
+                    {
+                        "linear": 0.1888455380633753,
+                        "quadratic": 0.227965969709171,
+                        "threshold": 0.23501297546807742,
+                        "saturation": 0.34817551675937636
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    15.302656743698918,
+                    14.95460522368668,
+                    14.816988470665631,
+                    19.23107710907812,
+                    19.859728187732703,
+                    19.914067481195893,
+                    26.90408594634163,
+                    44.670701926421586,
+                    26.90408594634163,
+                    27.323258035001608,
+                    15.115244929835555
+                ],
+                "mae": 7.885093956245449,
+                "rmse": 10.059644843990329,
+                "mean_model_disagreement": 4.66812167420513
+            }
+        },
+        "temperature_vs_initial_reach": {
+            "pair_name": "temperature_vs_initial_reach",
+            "predictor": "Account Temperature",
+            "outcome": "Initial Reach",
+            "n": 11,
+            "pairs": [
+                {
+                    "post_id": "17947094820038412",
+                    "timestamp": "2026-07-28T17:50:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.2544,
+                    "initial_value": 63,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 37.2583
+                },
+                {
+                    "post_id": "18106991768152437",
+                    "timestamp": "2026-07-29T13:47:20+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0913,
+                    "initial_value": 48,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 17.3089
+                },
+                {
+                    "post_id": "18048634622583511",
+                    "timestamp": "2026-07-29T15:46:14+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.1056,
+                    "initial_value": 60,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 15.3272
+                },
+                {
+                    "post_id": "18103199504004851",
+                    "timestamp": "2026-07-29T18:18:22+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.93,
+                    "initial_value": 59,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.7917
+                },
+                {
+                    "post_id": "17924163105400464",
+                    "timestamp": "2026-07-29T18:43:34+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.9177,
+                    "initial_value": 987,
+                    "initial_snapshot": "posts_normalized_20260730_090552.json",
+                    "hours_after_publication": 12.3717
+                },
+                {
+                    "post_id": "17924460108164428",
+                    "timestamp": "2026-07-30T11:24:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.9167,
+                    "initial_value": 35,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 6.675
+                },
+                {
+                    "post_id": "18210587605343856",
+                    "timestamp": "2026-07-30T16:00:05+0000",
+                    "media_type": "VIDEO",
+                    "state_value": 0.8908,
+                    "initial_value": 172,
+                    "initial_snapshot": "posts_normalized_20260730_200518.json",
+                    "hours_after_publication": 2.0869
+                },
+                {
+                    "post_id": "17874738222687369",
+                    "timestamp": "2026-07-30T20:27:48+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.7831,
+                    "initial_value": 10,
+                    "initial_snapshot": "posts_normalized_20260730_230733.json",
+                    "hours_after_publication": 0.6625
+                },
+                {
+                    "post_id": "18109283738099039",
+                    "timestamp": "2026-07-31T11:01:42+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8908,
+                    "initial_value": 12,
+                    "initial_snapshot": "posts_normalized_20260731_140707.json",
+                    "hours_after_publication": 1.0903
+                },
+                {
+                    "post_id": "18091459607561811",
+                    "timestamp": "2026-07-31T17:06:04+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 0.8851,
+                    "initial_value": 33,
+                    "initial_snapshot": "posts_normalized_20260801_003108.json",
+                    "hours_after_publication": 5.4178
+                },
+                {
+                    "post_id": "18110229731076951",
+                    "timestamp": "2026-08-01T10:15:36+0000",
+                    "media_type": "CAROUSEL_ALBUM",
+                    "state_value": 1.0778,
+                    "initial_value": 27,
+                    "initial_snapshot": "posts_normalized_20260801_151135.json",
+                    "hours_after_publication": 2.9331
+                }
+            ],
+            "weights": {
+                "linear": 0.2940668663642007,
+                "quadratic": 0.19024697713313257,
+                "threshold": 0.266348176382912,
+                "saturation": 0.24933798011975467
+            },
+            "weight_method": {
+                "loocv_mae_share": 0.75,
+                "bootstrap_winner_share": 0.25,
+                "complexity_penalty": {
+                    "linear": 0.0,
+                    "quadratic": 0.05,
+                    "threshold": 0.05,
+                    "saturation": 0.08
+                }
+            },
+            "bootstrap": null,
+            "loocv_models": {
+                "linear": {
+                    "folds": 11,
+                    "mae": 179.52434859922596,
+                    "rmse": 307.07636180046705,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        61.261344548769216,
+                        117.20135619616406,
+                        111.4482162253255,
+                        159.81051765317397,
+                        50.2006898868831,
+                        167.6640889279056,
+                        158.23068623792585,
+                        262.60058427468636,
+                        182.2104695491613,
+                        181.75283895984904,
+                        123.77248347879777
+                    ]
+                },
+                "quadratic": {
+                    "folds": 11,
+                    "mae": 263.61814128652446,
+                    "rmse": 378.77908169193535,
+                    "winner_count": 1,
+                    "winner_share": 0.09090909090909091,
+                    "predictions": [
+                        -633.8022227871643,
+                        165.96247769499178,
+                        150.9386291048654,
+                        194.59352415381682,
+                        52.668321192922406,
+                        193.91944344750755,
+                        164.343209572756,
+                        285.72888562161125,
+                        188.59888420318612,
+                        183.59196854818174,
+                        181.6750493561226
+                    ]
+                },
+                "threshold": {
+                    "folds": 11,
+                    "mae": 188.2969696969697,
+                    "rmse": 314.063037888378,
+                    "winner_count": 4,
+                    "winner_share": 0.36363636363636365,
+                    "predictions": [
+                        48.5,
+                        52.25,
+                        49.25,
+                        208.16666666666666,
+                        59.5,
+                        242.8,
+                        215.4,
+                        247.8,
+                        247.4,
+                        243.2,
+                        57.5
+                    ]
+                },
+                "saturation": {
+                    "folds": 11,
+                    "mae": 194.79098047970766,
+                    "rmse": 306.9024522539096,
+                    "winner_count": 5,
+                    "winner_share": 0.45454545454545453,
+                    "predictions": [
+                        159.22222222222223,
+                        160.88888888888889,
+                        159.55555555555554,
+                        159.80985326159072,
+                        56.561300895997235,
+                        167.4480197413876,
+                        158.1747835479473,
+                        215.4280683567775,
+                        180.10084573319298,
+                        179.7611937388911,
+                        163.22222222222223
+                    ]
+                }
+            },
+            "final_models": {
+                "linear": {
+                    "r_squared": 0.01664453331180049,
+                    "mae_in_sample": 154.00993079654484
+                },
+                "quadratic": {
+                    "r_squared": 0.043397105046873885,
+                    "mae_in_sample": 165.50550829045002
+                },
+                "threshold": {
+                    "r_squared": 0.08231901543844722,
+                    "mae_in_sample": 146.66060606060606
+                },
+                "saturation": {
+                    "r_squared": 0.016449456021653708,
+                    "mae_in_sample": 153.93040745738654
+                }
+            },
+            "ensemble_loocv": {
+                "status": "ok",
+                "n": 11,
+                "folds": 11,
+                "mae": 199.7172841288349,
+                "rmse": 312.3371656269603,
+                "mean_model_disagreement": 55.68909269841209,
+                "median_model_disagreement": 28.40665721192637,
+                "predictions": [
+                    -89.53767356188264,
+                    122.45172018441833,
+                    116.17247698907352,
+                    180.38071044225993,
+                    54.81502593239219,
+                    193.5822402970865,
+                    174.6128221679125,
+                    252.86663399264884,
+                    200.52794548371793,
+                    198.02367803671152,
+                    129.5492501938646
+                ],
+                "actuals": [
+                    63,
+                    48,
+                    60,
+                    59,
+                    987,
+                    35,
+                    172,
+                    10,
+                    12,
+                    33,
+                    27
+                ],
+                "fold_weights": [
+                    {
+                        "linear": 0.2574158064679644,
+                        "quadratic": 0.24581213585652628,
+                        "threshold": 0.2583779865244428,
+                        "saturation": 0.2383940711510666
+                    },
+                    {
+                        "linear": 0.26169986848944554,
+                        "quadratic": 0.23716434006524628,
+                        "threshold": 0.2596438694615814,
+                        "saturation": 0.24149192198372668
+                    },
+                    {
+                        "linear": 0.2615561995233867,
+                        "quadratic": 0.23645908122651257,
+                        "threshold": 0.2607552726215325,
+                        "saturation": 0.2412294466285682
+                    },
+                    {
+                        "linear": 0.26543195566131556,
+                        "quadratic": 0.23149387229276888,
+                        "threshold": 0.25887715258754385,
+                        "saturation": 0.2441970194583718
+                    },
+                    {
+                        "linear": 0.2513014256941362,
+                        "quadratic": 0.23485587107403139,
+                        "threshold": 0.2608109110137713,
+                        "saturation": 0.2530317922180611
+                    },
+                    {
+                        "linear": 0.26319315636048035,
+                        "quadratic": 0.22888404058154926,
+                        "threshold": 0.2656660931537502,
+                        "saturation": 0.24225670990422013
+                    },
+                    {
+                        "linear": 0.2636741782895669,
+                        "quadratic": 0.23167143414794267,
+                        "threshold": 0.2620217336020256,
+                        "saturation": 0.24263265396046493
+                    },
+                    {
+                        "linear": 0.2516408057527673,
+                        "quadratic": 0.24222352653961843,
+                        "threshold": 0.2637940774901541,
+                        "saturation": 0.2423415902174601
+                    },
+                    {
+                        "linear": 0.2620217679343826,
+                        "quadratic": 0.22911478098010576,
+                        "threshold": 0.2663823395863607,
+                        "saturation": 0.24248111149915097
+                    },
+                    {
+                        "linear": 0.26199146556404385,
+                        "quadratic": 0.2296190008366525,
+                        "threshold": 0.2657848177968499,
+                        "saturation": 0.24260471580245374
+                    },
+                    {
+                        "linear": 0.2605265158156991,
+                        "quadratic": 0.23622551526226762,
+                        "threshold": 0.2625209445853951,
+                        "saturation": 0.24072702433663815
+                    }
+                ]
+            },
+            "ensemble_in_sample": {
+                "predictions": [
+                    42.45735557953308,
+                    98.06336703067292,
+                    94.19073860531803,
+                    128.39877525880172,
+                    171.4603797759329,
+                    171.56038026713992,
+                    173.82210852009024,
+                    176.44729787723747,
+                    173.82210852009024,
+                    174.23499250463462,
+                    101.54249606055049
+                ],
+                "mae": 152.01495720809726,
+                "rmse": 264.9297457249333,
+                "mean_model_disagreement": 29.335500811750336
+            }
+        }
+    }
+}
