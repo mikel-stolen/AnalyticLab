@@ -40,6 +40,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Any
 
+
 # ============================================================
 # Project
 # ============================================================
@@ -64,8 +65,7 @@ def find_project_root() -> Path:
         "No se encontró AnalyticLab"
     )
 
-
-PROJECT_ROOT = find_project_root()
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
 ANALYTICS_DIR = (
     PROJECT_ROOT
@@ -81,18 +81,21 @@ ANALYTICS_DIR = (
 
 def latest_context_file():
 
-    files = sorted(
+    print("\nDEBUG ANALYTICS DIR:")
+    print(ANALYTICS_DIR.resolve())
 
+    files = sorted(
         ANALYTICS_DIR.glob(
             "evidence_context_*.json"
         ),
-
         key=lambda p: p.stat().st_mtime
-
     )
 
-    if not files:
+    print("\nDEBUG FILES:")
+    for f in files:
+        print(f)
 
+    if not files:
         raise RuntimeError(
             "No existe evidence_context"
         )

@@ -118,7 +118,43 @@
                 "saturation": 0.24933798011975467
             },
             "status": "waiting_result"
+        },
+        [
+            null
+        ],
+        {},
+        {
+            "id": "783b7690-f29a-4991-9582-14d7aea3d60c",
+            "created_at": "2026-08-03T02:19:18.265717",
+            "pair": "unknown",
+            "metric": "unknown",
+            "strategy": null,
+            "prediction": null,
+            "uncertainty": null,
+            "models": {
+                "linear": 20.206832809739886,
+                "quadratic": 11.152687608346127,
+                "threshold": 16.683557142857143,
+                "saturation": 18.499649999999995
+            },
+            "status": "waiting_result"
+        },
+        {
+            "id": "920f0b88-161e-41f9-a345-636ac1648b98",
+            "created_at": "2026-08-03T02:23:36.016624",
+            "pair": "unknown",
+            "metric": "unknown",
+            "strategy": null,
+            "prediction": null,
+            "uncertainty": null,
+            "models": {
+                "linear": 20.206832809739886,
+                "quadratic": 11.152687608346127,
+                "threshold": 16.683557142857143,
+                "saturation": 18.499649999999995
+            },
+            "status": "waiting_result"
         }
     ],
-    "updated_at": "2026-08-02T01:10:57.513654"
+    "updated_at": "2026-08-03T02:23:36.016645"
 }
